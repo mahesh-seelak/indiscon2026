@@ -68,7 +68,7 @@ export const otherCommittees: Committee[] = [
   {
     title: "General Chairs",
     members: [
-      m("Prof. Sudeep Mishra", "IIT Kharagpur",),
+      m("Prof. Sudeep Mishra", "IIT Kharagpur","/1517731962576.jpg"),
       m("Prof. Lava Bhargava", "Professor, MNIT Jaipur & Chair, IEEE Rajasthan Subsection","/mnitjas097.png"),
       m("Prof. Sandeep Vyas", "Vice-chair, IEEE Rajasthan Subsection","/Prof. Sandeep Vyas.jpeg"),
     ],
