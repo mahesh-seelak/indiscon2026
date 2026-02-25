@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PP+Editorial+New:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,9 +9,6 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=PP+Editorial+New:wght@400;700&display=swap');
 
 * {
   font-family: 'PP Editorial New', sans-serif;
