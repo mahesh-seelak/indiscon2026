@@ -114,7 +114,7 @@ export const otherCommittees: Committee[] = [
   {
     title: "TPC Vice-Chairs",
     members: [
-      m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur"),
+      m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur","/696.jpg"),
       m("Dr. Ravi Kumar Maddila", "Associate Professor, MNIT Jaipur"),
       m("Dr. Hemant Kumar Meena", "Associate Professor, MNIT Jaipur"),
       m("Dr. Lintu Rajan", "Associate Professor, NIT Calicut"),
