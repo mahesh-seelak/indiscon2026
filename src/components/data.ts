@@ -214,7 +214,7 @@ export const otherCommittees: Committee[] = [
     members: [
       m("Dr. Ramesh Babu Battula", "MNIT Jaipur"),
       m("Dr. Lavika Goel", "MNIT Jaipur"),
-      m("Dr. Mahesh Jangid", "Manipal University Jaipur"),
+      m("Dr. Mahesh Jangid", "Manipal University Jaipur","/IMG_0256.jpg"),
       m("Mr. Digambar Singh Govind", "Research Scholar MNIT Jaipur"),
     ],
   },
