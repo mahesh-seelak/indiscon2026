@@ -1,4 +1,4 @@
-import AnimatedGridBackground from '@/components/animatingBackground'
+/* import AnimatedGridBackground from '@/components/animatingBackground' */
 import React from 'react'
 
 const Page = () => {

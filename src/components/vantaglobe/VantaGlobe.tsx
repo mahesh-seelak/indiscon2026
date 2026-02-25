@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import * as THREE from 'three';
 import Link from 'next/link';
-import AnnouncementBanner from '../NotificationImp';
+/* import AnnouncementBanner from '../NotificationImp'; */
 
 interface VantaEffect {
   destroy: () => void;
