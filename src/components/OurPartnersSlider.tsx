@@ -29,11 +29,7 @@ const IMAGES = [
     src: "/WIE-logo.jpg",
     alt: "IEEE WIE",
   },
-  {
-    id:6,
-    src: "/IEEEStudent.jpg",
-    alt: "IEEE NITR Student Chapter",
-  },
+ 
   {
     id:7,
     src: "/IEEEPES.jpg",
