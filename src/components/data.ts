@@ -136,7 +136,7 @@ export const otherCommittees: Committee[] = [
     members: [
       m("Ms. Mary Ellen Randall", "IEEE President","/MaryEllenRandall.jpg"),
       m("Mr. Maurizio Bozzi", "Past IEEE MTS-President","/Mr. Maurizio Bozzi.jpg"),
-      m("Ms. Bozenna Pasik-Duncan", "University of Kansas","/Bozenna-photo.jpg"),
+      m("Ms. Bozenna Pasik-Duncan", "University of Kansas","/bozenna.jpg"),
       m("Mr. Grayson Randall", "IEEE HTB Chair","/Mr. Grayson Randall.jpg"),
       m("Ms. Kathleen Kramer", "Former IEEE President","/Ms. Kathleen Kramer.jpeg"),
       m("Prof. Saraju Mohanty", "University of Texas","/saraju_mohanty.jpg"),
