@@ -119,7 +119,7 @@ export const otherCommittees: Committee[] = [
       m("Dr. Ravi Kumar Maddila", "Associate Professor, MNIT Jaipur","/mnitjas193.png"),
       m("Dr. Hemant Kumar Meena", "Associate Professor, MNIT Jaipur","/mnitjas184.png"),
       m("Dr. Lintu Rajan", "Associate Professor, NIT Calicut","/LintuRanjan.jpg"),
-      m("Dr. Niketa Sharma", "Associate Professor, SKIT Jaipur","/NiketaSharma.jpg"),
+      m("Dr. Niketa Sharma", "Associate Professor, SKIT Jaipur","/Niketa.jpg"),
       m("Dr. Anjan Kumar", "Associate Professor, GLA University, Mathura","/AnjanKumar.webp"),
       m("Dr. Sunanda Sinha", "Assistant Professor, MNIT Jaipur","/SunandaSinha.jpg"),
       m("Dr. Bharat Choudhary", "Assistant Professor, MNIT Jaipur","/BharatChoudhary.jpg"),
