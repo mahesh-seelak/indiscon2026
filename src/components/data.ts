@@ -134,7 +134,7 @@ export const otherCommittees: Committee[] = [
   {
     title: "International Advisory Committee",
     members: [
-      m("Ms. Mary Ellen Randall", "IEEE President"),
+      m("Ms. Mary Ellen Randall", "IEEE President","/mary-ellen.jpg"),
       m("Mr. Maurizio Bozzi", "Past IEEE MTS-President"),
       m("Ms. Bozenna Pasik-Duncan", "University of Kansas"),
       m("Mr. Grayson Randall", "IEEE HTB Chair"),
