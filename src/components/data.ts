@@ -181,7 +181,8 @@ export const otherCommittees: Committee[] = [
   {
     title: "Co-Organizing Secretaries",
     members: [
-       m("Dr. Dipti Saxena", "MNIT Jaipur" , "/dipti-saxena.jpeg"),
+      m("Dr. Mahesh Jangid", "Manipal University Jaipur","/IMG_0256.jpg"),
+      m("Dr. Dipti Saxena", "MNIT Jaipur" , "/dipti-saxena.jpeg"),
       m("Dr. Deepak Bharti", "MNIT Jaipur" , "/deepak-bharti.jpeg"),
       m("Dr. Rakhee Gupta", "IEEE Delhi Section" , "/Rakhee.jpeg"),
       m("Dr. Shruti Jain", "IEEE Delhi Section" , "/Shruti-Jain.jpg"),
