@@ -24,12 +24,13 @@ export const patronCommittees: Committee[] = [
   {
     title: "Patrons",
     members: [
-      m("Prof. N. P. Padhy", "Director, MNIT Jaipur","/mnitdir.jpg"),
-      m(
+       m(
         "Prof. Prerna Gaur",
         "Chair, IEEE India Council",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRub3_UMM7LMjkMpiAGe88Lhi6SQiPRaVv9vA&s"
       ),
+      
+      m("Prof. N. P. Padhy", "Director, MNIT Jaipur","/mnitdir.jpg"),
       m("Prof. Preeti Bajaj", "Chair Elect 2026, IEEE India Council","/Prof. Preeti Bajaj.jpg"),
     ],
   },
