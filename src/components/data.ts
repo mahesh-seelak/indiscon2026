@@ -69,7 +69,7 @@ export const otherCommittees: Committee[] = [
   {
     title: "General Chairs",
     members: [
-      m("Prof. Sudeep Mishra", "IIT Kharagpur","/1517731962576.jpg"),
+      m("Prof. Sudip Mishra", "IIT Kharagpur","/1517731962576.jpg"),
       m("Prof. Lava Bhargava", "Professor, MNIT Jaipur & Chair, IEEE Rajasthan Subsection","/mnitjas097.png"),
       m("Prof. Sandeep Vyas", "Vice-chair, IEEE Rajasthan Subsection","/Prof. Sandeep Vyas.jpeg"),
     ],
@@ -94,6 +94,7 @@ export const otherCommittees: Committee[] = [
     title: "TPC Chairs",
     members: [
       m("Prof. Vijay Janyani", "Professor, MNIT Jaipur","/mnitjas094.png"),
+      m("Dr. Satyabrata Roy", "Manipal University Jaipur","/164.jpg"),
       m("Prof. Shilpi Birla", "Professor, Manipal University Jaipur","/shilpi.jpg"),
       m("Prof. P. Shreehari", "Professor, NIT Warangal","/ec-patri.jpg"),
       m("Prof. Brahmjit Singh", "Professor, NIT Kurukshetra","/1588306734Photo_BJS1.jpg"),
