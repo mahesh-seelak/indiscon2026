@@ -334,7 +334,7 @@ export const committeeGroups: Record<string, { title: string, committees: Commit
     committees: patronCommittees
   },
   "international-advisory": {
-    title: "International Advisory Council",
+    title: "Advisory Committee",
     committees: internationalAdvisory
   },
   tpc: {

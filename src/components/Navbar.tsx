@@ -66,8 +66,8 @@ const navigationItems: NavItem[] = [
     title: "Committee",
     href: "#",
     items: [
-      { title: "International Advisory Council", href: "/committee/international-advisory" },
-      { title: "TPC Personnel", href: "/committee/tpc" },
+      { title: "Advisory Committee", href: "/committee/international-advisory" },
+      { title: "Technical Program Committe", href: "/committee/tpc" },
       { title: "Organizing Committee", href: "/committee/organizing" },
     ],
   },
