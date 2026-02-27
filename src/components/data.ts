@@ -179,6 +179,17 @@ export const otherCommittees: Committee[] = [
   },
 
   {
+    title: "Organizing Secretaries",
+    members: [
+        m("Prof. Namita Mittal", "MNIT Jaipur" , "/namita-mittal.jpeg"),
+      m("Dr. Arun Kishor Johar", "IEEE Rajasthan Subsection" , "/arun-johar.jpg"),
+      m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection" , "/ritambara1.jpeg"),
+      m("Dr. Nandan S.", "IEEE India Council" , "/dr-nandan.jpeg"),
+      m("Dr. Sneha Kabra", "IEEE Delhi Section" , "/dr-sneha.jpeg"),
+    ],
+  },
+
+  {
     title: "Co-Organizing Secretaries",
     members: [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur","/IMG_0256.jpg"),
@@ -189,16 +200,7 @@ export const otherCommittees: Committee[] = [
     ],
   },
 
-  {
-    title: "Organizing Secretaries",
-    members: [
-        m("Prof. Namita Mittal", "MNIT Jaipur" , "/namita-mittal.jpeg"),
-      m("Dr. Arun Kishor Johar", "IEEE Rajasthan Subsection" , "/arun-johar.jpg"),
-      m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection" , "/ritambara1.jpeg"),
-      m("Dr. Nandan S.", "IEEE India Council" , "/dr-nandan.jpeg"),
-      m("Dr. Sneha Kabra", "IEEE Delhi Section" , "/dr-sneha.jpeg"),
-    ],
-  },
+  
 
   {
     title: "WIE Chairs",
