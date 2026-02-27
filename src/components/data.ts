@@ -191,7 +191,7 @@ export const otherCommittees: Committee[] = [
     members: [
         m("Prof. Namita Mittal", "MNIT Jaipur" , "/namita-mittal.jpeg"),
       m("Dr. Arun Kishor Johar", "IEEE Rajasthan Subsection" , "/arun-johar.jpg"),
-      m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection" , "/ritambara.jpeg"),
+      m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection" , "/ritambara1.jpeg"),
       m("Dr. Nandan S.", "IEEE India Council" , "/dr-nandan.jpeg"),
       m("Dr. Sneha Kabra", "IEEE Delhi Section" , "/dr-sneha.jpeg"),
     ],
