@@ -97,12 +97,10 @@ const VantaGlobe: React.FC = () => {
       >
         {/* <AnnouncementBanner/> */}<p></p><p></p>
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4">IEEE INDISCON 2026</h1>
-        <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose tracking-wide max-w-3xl mx-auto text-white/90 font-medium text-left md:text-justify mb-6 px-4">
+        <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose tracking-wide max-w-5xl mx-auto text-white/90 font-medium text-left md:text-justify mb-6 px-4">
               IEEE INDISCON is the flagship annual international conference of the IEEE India Council, aimed at bringing together researchers, academicians, industry professionals, and students from across the country and abroad. The conference serves as a premier platform for sharing cutting-edge research, emerging trends, and technological advancements in various domains of engineering and technology.
-
               <br /><br />
-
-              IEEE INDISCON 2026 will be hosted by the IEEE Rajasthan Subsection at Malaviya National Institute of Technology Jaipur, Jaipur, India. The conference will feature keynote lectures, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
+              IEEE INDISCON 2026 will be hosted by the<strong> IEEE Rajasthan Subsection</strong> at Malaviya National Institute of Technology Jaipur, Jaipur, India. The conference will feature keynote lectures, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
             </p>
           <motion.div
             suppressHydrationWarning

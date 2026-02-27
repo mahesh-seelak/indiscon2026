@@ -67,9 +67,9 @@ const Countdown = () => {
             INDISCON 2026
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-12 md:mb-16 font-semibold">
-            September 11-13, 2026
+            September 11-13, 2026 <br />
+          Conference Venue:- Malaviya National Institute of Technology Jaipur, India
           </p>
-
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <CountdownBox value={timeLeft.months} label="Months" />
             <CountdownBox value={timeLeft.days} label="Days" />

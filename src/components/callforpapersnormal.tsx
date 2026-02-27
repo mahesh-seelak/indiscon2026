@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function PaperSubmission() {
   return (
     <>
-      <div className="mb-6 sm:mb-8 w-[80%] mx-auto">
+     {/*  <div className="mb-6 sm:mb-8 w-[80%] mx-auto">
         <Image
           src="/CallForPaper2.png"
           alt="INDISCON 2026 Conference Call for Papers"
@@ -14,21 +14,16 @@ export default function PaperSubmission() {
           className="w-full h-auto rounded-lg shadow-md"
           priority
         />
-      </div>
+      </div> */}
 
       <div className="space-y-4 sm:space-y-6 h-[160vh]">
         <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-sm">
           <h2 className="text-lg sm:text-xl font-semibold text-indigo-800 mb-3 sm:mb-4">Conference Overview</h2>
           <p className="mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed text-justify">
-            INDISCON is the flagship annual international conference of the IEEE India Council, organized by an IEEE
-            Subsection in India. The 6th IEEE India Council International Subsection Conference (INDISCON 2026) is
-            proudly hosted by the IEEE Rourkela Subsection in collaboration with the IEEE India Council from 21-23,
-            August 2026, at the prestigious National Institute of Technology Rourkela.
+            IEEE INDISCON is the flagship annual international conference of the IEEE India Council, aimed at bringing together researchers, academicians, industry professionals, and students from across the country and abroad. The conference serves as a premier platform for sharing cutting-edge research, emerging trends, and technological advancements in various domains of engineering and technology.
           </p>
           <p className="text-sm sm:text-base leading-relaxed text-justify">
-            With a focus on &quot;Smart and Sustainable Technologies for Society,&quot; INDISCON 2026 aims to bring
-            together leading academicians, researchers, industry experts, and scholars to exchange insights, share
-            breakthroughs, and foster collaborations in pioneering technological advancements.
+           IEEE INDISCON 2026 will be hosted by the IEEE Rajasthan Subsection at Malaviya National Institute of Technology Jaipur, Jaipur, India. The conference will feature keynote lectures, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
           </p>
         </div>
         <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
@@ -38,13 +33,19 @@ export default function PaperSubmission() {
               Prospective authors are invited to submit their original research articles to any of the technical tracks.
             </li>
             <li>All papers must be submitted via Microsoft CMT.</li>
+           
+            <li>Paper should be written in IEEE double column conference format and restricted to a maximum of 6 pages only</li>
             <li>
-              Accepted and presented papers will be submitted to IEEE Xplore for possible publication, ensuring global
-              visibility and recognition.
+              The paper should be in the IEEE conference format and must be in English.
             </li>
-            <li>paper should be written in IEEE double column conference format and restricted to a maximum of 6 pages only</li>
+            <li>
+              Authors are encouraged to submit high-quality research work that contributes to the advancement of knowledge in the respective technical tracks.
+            </li>
             <li>
               The paper should present original work not previously published or currently under review elsewhere.
+            </li>
+            <li>
+              The paper format should follow the IEEE conference template available at: <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">IEEE Conference Templates</a>.
             </li>
           </ul>
         </div>
@@ -54,52 +55,52 @@ export default function PaperSubmission() {
             <div>
               <ul className="list-disc pl-5 space-y-1 sm:space-y-2 text-sm sm:text-base">
                 <li>
-                  <strong>Track 1:</strong> AI & ML, Data Science
+                  <strong>Track 1:</strong> Sustainable AI & Green Technologies
                 </li>
                 <li>
-                  <strong>Track 2:</strong> Sensors, Instrumentation, Control and Automation
+                  <strong>Track 2:</strong> Semiconductors, Nanoelectronics & Next-Generation Computing
                 </li>
                 <li>
-                  <strong>Track 3:</strong> Network and Hardware Security, Cryptography, and Block chain Technology
+                  <strong>Track 3:</strong> Humanitarian Technology & AI for Social Good
                 </li>
                 <li>
-                  <strong>Track 4:</strong> Neuromorphic, Quantum Computing, Parallel and Distributed computing and
-                  Sustainable Computing
+                  <strong>Track 4:</strong> Intelligent Systems, IoT & Industrial Applications
                 </li>
                 <li>
-                  <strong>Track 5:</strong> Optical/RF/Microwave/Radar/Terahertz Technologies
+                  <strong>Track 5:</strong> Communication Systems & Network Technologies
                 </li>
                 <li>
                   <strong>Track 6:</strong> VLSI and Embedded Systems, Semiconductor Devices, Circuits, MEMS
                 </li>
+                
               </ul>
             </div>
-            <div>
-              <ul className="list-disc pl-5 space-y-1 sm:space-y-2 text-sm sm:text-base">
-                <li>
-                  <strong>Track 7:</strong> Robotics, UAV, and Autonomous Vehicle
-                </li>
-                <li>
-                  <strong>Track 8:</strong> Signal, Image and Multimedia Processing, Digital Healthcare
-                </li>
-                <li>
-                  <strong>Track 9:</strong> Next Generation Communication Technologies and Networks
-                </li>
-                <li>
-                  <strong>Track 10:</strong> Power Electronics and Power Systems
-                </li>
-                <li>
-                  <strong>Track 11:</strong> Electric Vehicles, Sustainable Technologies
-                </li>
-                <li>
-                  <strong>Track 12:</strong> IoT, Cyber Physical Systems, and Industry4.0
-                </li>
-              </ul>
-            </div>
+            
           </div>
+          <div className="flex justify-center mt-6 sm:mt-8">
+          <button
+            className="px-6 sm:px-8 py-2 sm:py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition-colors text-base sm:text-lg"
+            onClick={() => window.open("https://cmt3.research.microsoft.com/", "_blank")}
+          >
+            Submit Paper
+          </button>
         </div>
+        </div>
+      
 
-        <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-sm">
+       <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-sm">
+          <h2 className="text-lg sm:text-xl font-semibold text-indigo-800 mb-3 sm:mb-4">CMT Acknowledgement:</h2>
+          <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base">
+            <li>
+                        <p>
+                The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+              </p>
+            </li>
+            </ul>
+        </div> 
+
+
+       {/*  <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-sm">
           <h2 className="text-lg sm:text-xl font-semibold text-indigo-800 mb-3 sm:mb-4">Important Dates</h2>
           <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base">
             <li>
@@ -115,18 +116,11 @@ export default function PaperSubmission() {
               <strong>Camera-ready Submission:</strong> 20-06-2026
             </li>
           </ul>
-        </div>
+        </div> */}
 
 
 
-        <div className="flex justify-center mt-6 sm:mt-8">
-          <button
-            className="px-6 sm:px-8 py-2 sm:py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition-colors text-base sm:text-lg"
-            onClick={() => window.open("https://cmt3.research.microsoft.com/INDISCON2026/Submission/Index", "_blank")}
-          >
-            Submit Paper
-          </button>
-        </div>
+        
       </div>
     </>
   )

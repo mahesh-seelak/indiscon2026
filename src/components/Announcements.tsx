@@ -43,8 +43,8 @@ export default function Announcements() {
           <div className="h-4"></div>
           {/* <ImageSliderTech/> */}
         </AnimatedSection>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-          <div className="space-y-6 overflow-y-auto h-[150vh] + overflow-y-auto bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+          {/* <div className="space-y-6 overflow-y-auto h-[150vh] + overflow-y-auto bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
             <AnimatedSection className=" p-6 rounded-2xl hover:shadow-xl transition-shadow h-full">
               <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-4">
                 Conference Leadership
@@ -526,7 +526,7 @@ export default function Announcements() {
                 </div>
               </div>
             </AnimatedSection>
-          </div>
+          </div> */}
 
           <div className="space-y-6 overflow-y-auto h-auto bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
             <AnimatedSection className=" p-6 rounded-2xl  ">
@@ -623,7 +623,7 @@ export default function Announcements() {
                                   )}
                                 </>
                               ) : (
-                                <span className="text-green-400 text-sm">
+                                <span className="text-black-400 text-sm">
                                   {
                                     date === "20-06-2026" ? (
                                       <>

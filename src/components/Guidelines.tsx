@@ -33,7 +33,7 @@ export default function PaperSubmissionGuidelines() {
           Special Session Proposal
         </button>
       </div>
-      <div className="mb-8">
+     {/*  <div className="mb-8">
         {activeTab === "paper" ? (
           <Image
             src="/Callforpapers.png"
@@ -51,7 +51,7 @@ export default function PaperSubmissionGuidelines() {
             className="w-full h-auto rounded-lg shadow-md"
           />
         )}
-      </div>
+      </div> */}
       {activeTab === "paper" && (
         <div className="space-y-6">
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">

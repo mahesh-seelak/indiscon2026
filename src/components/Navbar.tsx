@@ -36,7 +36,7 @@ const navigationItems: NavItem[] = [
     title: "About",
     href: "/about",
   },
- /*  {
+  {
     title: "Authors",
     href: "/guidelines",
     items: [
@@ -44,7 +44,7 @@ const navigationItems: NavItem[] = [
         title: "Call for Papers",
         href: "/guidelines",
       },
-      {
+     /*  {
         title: "Special Sessions",
         href: "/callforpapers",
       },
@@ -55,9 +55,9 @@ const navigationItems: NavItem[] = [
       {
         title: "Final Schedule",
         href: "/tentativeSchedule",
-      },
+      }, */
     ],
-  }, */
+  }, 
  /*  {
     title: "WIE Special Session",
     href: "/wiespecialsession",
