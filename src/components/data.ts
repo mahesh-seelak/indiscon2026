@@ -272,7 +272,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Arun Kumar Singh", "Punjab Engineering College Chandigarh","/arun.jpg"),
       m("Mr. Nirupam SD", "CEO, Spectra AI","/nirupam.jpg"),
       m("Dr. Jai Gopal Pandey", "Scientist-F, CSIR-CEERI Pilani","/jai.jpg"),
-      m("Dr. Vijay Chatarjee", "Senior Scientist, CSIR-CEERI Jaipur","/vijay.jpg"),
+      m("Dr. Vijay Chatarjee", "Scientist-E, CSIR-CEERI Jaipur","/vijay.jpg"),
       m("Dr. Kuldeep Singh", "MNIT Jaipur","/kuldeep.jpg"),
       m("Dr. Harpreet Singh Jatana", "Former Group Head, SCL Mohali" ,"/harpreet-singh.jpg"),
       m("Dr. Mukesh Kumar Gupta", "Scientist-F, NIC Delhi" , "/mukesh-kumar.jpeg"),
