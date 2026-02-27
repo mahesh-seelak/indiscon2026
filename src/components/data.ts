@@ -312,16 +312,23 @@ const tpcPersonnel = getByTitle([
   "TPC Vice-Chairs"
 ]);
 
+// 2. Define the filtered groups
 const organizingBody = [
+  ...patronCommittees, // Explicitly add the separate Patrons array here
   ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"]),
-  ...otherCommittees.filter(c =>
+  ...otherCommittees.filter(c => 
     !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Vice-Chairs"].includes(c.title) &&
     !["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"].includes(c.title)
   )
 ];
 
-// 3. Export the final Mapping for your dynamic routes
+// 3. Export the final Mapping
 export const committeeGroups: Record<string, { title: string, committees: Committee[] }> = {
+  // Use 'all' if you want a link that shows every single person
+  all: {
+    title: "All Committees",
+    committees: [...patronCommittees, ...otherCommittees]
+  },
   patrons: {
     title: "Patrons",
     committees: patronCommittees
