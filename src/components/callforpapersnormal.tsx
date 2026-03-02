@@ -47,6 +47,11 @@ export default function PaperSubmission() {
             <li>
               The paper format should follow the IEEE conference template available at: <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">IEEE Conference Templates</a>.
             </li>
+              <li>
+              Authors must understand and abide by IEEE’s submission policies available at: <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">Submission Policy</a>.
+            </li>
+
+           
           </ul>
         </div>
         <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
