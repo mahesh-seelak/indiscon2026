@@ -16,7 +16,7 @@ export default function PaperSubmission() {
         />
       </div> */}
 
-      <div className="space-y-4 sm:space-y-6 h-[160vh]">
+      <div className="space-y-4 sm:space-y-6">
         <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-sm">
           <h2 className="text-lg sm:text-xl font-semibold text-indigo-800 mb-3 sm:mb-4">Conference Overview</h2>
           <p className="mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed text-justify">
