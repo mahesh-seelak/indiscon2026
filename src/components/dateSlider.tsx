@@ -11,7 +11,7 @@ const IMPORTANT_DATES = [
   {
     id: 2,
     title: "Paper Submission Ends",
-    date: new Date("2026-03-31"),
+    date: new Date("2026-04-31"),
   },
   {
     id: 3,

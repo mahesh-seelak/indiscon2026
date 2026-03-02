@@ -572,7 +572,7 @@ export default function Announcements() {
                   <tbody className="divide-y divide-gray-200">
                     {[
                       ["Paper Submission Starts:", "01-03-2026"],
-                      ["Paper Submission Ends:", "31-03-2026"],
+                      ["Paper Submission Ends:", "31-04-2026"],
                       ["Notification of Acceptance:", "15-06-2026"],
                       ["Camera-ready Submission:", "15-07-2026"],
                       /* ["Proposal Submission Deadline:", "20-03-2026"],
