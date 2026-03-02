@@ -207,7 +207,7 @@ export const otherCommittees: Committee[] = [
     members: [
       m("Dr. Rashmi Aggarwal", "IEEE WIE IC", "/rashmi-agarwal.jpeg"),
       m("Dr. Pooja Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
-      m("Dr. Nilam Choudhary", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"),
+   /*    m("Dr. Nilam Choudhary", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"), */
       m("Dr. Jeetu Sharma", "Mody University", "/dr-jeetu.jpeg"),
       m("Dr. Basudha Dewan", "Manipal University Jaipur", "/dr-basudha.jpeg"),
       m("Dr. Sharda Tripathi", "BITS Pilani", "/dr-sharda.jpeg"),
@@ -227,7 +227,7 @@ export const otherCommittees: Committee[] = [
   },
 
   {
-    title: "Ground Operations Committee",
+    title: "Travel and Hospitality Committee",
     members: [
       m("Dr. Menka Yadav", "MNIT Jaipur", "/menka.jpg"),
       m("Dr. Bipin Kumar Saw", "IEEE Rajasthan Subsection", "/dummy.jpg"),
