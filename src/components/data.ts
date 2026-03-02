@@ -118,7 +118,7 @@ export const otherCommittees: Committee[] = [
     title: "TPC Vice-Chairs",
     members: [
       m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur", "/696.jpg"),
-      m("Dr. Ravi Kumar Maddila", "Associate Professor, MNIT Jaipur", "/mnitjas193.png"),
+/*       m("Dr. Ravi Kumar Maddila", "Associate Professor, MNIT Jaipur", "/mnitjas193.png"), */
       m("Dr. Hemant Kumar Meena", "Associate Professor, MNIT Jaipur", "/mnitjas184.png"),
       m("Dr. Lintu Rajan", "Associate Professor, NIT Calicut", "/LintuRanjan.jpg"),
       m("Dr. Niketa Sharma", "Associate Professor, SKIT Jaipur", "/Niketa.jpg"),
@@ -182,7 +182,7 @@ export const otherCommittees: Committee[] = [
     title: "Organizing Secretaries",
     members: [
       m("Prof. Namita Mittal", "MNIT Jaipur", "/namita-mittal.jpeg"),
-      m("Dr. Arun Kishor Johar", "IEEE Rajasthan Subsection", "/arun-johar.jpg"),
+      m("Dr. Arun Kishor Johar", "Secretary, IEEE Rajasthan Subsection & Assistant Professor, Manipal University Jaipur", "/arun-johar.jpg"),
       m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection & Assistant Professor, JECRC Foundation", "/ritambara1.jpeg"),
       m("Dr. Nandan S.", "IEEE India Council", "/dr-nandan.jpeg"),
       m("Dr. Sneha Kabra", "IEEE Delhi Section", "/dr-sneha.jpeg"),
