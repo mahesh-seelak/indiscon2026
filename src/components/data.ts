@@ -217,7 +217,7 @@ export const otherCommittees: Committee[] = [
   },
 
   {
-    title: "Website Chairs",
+    title: "Website and Design Chairs",
     members: [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur", "/IMG_0256.jpg"),
       m("Dr. Ramesh Babu Battula", "MNIT Jaipur", "/ramesh.jpg"),
