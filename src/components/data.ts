@@ -71,7 +71,7 @@ export const otherCommittees: Committee[] = [
     members: [
       m("Prof. Sudip Misra", "IIT Kharagpur", "/1517731962576.jpg"),
       m("Prof. Lava Bhargava", "Professor, MNIT Jaipur & Chair, IEEE Rajasthan Subsection", "/mnitjas097.png"),
-      m("Prof. Sandeep Vyas", "Vice-chair, IEEE Rajasthan Subsection", "/Prof. Sandeep Vyas.jpeg"),
+      m("Prof. Sandeep Vyas", "Vice-chair, IEEE Rajasthan Subsection & Professor, JECRC Foundation", "/Prof. Sandeep Vyas.jpeg"),
     ],
   },
 
@@ -183,7 +183,7 @@ export const otherCommittees: Committee[] = [
     members: [
       m("Prof. Namita Mittal", "MNIT Jaipur", "/namita-mittal.jpeg"),
       m("Dr. Arun Kishor Johar", "IEEE Rajasthan Subsection", "/arun-johar.jpg"),
-      m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection", "/ritambara1.jpeg"),
+      m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection & Assistant Professor, JECRC Foundation", "/ritambara1.jpeg"),
       m("Dr. Nandan S.", "IEEE India Council", "/dr-nandan.jpeg"),
       m("Dr. Sneha Kabra", "IEEE Delhi Section", "/dr-sneha.jpeg"),
     ],
