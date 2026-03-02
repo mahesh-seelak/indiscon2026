@@ -72,6 +72,9 @@ export default function PaperSubmission() {
                 <li>
                   <strong>Track 6:</strong> VLSI and Embedded Systems, Semiconductor Devices, Circuits, MEMS
                 </li>
+                 <li>
+                  <strong>Track 7:</strong> Power, Energy & Electrical Systems
+                </li>
                 
               </ul>
             </div>

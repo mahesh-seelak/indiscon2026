@@ -544,6 +544,8 @@ export default function Announcements() {
                   "Track 4: Intelligent Systems, IoT & Industrial Applications",
                   "Track 5: Communication Systems & Network Technologies",
                   "Track 6: Signal Processing, Computing & Data Science",
+                  "Track 7: Power, Energy & Electrical Systems",
+                  
                 ].map((track, index) => (
                   <motion.li
                     key={index}
