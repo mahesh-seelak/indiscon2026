@@ -44,41 +44,46 @@ const navigationItems: NavItem[] = [
         title: "Call for Papers",
         href: "/guidelines",
       },
-     /*  {
-        title: "Special Sessions",
-        href: "/callforpapers",
-      },
-      {
-        title: "Camera Ready Instructions",
-        href: "/camReady",
-      },
-      {
-        title: "Final Schedule",
-        href: "/tentativeSchedule",
-      }, */
+      /*  {
+         title: "Special Sessions",
+         href: "/callforpapers",
+       },
+       {
+         title: "Camera Ready Instructions",
+         href: "/camReady",
+       },
+       {
+         title: "Final Schedule",
+         href: "/tentativeSchedule",
+       }, */
     ],
-  }, 
- /*  {
-    title: "WIE Special Session",
-    href: "/wiespecialsession",
-  }, */
+  },
+  /*  {
+     title: "WIE Special Session",
+     href: "/wiespecialsession",
+   }, */
   {
     title: "Committee",
-    href: "/committee",
+    href: "#",
+    items: [
+      { title: "Advisory Committee", href: "/committee/international-advisory" },
+      { title: "Technical Program Committe", href: "/committee/tpc" },
+      { title: "Organizing Committee", href: "/committee/organizing" },
+    ],
   },
   {
     title: "Speakers",
     href: "/speakers",
   },
-   /*
-  {
-    title: "Partners",
-    href: "/partners",
-  },
-  {
-    title: "Travel",
-    href: "/map",
-  }, */
+  /*
+ {
+   title: "Partners",
+   href: "/partners",
+ },
+ {
+   title: "Travel",
+   href: "/map",
+ }, */
   /* {
     title:"Accomodation",
     href:"/accomodationDet",
@@ -111,38 +116,37 @@ const NavItem = memo<NavItemProps>(
         whileTap={{ scale: 0.95 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
-{hasDropdown ? (
-  <button
-    onClick={() => onClick(item.title)}
-    className={`px-4 py-2 text-sm font-medium transition-all duration-300 flex items-center
+        {hasDropdown ? (
+          <button
+            onClick={() => onClick(item.title)}
+            className={`px-4 py-2 text-sm font-medium transition-all duration-300 flex items-center
     ${isActive ? "text-blue-600" : "text-gray-700"} 
     hover:text-blue-600 rounded-full hover:bg-blue-50 relative`}
-    aria-expanded={isActive}
-  >
-    {item.title}
-    {item.isNew && (
-      <span className="text-xs text-red-500 absolute -top-1 -right-1">New</span>
-    )}
-    <ChevronDown
-      className={`ml-1 h-4 w-4 transition-transform duration-300 ${
-        isActive ? "rotate-180" : ""
-      }`}
-    />
-  </button>
-) : (
-  <Link
-    href={item.href}
-    onClick={onNavigate}
-    className={`px-4 py-2 text-sm font-medium transition-all duration-300 flex items-center rounded-full relative
+            aria-expanded={isActive}
+          >
+            {item.title}
+            {item.isNew && (
+              <span className="text-xs text-red-500 absolute -top-1 -right-1">New</span>
+            )}
+            <ChevronDown
+              className={`ml-1 h-4 w-4 transition-transform duration-300 ${isActive ? "rotate-180" : ""
+                }`}
+            />
+          </button>
+        ) : (
+          <Link
+            href={item.href}
+            onClick={onNavigate}
+            className={`px-4 py-2 text-sm font-medium transition-all duration-300 flex items-center rounded-full relative
     ${isCurrentPage ? "text-blue-600 bg-blue-50" : "text-gray-700"} 
     hover:text-blue-600 hover:bg-blue-50`}
-  >
-    {item.title}
-    {item.isNew && (
-      <span className="text-xs text-red-500 absolute -top-1 -right-1">New</span>
-    )}
-  </Link>
-)}
+          >
+            {item.title}
+            {item.isNew && (
+              <span className="text-xs text-red-500 absolute -top-1 -right-1">New</span>
+            )}
+          </Link>
+        )}
 
         <AnimatePresence>
           {hasDropdown && isActive && (
@@ -191,18 +195,18 @@ const MobileNavItem = memo<MobileNavItemProps>(({ item, onNavigate }) => {
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.3 }}
     >
-     <Link
-  href={item.href}
-  onClick={onNavigate}
-  className={`block px-4 py-2 rounded-full transition-all duration-300 relative
+      <Link
+        href={item.href}
+        onClick={onNavigate}
+        className={`block px-4 py-2 rounded-full transition-all duration-300 relative
     ${isCurrentPage ? "text-blue-600 bg-blue-50" : "text-gray-700"}
     hover:bg-blue-50 hover:text-blue-600`}
->
-  {item.title}
-  {item.isNew && (
-    <span className="text-xs text-red-500 absolute top-0 right-0">New</span>
-  )}
-</Link>
+      >
+        {item.title}
+        {item.isNew && (
+          <span className="text-xs text-red-500 absolute top-0 right-0">New</span>
+        )}
+      </Link>
       {item.items && (
         <div className="ml-4 space-y-1 mt-2">
           {item.items.map((subItem) => (
@@ -286,13 +290,13 @@ export default function Navbar() {
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
               <Image
-                    src="/logo2.png"
-                    alt="Conference Logo"
-                    width={80}      // reduced from 128
-                    height={32}     // reduced from 50
-                    className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
-                    priority
-                  />
+                src="/logo2.png"
+                alt="Conference Logo"
+                width={80}      // reduced from 128
+                height={32}     // reduced from 50
+                className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
+                priority
+              />
             </motion.div>
           </Link>
 
@@ -323,7 +327,7 @@ export default function Navbar() {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-             {/*  <Link
+              {/*  <Link
                 href="/registration"
                 className="px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-blue-600 rounded-full hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg"
               >
