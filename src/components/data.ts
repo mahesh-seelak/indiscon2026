@@ -57,7 +57,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Bhim Singh", "IEEE Fellow & Emeritus Professor, IIT Delhi", "/faculty_90rdtVACWb.jpg"),
       m("Prof. M. S. Gaur", "Director, IIT Jammu", "/1652333276987.png"),
       m("Prof. M. C. Govil", "Director, NIT Sikkim", "/mahesh.png"),
-      m("Prof. Subrata Mukhopadhyay", "Adjunct Professor, NSUT", "/Subrata-Mukhopadhyay.webp"),
+      // m("Prof. Subrata Mukhopadhyay", "Adjunct Professor, NSUT", "/Subrata-Mukhopadhyay.webp"),
       m("Dr. Satya Gupta", "President, VLSI Society", "/1688613993566.jpg"),
       m("Prof. B. K. Panigrahi", "Professor, IIT Delhi",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRKjITwO55dKDIHUrEulkhFbpuvuKp0inHA&s"),
@@ -155,7 +155,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Shriniwas Katkoori", "University of South Florida", "/Prof. Shriniwas Katkoori.jpg"),
       m("Dr. Kriti Bhargava", "University of Connecticut", "/k_bhargava.jpg"),
       m("Dr. Andrea Baloo", "University of Catania, Italy", "/173.jpg"),
-      m("Dr. Furnando Guarin", "IEEE Life Fellow", "/guarin.jpg"),
+      // m("Dr. Furnando Guarin", "IEEE Life Fellow", "/guarin.jpg"),
       m("Dr. Daniel Tomaszewski", "Lords University Poland", "/daniel.jpg"),
       m("Prof. Richi Nayak", "QUT Australia", "/richi.jpg"),
       m("Rafal Mars Zalek", "Chief Editor Scientific Reports SN", "/rafal.jpg"),
@@ -193,10 +193,10 @@ export const otherCommittees: Committee[] = [
     title: "Co-Organizing Secretaries",
     members: [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur", "/IMG_0256.jpg"),
-      m("Dr. Dipti Saxena", "MNIT Jaipur", "/dipti-saxena.jpeg"),
+      m("Dr. Dinesh Seti", "JECRC UNIVERSITY", "/Dr. Dinesh Seti.jpg"),
       m("Dr. Deepak Bharti", "MNIT Jaipur", "/deepak-bharti.jpeg"),
-      m("Dr. Rakhee Gupta", "IEEE Delhi Section", "/Rakhee.jpeg"),
-      m("Dr. Shruti Jain", "IEEE Delhi Section", "/Shruti-Jain.jpg"),
+      m("Dr. Shraddha Tripathi", "IIT Jodhpur", "/Shraddha Tripathi.jpg"),
+      m("Dr Jeetu Sharma", "Mody University", "/Dr Jeetu Sharma.jpg"),
     ],
   },
 
@@ -213,8 +213,20 @@ export const otherCommittees: Committee[] = [
       m("Dr. Sharda Tripathi", "BITS Pilani", "/dr-sharda.jpeg"),
       m("Dr. Chetna Sharma", "IIIT Kota", "/chetna.jpeg"),
       m("Dr. Richa Gupta", "IEEE Delhi Section", "/dr-richa.jpeg"),
+      // m("Dr.Awshin Appaji", "Execom Member", "/Dr.Awshin Appaji.jpg"), //might add later
+      // m("Dr.Y.padma sai", "VNRVJIET, Hyderabad", "/Dr.Y.padma sai.jpg"), //might add later
     ],
   },
+  {
+    title: "WIE Co-Chairs",
+    members: [
+      // m("Dr.Chetna Sharma", "IEEE WIE IC", "/rashmi-agarwal.jpeg"),
+      // m("Dr.Richa Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
+      // m("Dr.Basudha dewan", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"),
+      m("Dr.Basudha dewan", "Manipal University Jaipur", "/Dr.Basudha dewan.jpg"),
+    ],
+  },
+
 
   {
     title: "Website Chairs",
@@ -266,7 +278,7 @@ export const otherCommittees: Committee[] = [
   {
     title: "Finance Chairs",
     members: [
-      m("Dr. S. J. Nanda", "MNIT Jaipur", "/sj.jpg"),
+      m("Prof. Pilli Emmanuel Shubhakar", "Malaviya National Institute of Technology Jaipur", "/PilliEmmanual.jpg"),
       m("Dr. Tejpal Singh", "Manipal University Jaipur", "/tejpal.jpg"),
       m("Dr. Rajashree Jain", "Treasurer, IEEE India Council", "/rajshree.jpg"),
     ],
@@ -316,7 +328,7 @@ const tpcPersonnel = getByTitle([
 const organizingBody = [
   ...patronCommittees, // Explicitly add the separate Patrons array here
   ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"]),
-  ...otherCommittees.filter(c => 
+  ...otherCommittees.filter(c =>
     !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Vice-Chairs"].includes(c.title) &&
     !["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"].includes(c.title)
   )
