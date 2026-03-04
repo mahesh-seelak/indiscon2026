@@ -100,36 +100,44 @@ const VantaGlobe: React.FC = () => {
         <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose tracking-wide max-w-5xl mx-auto text-white/90 font-medium text-left md:text-justify mb-6 px-4">
               IEEE INDISCON is the flagship annual international conference of the IEEE India Council, aimed at bringing together researchers, academicians, industry professionals, and students from across the country and abroad. The conference serves as a premier platform for sharing cutting-edge research, emerging trends, and technological advancements in various domains of engineering and technology.
               <br /><br />
-              IEEE INDISCON 2026 will be hosted by the<strong> IEEE Rajasthan Subsection</strong> at Malaviya National Institute of Technology Jaipur, Jaipur, India. The conference will feature keynote lectures, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
-            </p>
+              IEEE INDISCON 2026 will be hosted by the<strong> IEEE Rajasthan Subsection</strong> at Malaviya National Institute of Technology, Jaipur, India. The conference will focus on keynote lectures, panel discussion on thrust technology, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
+             </p>
+
           <motion.div
-            suppressHydrationWarning
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className='flex flex-col  gap-4 items-center justify-center'
-          >
-            <Link href="/about" passHref>
-              <motion.button
-                className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition"
-                suppressHydrationWarning
-              >
-                Learn More
-              </motion.button>
-            </Link>
-          </motion.div>
-          <motion.div
-            suppressHydrationWarning
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className='flex flex-col  gap-4 items-center justify-center'
-          >
-          {/*   <Link
-            href="https://forms.gle/yFPx3wAf53ratSky5"
-            className="px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-green-500 to-green-600 rounded-full hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg"
-          >
-            Book Accommodation
-          </Link> */}
-          </motion.div>
+  className="flex flex-row gap-6 items-center justify-center flex-wrap"
+>
+                  {/* Learn More Button */}
+                  <motion.div
+                    suppressHydrationWarning
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <Link href="/about" passHref>
+                      <motion.button
+                        className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition"
+                        suppressHydrationWarning
+                      >
+                        Learn More
+                      </motion.button>
+                    </Link>
+                  </motion.div>
+
+                  {/* Submit Paper Button */}
+                  <motion.div
+                    suppressHydrationWarning
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <Link
+                      href="https://cmt3.research.microsoft.com/INDISCON2026/Submission/Index"
+                      target="_blank"
+                      className="px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-green-500 to-green-600 rounded-full hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg"
+                    >
+                      Submit Paper
+                    </Link>
+                  </motion.div>
+                </motion.div>
+         
       </motion.div>
     </div>
   );

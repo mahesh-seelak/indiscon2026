@@ -16,14 +16,14 @@ export default function PaperSubmission() {
         />
       </div> */}
 
-      <div className="space-y-4 sm:space-y-6 h-[160vh]">
+      <div className="space-y-4 sm:space-y-6">
         <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-sm">
           <h2 className="text-lg sm:text-xl font-semibold text-indigo-800 mb-3 sm:mb-4">Conference Overview</h2>
           <p className="mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed text-justify">
             IEEE INDISCON is the flagship annual international conference of the IEEE India Council, aimed at bringing together researchers, academicians, industry professionals, and students from across the country and abroad. The conference serves as a premier platform for sharing cutting-edge research, emerging trends, and technological advancements in various domains of engineering and technology.
           </p>
           <p className="text-sm sm:text-base leading-relaxed text-justify">
-           IEEE INDISCON 2026 will be hosted by the IEEE Rajasthan Subsection at Malaviya National Institute of Technology Jaipur, Jaipur, India. The conference will feature keynote lectures, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
+           IEEE INDISCON 2026 will be hosted by the IEEE Rajasthan Subsection at Malaviya National Institute of Technology, Jaipur, India. The conference will focus on keynote lectures, panel discussion on thrust technology, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
           </p>
         </div>
         <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
@@ -47,6 +47,11 @@ export default function PaperSubmission() {
             <li>
               The paper format should follow the IEEE conference template available at: <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">IEEE Conference Templates</a>.
             </li>
+              <li>
+              Authors must understand and abide by IEEE’s submission policies available at: <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">Submission Policy</a>.
+            </li>
+
+           
           </ul>
         </div>
         <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
@@ -72,6 +77,9 @@ export default function PaperSubmission() {
                 <li>
                   <strong>Track 6:</strong> VLSI and Embedded Systems, Semiconductor Devices, Circuits, MEMS
                 </li>
+                 <li>
+                  <strong>Track 7:</strong> Power, Energy & Electrical Systems
+                </li>
                 
               </ul>
             </div>
@@ -80,7 +88,7 @@ export default function PaperSubmission() {
           <div className="flex justify-center mt-6 sm:mt-8">
           <button
             className="px-6 sm:px-8 py-2 sm:py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition-colors text-base sm:text-lg"
-            onClick={() => window.open("https://cmt3.research.microsoft.com/", "_blank")}
+            onClick={() => window.open("https://cmt3.research.microsoft.com/INDISCON2026/Submission/Index", "_blank")}
           >
             Submit Paper
           </button>
