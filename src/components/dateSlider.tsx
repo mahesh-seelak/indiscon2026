@@ -5,17 +5,17 @@ import { useState, useEffect, useRef } from "react"
 const IMPORTANT_DATES = [
   {
     id: 1,
-    title: "Dummmy Paper Submission Starts",
+    title: "Dummmy Submission Starts",
     date: new Date("2026-03-01"),
   },
   {
     id: 2,
-    title: "Dummmy Paper Submission Ends",
+    title: "Dummmy Submission Ends",
     date: new Date("2026-04-30"),
   },
   {
     id: 3,
-    title: "Dummmy Notification of Acceptance",
+    title: "Dummmy Acceptance",
     date: new Date("2026-06-15"),
   },
 ]
