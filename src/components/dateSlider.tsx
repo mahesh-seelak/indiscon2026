@@ -64,7 +64,7 @@ export default function ImportantDatesSlider() {
 
   return (
     <div
-      className="w-full bg-gray-200 py-8"
+      className="w-full bg-gray-200 pb-8"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
