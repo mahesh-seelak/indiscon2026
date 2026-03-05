@@ -324,10 +324,14 @@ const tpcPersonnel = getByTitle([
   "TPC Vice-Chairs"
 ]);
 
+const executiveSteering = getByTitle([
+  "Executive Steering Committee"
+]);
+
 // 2. Define the filtered groups
 const organizingBody = [
   ...patronCommittees, // Explicitly add the separate Patrons array here
-  ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"]),
+  ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs"]),
   ...otherCommittees.filter(c =>
     !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Vice-Chairs"].includes(c.title) &&
     !["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"].includes(c.title)
@@ -336,23 +340,31 @@ const organizingBody = [
 
 // 3. Export the final Mapping
 export const committeeGroups: Record<string, { title: string, committees: Committee[] }> = {
-  // Use 'all' if you want a link that shows every single person
   all: {
     title: "All Committees",
     committees: [...patronCommittees, ...otherCommittees]
   },
+
   patrons: {
     title: "Patrons",
     committees: patronCommittees
   },
+
   "international-advisory": {
     title: "Advisory Committee",
     committees: internationalAdvisory
   },
+
+  "executive-steering": {
+    title: "Executive Steering Committee",
+    committees: executiveSteering
+  },
+
   tpc: {
     title: "Technical Program Committee",
     committees: tpcPersonnel
   },
+
   organizing: {
     title: "Organizing Committee",
     committees: organizingBody
