@@ -321,7 +321,8 @@ const internationalAdvisory = getByTitle([
 
 const tpcPersonnel = getByTitle([
   "TPC Chairs",
-  "TPC Vice-Chairs"
+  "TPC Vice-Chairs",
+  "Publication Chairs"
 ]);
 
 const executiveSteering = getByTitle([
@@ -333,7 +334,7 @@ const organizingBody = [
   ...patronCommittees, // Explicitly add the separate Patrons array here
   ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs"]),
   ...otherCommittees.filter(c =>
-    !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Vice-Chairs"].includes(c.title) &&
+    !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Vice-Chairs","Publication Chairs"].includes(c.title) &&
     !["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"].includes(c.title)
   )
 ];

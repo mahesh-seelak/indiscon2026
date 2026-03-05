@@ -13,7 +13,7 @@ export default function page() {
     <>
       <VantaGlobe/>
       <Countdown/>
-      <DatesSlider/>
+      {/* <DatesSlider/> */}
       <AnimatedGridBackground/>
       <Announcements/>
     </>
