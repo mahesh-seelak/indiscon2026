@@ -213,8 +213,8 @@ export const otherCommittees: Committee[] = [
       m("Dr. Sharda Tripathi", "BITS Pilani", "/dr-sharda.jpeg"),
       m("Dr. Chetna Sharma", "IIIT Kota", "/chetna.jpeg"),
       m("Dr. Richa Gupta", "IEEE Delhi Section", "/dr-richa.jpeg"),
-      // m("Dr.Awshin Appaji", "Execom Member", "/Dr.Awshin Appaji.jpg"), //might add later
-      // m("Dr.Y.padma sai", "VNRVJIET, Hyderabad", "/Dr.Y.padma sai.jpg"), //might add later
+      m("Dr.Awshin Appaji", "Execom Member", "/Dr.Awshin Appaji.jpg"), 
+      m("Dr.Y.padma sai", "VNRVJIET, Hyderabad", "/Dr.Y.padma sai.jpg"), 
     ],
   },
   {

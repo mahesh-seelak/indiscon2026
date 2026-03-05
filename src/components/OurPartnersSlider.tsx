@@ -6,7 +6,7 @@ import Image from "next/image"
 const IMAGES = [
   {
     id: 1,
-    src: "/ieeekolk.png",
+    src: "/ieee kolk.png",
     alt: "IEEE Kolkata Section",
   },
   {
