@@ -136,8 +136,7 @@ const VantaGlobe: React.FC = () => {
                       Submit Paper
                     </Link>
                   </motion.div>
-                </motion.div>
-         
+                </motion.div> 
       </motion.div>
     </div>
   );

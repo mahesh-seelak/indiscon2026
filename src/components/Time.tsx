@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const CountdownBox = ({ value, label }: { value: number; label: string }) => (
-  <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl p-4 md:p-6 min-w-[120px] md:min-w-[140px] backdrop-blur-sm border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-[1.02] group">
+  <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl min-w-[120px] md:min-w-[140px] backdrop-blur-sm border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-[1.02] group">
     <span className="text-4xl md:text-5xl font-bold text-white mb-1 md:mb-2 tracking-tighter">
       {value.toString().padStart(2, '0')}
     </span>

@@ -4,6 +4,7 @@ import Announcements from '@/components/Announcements'
 import Countdown from '@/components/Time'
 import React from 'react'
 import VantaGlobe from '../components/vantaglobe/VantaGlobe'
+import DatesSlider from '../components/dateSlider'
 /* import ImportantDatesSlider from '@/components/dateSlider' */
 
 
@@ -12,7 +13,7 @@ export default function page() {
     <>
       <VantaGlobe/>
       <Countdown/>
-      {/* <ImportantDatesSlider/> */}
+      {/* <DatesSlider/> */}
       <AnimatedGridBackground/>
       <Announcements/>
     </>
