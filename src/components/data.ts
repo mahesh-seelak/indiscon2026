@@ -281,6 +281,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Pilli Emmanuel Shubhakar", "Malaviya National Institute of Technology Jaipur", "/PilliEmmanual.jpg"),
       m("Dr. Tejpal Singh", "Manipal University Jaipur", "/tejpal.jpg"),
       m("Dr. Rajashree Jain", "Treasurer, IEEE India Council", "/rajshree.jpg"),
+      m("Dr. Abhishek Dixit", "JECRC Foundation", "/abhishek.jpeg"),
     ],
   },
   {
