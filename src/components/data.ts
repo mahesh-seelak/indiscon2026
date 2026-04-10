@@ -185,7 +185,7 @@ export const otherCommittees: Committee[] = [
       m("Dr. Arun Kishor Johar", "Secretary, IEEE Rajasthan Subsection & Assistant Professor, Manipal University Jaipur", "/arun-johar.jpg"),
       m("Ms. Ritambhara", "Treasurer IEEE Rajasthan Subsection & Assistant Professor, JECRC Foundation", "/ritambara1.jpeg"),
       m("Dr. Nandan S.", "IEEE India Council", "/dr-nandan.jpeg"),
-      m("Dr. Sneha Kabra", "IEEE Delhi Section", "/dr-sneha.jpeg"),
+     // m("Dr. Sneha Kabra", "IEEE Delhi Section", "/dr-sneha.jpeg"),
     ],
   },
 
