@@ -66,7 +66,7 @@ export default function PaperSubmission() {
                   <strong>Track 2:</strong> Semiconductors, Nanoelectronics & Next-Generation Computing
                 </li>
                 <li>
-                  <strong>Track 3:</strong> Humanitarian Technology & AI for Social Good
+                  <strong>Track 3:</strong> Humanitarian Technology & AI for Social Goods
                 </li>
                 <li>
                   <strong>Track 4:</strong> Intelligent Systems, IoT & Industrial Applications
@@ -75,7 +75,7 @@ export default function PaperSubmission() {
                   <strong>Track 5:</strong> Communication Systems & Network Technologies
                 </li>
                 <li>
-                  <strong>Track 6:</strong> VLSI and Embedded Systems, Semiconductor Devices, Circuits, MEMS
+                  <strong>Track 6:</strong> Signal Processing, Computing & Data Science
                 </li>
                  <li>
                   <strong>Track 7:</strong> Power, Energy & Electrical Systems

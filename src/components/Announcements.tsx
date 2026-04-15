@@ -540,10 +540,10 @@ export default function Announcements() {
                 {[
                   "Track 1: Sustainable AI & Green Technologies",
                   "Track 2: Semiconductors, Nanoelectronics & Next-Generation Computing",
-                  "Track 3: Humanitarian Technology & AI for Social Good",
+                  "Track 3: Humanitarian Technology & AI for Social Goods",
                   "Track 4: Intelligent Systems, IoT & Industrial Applications",
                   "Track 5: Communication Systems & Network Technologies",
-                  "Track 6: VLSI and Embedded Systems, Semiconductor Devices, Circuits, MEMS",
+                  "Track 6: Signal Processing, Computing & Data Science",
                   "Track 7: Power, Energy & Electrical Systems",
                   
                 ].map((track, index) => (
