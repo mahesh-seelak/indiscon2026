@@ -295,10 +295,10 @@ export const otherCommittees: Committee[] = [
       m("Dr. Harpreet Singh Jatana", "Former Group Head, SCL Mohali", "/harpreet-singh.jpg"),
       m("Dr. Mukesh Kumar Gupta", "Scientist-F, NIC Delhi", "/mukesh-kumar.jpeg"),
       m("Dr. Balwinder Singh", "CDAC Chandigarh", "/balwinder.jpeg"),
-      m("Ms. Chitra Hariharan", "VLSI Society of India", "/chitra.jpeg"),
-      m("Mr. Preet Yadav", "Chair, IEEE CAS Delhi Section", "/mr-preet.jpeg"),
+      m("Ms. Chitra Hariharan", "VLSI Society of India", "/Chitra-Hariharan.jpg"),
+      m("Mr. Preet Yadav", "Chair, IEEE CAS Delhi Section", "/preet-yadav.jpg"),
       m("Mr. Daman Deev Sood", "IEEE Delhi Section", "/damandeev.jpeg"),
-      m("Mr. Navin Bishnoi", "Country Head, Marvell Technology", "/mr-navin.jpeg"),
+      m("Mr. Navin Bishnoi", "Country Head, Marvell Technology", "/Navin-Bishnoi.jpg"),
 
     ],
   },
