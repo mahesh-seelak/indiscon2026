@@ -22,9 +22,9 @@ const AboutUs: FC = () => {
     {
       title: "About the Theme",
       content:
-        "The theme of IEEE INDISCON 2026 is AI & Semiconductors for a Sustainable and Human-Centric Future. This theme highlights the role of advanced and intelligent technological solutions in addressing global challenges while ensuring environmental, economic, and social sustainability. It focuses on innovations in areas such as Artificial Intelligence, Internet of Things, smart energy systems, sustainable infrastructure, and intelligent transportation to enhance efficiency, optimize resource utilization, and reduce environmental impact. The conference aims to provide a premier platform for researchers, academicians, industry professionals, and students to exchange ideas and present their latest research contributions. IEEE INDISCON 2026, to be held at Malaviya National Institute of Technology Jaipur, Jaipur, India, will foster discussions on emerging technologies that contribute to sustainable development and societal well-being.",
+        "The theme of IEEE INDISCON 2026, “AI & Semiconductors to Advance Sustainable Humanitarian Technology,” emphasizes the transformative role of intelligent systems and semiconductor innovations in addressing global challenges while promoting environmental, economic, and social sustainability. The conference focuses on the integration of Artificial Intelligence with next-generation semiconductor technologies to enable energy-efficient computing, smart sensing, and scalable digital solutions.Key areas include AI-driven systems, semiconductor design and fabrication, Internet of Things (IoT), smart energy systems, sustainable infrastructure, and intelligent transportation. These technologies play a critical role in enhancing efficiency, optimizing resource utilization, and reducing environmental impact.IEEE INDISCON 2026, to be held at Malaviya National Institute of Technology Jaipur, India, will serve as a premier platform for researchers, academicians, industry professionals, and students to share insights, present cutting-edge research, and foster collaborations that drive sustainable development and societal well-being.",
       image:
-        "/AboutTheTheme.jpg",
+        "/theme.jpeg",
     },
     {
       title: "About MNIT Jaipur",
