@@ -23,7 +23,7 @@ const CallForPapers: React.FC = () => {
 
   const importantDates = [
     { event: "Paper Submission Starts:", date: "01-12-2024" },
-    { event: "Paper Submission Ends:", date: "30-04-2026" },
+    { event: "Paper Submission Ends:", date: "31-05-2026" },
     { event: "Notification of Acceptance:", date: "10-06-2026" },
     { event: "Camera-ready Submission:", date: "20-06-2026" },
     { event: "Proposal Submission Deadline:", date: "20-03-25" },
