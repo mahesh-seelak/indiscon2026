@@ -115,7 +115,7 @@ export default function PaperSubmission() {
               <strong>Paper Submission Starts:</strong> 01-12-2024
             </li>
             <li>
-              <strong>Paper Submission Ends:</strong> 30-04-2026
+              <strong>Paper Submission Ends:</strong> 31-05-2026
             </li>
             <li>
               <strong>Notification of Acceptance:</strong> 10-06-2026
