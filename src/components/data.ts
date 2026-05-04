@@ -93,9 +93,15 @@ export const otherCommittees: Committee[] = [
   {
     title: "TPC Chairs",
     members: [
+      m("Prof. Jawar Singh", "IIT Patna", "/dummy.jpg"),
+      m("Prof. A. Q. Ansari", "Vice-Chair HTA, IEEE IC", "/dummy.jpg"),
+      m("Dr. Ajay Aggarwal", "Professor, ECE, IIT Jodhpur", "/dummy.jpg"),
+      m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi", "/dummy.jpg"),
+      m("Prof. D. K. Yadav", "MNNIT Allahabad", "/dummy.jpg"),
+      m("Prof. B. K. Panigrahi", "IIT Delhi", "/dummy.jpg"),
       m("Prof. Vijay Janyani", "Professor, MNIT Jaipur", "/mnitjas094.png"),
-      m("Dr. Satyabrata Roy", "Manipal University Jaipur", "/164.jpg"),
-      m("Prof. Shilpi Birla", "Professor, Manipal University Jaipur", "/shilpi.jpg"),
+  m("Dr. Sumit Srivastava", "Manipal University Jaipur", "/dummy.jpg"),
+    
       m("Prof. P. Shreehari", "Professor, NIT Warangal", "/ec-patri.jpg"),
       m("Prof. Brahmjit Singh", "Professor, NIT Kurukshetra", "/1588306734Photo_BJS1.jpg"),
       m("Prof. Virendra Singh", "Professor, IIT Bombay", "/VirendraSingh.jpg"),
@@ -105,17 +111,22 @@ export const otherCommittees: Committee[] = [
       m("Dr. C. Periasamy", "Associate Professor, NIT Calicut", "/Dr. C. Periasamy.png"),
       m("Prof. M. S. Bhat", "Professor, NIT Suratkhal", "/msb_D.png"),
       m("Prof. A. Darji", "Professor, NIT Surat", "/151736751273.jpg"),
+        m("Prof. Shilpi Birla", "Professor, Manipal University Jaipur", "/shilpi.jpg"),
       m("Prof. Rajesh Kumar", "University of Johannesburg, SA & MNIT Jaipur", "/mnitjas150.png"),
       m("Prof. Deepti Saxena", "Professor, MNIT Jaipur", "/Prof. Deepti Saxena.jpg"),
       m("Prof. Anil Singh", "Professor, NIT Allahabad", "/55646-Photo.jpeg"),
       m("Dr. Sandeep Saini", "Associate Professor, LNMIIT Jaipur", "/Dr. Sandeep Saini.jpeg"),
       m("Dr. M. Santosh Kumar", "Scientist-F, CEERI Pilani", "/1713627817-Santosh Kumar.jpg"),
       m("Prof. Rahul Goyal", "Professor, Manipal University Jaipur", "/360.jpg"),
+      
+          m("Dr. Satyabrata Roy", "Manipal University Jaipur", "/164.jpg"),
+      
+
     ],
   },
 
   {
-    title: "TPC Vice-Chairs",
+    title: "TPC Co-chairs",
     members: [
       m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur", "/696.jpg"),
 /*       m("Dr. Ravi Kumar Maddila", "Associate Professor, MNIT Jaipur", "/mnitjas193.png"), */
@@ -130,6 +141,25 @@ export const otherCommittees: Committee[] = [
       m("Dr. Akshay Moudgil", "Assistant Professor, IIT Jodhpur", "/AkshayMoudgil.jpg"),
       m("Dr. Rahul Kumar", "Assistant Professor, BITS Pilani", "/dummy.jpg"),
       m("Dr. Shruti Jain", "Joint Secretary, IEEE Delhi Section", "/Dr. Shruti Jain.jpg"),
+      m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore", "/dummy.jpg"),
+      m("Dr. Nitesh Mudgal", "Associate Professor, Dept. of ECE, PCE Jaipur", "/dummy.jpg"),
+      m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu", "/dummy.jpg"),
+      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Dept. of ECE, NIT Andhra Pradesh", "/dummy.jpg"),
+      
+      m("Dr. Nitin Chaturvedi", "BITS Pilani, Jaipur", "/dummy.jpg"),
+      m("Prof. Rashmi Aggarwal", "Associate Professor, Dept. of EEE, JC Bose University", "/dummy.jpg"),
+      m("Dr. Manpreet Kaur", "Professor, Dept. of CSE, MRU Faridabad", "/dummy.jpg"),
+      m("Dr. Amit Ved", "Associate Professor, Dept. of CSE, Marwadi University Rajkot", "/dummy.jpg"),
+      m("Dr. Mitul Kumar Ahirwal", "MANIT Bhopal", "/dummy.jpg"),
+      m("Dr. Indu Joshi", "IIT Mandi", "/dummy.jpg"),
+      m("Prof. Suwadesh Ray", "IIT Delhi", "/dummy.jpg"),
+      m("Prof. Parul Garg", "Professor, Dept. of ECE, NSUT Delhi", "/dummy.jpg"),
+      m("Dr. Mithilesh Kumar", "Professor, Dept. of ECE, RTU", "/dummy.jpg"),
+      m("Dr. Anurag Singh", "NIT Delhi", "/dummy.jpg"),
+      m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur", "/dummy.jpg"),
+      m("Prof. Sukumar Mishra", "IIT Delhi", "/dummy.jpg"),
+      m("Prof. Rachna Garg", "Electrical Engineering, DTU", "/dummy.jpg"),
+      m("Dr. Anuradha Tomar", "Associate Professor, Dept. of Electrical Engineering, DU", "/dummy.jpg"),
     ],
   },
 
@@ -322,7 +352,7 @@ const internationalAdvisory = getByTitle([
 
 const tpcPersonnel = getByTitle([
   "TPC Chairs",
-  "TPC Vice-Chairs",
+  "TPC Co-chairs",
   "Publication Chairs"
 ]);
 
@@ -335,7 +365,7 @@ const organizingBody = [
   ...patronCommittees, // Explicitly add the separate Patrons array here
   ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs"]),
   ...otherCommittees.filter(c =>
-    !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Vice-Chairs","Publication Chairs"].includes(c.title) &&
+    !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Co-chairs","Publication Chairs"].includes(c.title) &&
     !["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"].includes(c.title)
   )
 ];
