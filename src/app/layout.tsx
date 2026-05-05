@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'IEEE-INDISCON',
+  title: 'INDISCON',
   description: 'ieeeindiscon.org',
 }
 export default function RootLayout({

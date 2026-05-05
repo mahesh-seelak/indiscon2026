@@ -34,10 +34,12 @@ export default function Footer() {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="flex items-center mb-6">
-              <Image src="https://res.cloudinary.com/dk6m1qejk/image/upload/v1739561164/IEEE/bpxhcknsvtilxcaycrie.svg" alt="TechCorp Logo" width={200} height={100} className="mr-3" />
+             {/*  <Image src="https://res.cloudinary.com/dk6m1qejk/image/upload/v1739561164/IEEE/bpxhcknsvtilxcaycrie.svg" alt="TechCorp Logo" width={200} height={100} className="mr-3" />
+             */}
+            
             </Link>
             <p className="text-blue-100 mb-4">
-            IEEE INDISCON-2026 is the 7th edition of the international conference series INDISCON to be organized by the Malaviya National Institute of Technology Jaipur.
+            INDISCON-2026 is the 7th edition of the international conference series INDISCON to be organized by the Malaviya National Institute of Technology Jaipur.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link, index) => (

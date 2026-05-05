@@ -65,7 +65,7 @@ const CallForPapers: React.FC = () => {
       <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-24 px-4 text-center w-full relative overflow-hidden">
         <div className="absolute inset-0 bg-opacity-10 bg-gray-900" />
         <div className="relative z-10 max-w-4xl mx-auto">
-          <h1 className="text-5xl font-extrabold mb-6 text-balance hyphens-auto leading-tight ">6th IEEE India Council International Subsections Conference</h1>
+          <h1 className="text-5xl font-extrabold mb-6 text-balance hyphens-auto leading-tight ">6th India Council International Subsections Conference</h1>
           <p className="text-2xl mb-4 text-balance">Theme: &ldquo;Smart and Sustainable Technologies for Society&rdquo;</p>
           <p className="text-xl text-balance">We invite you to submit your groundbreaking papers for our upcoming conference</p>
         </div>

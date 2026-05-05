@@ -545,6 +545,9 @@ export default function Announcements() {
                   "Track 5: Communication Systems & Network Technologies",
                   "Track 6: Signal Processing, Computing & Data Science",
                   "Track 7: Power, Energy & Electrical Systems",
+                  "Track 8: Special Session on Drone Technology ",
+                  
+
                   
                 ].map((track, index) => (
                   <motion.li

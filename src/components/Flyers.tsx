@@ -11,17 +11,17 @@ export default function Flyers() {
     {
       id: 1,
       src: '/flyer1.jpg',
-      alt: 'IEEE INDISCON 2026 - Sustainable and Immersive Computing for Future Ecosystems',
+      alt: 'INDISCON 2026 - Sustainable and Immersive Computing for Future Ecosystems',
     },
     {
       id: 2,
       src: '/flyer2.jpg',
-      alt: 'IEEE INDISCON 2026 - AI-Driven Semantic Technology for 6G Sustainable Communication',
+      alt: 'INDISCON 2026 - AI-Driven Semantic Technology for 6G Sustainable Communication',
     },
     {
       id: 3,
       src: '/flyer3.jpg',
-      alt: 'IEEE INDISCON 2026 - Innovation in AI for Sustainable Healthcare and Assistive Technology',
+      alt: 'INDISCON 2026 - Innovation in AI for Sustainable Healthcare and Assistive Technology',
     },
   ];
 
