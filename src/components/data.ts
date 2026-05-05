@@ -144,7 +144,7 @@ export const otherCommittees: Committee[] = [
       m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore", "/dummy.jpg"),
       m("Dr. Nitesh Mudgal", "Associate Professor, Dept. of ECE, PCE Jaipur", "/dummy.jpg"),
       m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu", "/dummy.jpg"),
-      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Dept. of ECE, NIT Andhra Pradesh", "/dummy.jpg"),
+      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Dept. of ECE, NIT Arunachal Pradesh", "/dummy.jpg"),
       
       m("Dr. Nitin Chaturvedi", "BITS Pilani, Jaipur", "/dummy.jpg"),
       m("Prof. Rashmi Aggarwal", "Associate Professor, Dept. of EEE, JC Bose University", "/dummy.jpg"),
