@@ -147,8 +147,7 @@ export default function PaperSubmissionGuidelines() {
               </li>
               <li>All papers must be submitted via Microsoft CMT.</li>
               <li>
-                Accepted and presented papers will be submitted to IEEE Xplore for possible publication, ensuring global
-                visibility and recognition.
+               Accepted and presented papers will be submitted to IEEE Xplore for possible publication (awaiting IEEE approval), ensuring global visibility and recognition.
               </li>
               <li>Paper should be written in IEEE double column conference format and restricted to a maximum of 6 pages only.</li>
               <li>
