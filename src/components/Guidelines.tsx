@@ -130,7 +130,7 @@ export default function PaperSubmissionGuidelines() {
                 <strong>Paper Submission Ends:</strong> 31-05-2026
               </li>
               <li>
-                <strong>Notification of Acceptance:</strong> 31-05-2026
+                <strong>Notification of Acceptance:</strong> 15-07-2026
               </li>
               {/* <li>
                 <strong>Camera-ready Submission:</strong> 20-06-2026
