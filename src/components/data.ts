@@ -106,7 +106,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Brahmjit Singh", "Professor, NIT Kurukshetra", "/1588306734Photo_BJS1.jpg"),
       m("Prof. Virendra Singh", "Professor, IIT Bombay", "/VirendraSingh.jpg"),
       m("Prof. Manoj Saxena", "Chair, EDS IEEE Delhi Section", "/1691237327810.jpg"),
-      m("Prof. Alpana Agarwal", "Professor, TIET Patiala", "/1556260806129.jpg"),
+     
       m("Dr. Anurag Singh", "Associate Professor, NIT Delhi", "/5380818.jpg"),
       m("Dr. C. Periasamy", "Associate Professor, NIT Calicut", "/Dr. C. Periasamy.png"),
       m("Prof. M. S. Bhat", "Professor, NIT Suratkhal", "/msb_D.png"),
