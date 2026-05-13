@@ -34,13 +34,7 @@ export const patronCommittees: Committee[] = [
       m("Prof. Preeti Bajaj", "Chair Elect 2026, IEEE India Council", "/Prof. Preeti Bajaj.jpg"),
     ],
   },
-]
-
-/* ---------------- ALL OTHER COMMITTEES ---------------- */
-
-export const otherCommittees: Committee[] = [
-
-  {
+    {
     title: "Co-Patrons",
     members: [
       m("Prof. Rohit Bhakar", "Professor, MNIT Jaipur", "/mnitjas121.png"),
@@ -90,79 +84,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Shiban K Koul", "Chair, IEEE MTS", "/koul_photo_0-250x330.jpg"),
     ],
   },
-  {
-    title: "TPC Chairs",
-    members: [
-      m("Prof. Jawar Singh", "IIT Patna", "/dummy.jpg"),
-      m("Prof. A. Q. Ansari", "Vice-Chair HTA, IEEE IC", "/dummy.jpg"),
-      m("Dr. Ajay Aggarwal", "Professor, ECE, IIT Jodhpur", "/dummy.jpg"),
-      m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi", "/dummy.jpg"),
-      m("Prof. D. K. Yadav", "MNNIT Allahabad", "/dummy.jpg"),
-      m("Prof. B. K. Panigrahi", "IIT Delhi", "/dummy.jpg"),
-      m("Prof. Vijay Janyani", "Professor, MNIT Jaipur", "/mnitjas094.png"),
-  m("Dr. Sumit Srivastava", "Manipal University Jaipur", "/dummy.jpg"),
-    
-      m("Prof. P. Shreehari", "Professor, NIT Warangal", "/ec-patri.jpg"),
-      m("Prof. Brahmjit Singh", "Professor, NIT Kurukshetra", "/1588306734Photo_BJS1.jpg"),
-      m("Prof. Virendra Singh", "Professor, IIT Bombay", "/VirendraSingh.jpg"),
-      m("Prof. Manoj Saxena", "Chair, EDS IEEE Delhi Section", "/1691237327810.jpg"),
-     
-      m("Dr. Anurag Singh", "Associate Professor, NIT Delhi", "/5380818.jpg"),
-      m("Dr. C. Periasamy", "Associate Professor, NIT Calicut", "/Dr. C. Periasamy.png"),
-      m("Prof. M. S. Bhat", "Professor, NIT Suratkhal", "/msb_D.png"),
-      m("Prof. A. Darji", "Professor, NIT Surat", "/151736751273.jpg"),
-        m("Prof. Shilpi Birla", "Professor, Manipal University Jaipur", "/shilpi.jpg"),
-      m("Prof. Rajesh Kumar", "University of Johannesburg, SA & MNIT Jaipur", "/mnitjas150.png"),
-      m("Prof. Deepti Saxena", "Professor, MNIT Jaipur", "/Prof. Deepti Saxena.jpg"),
-      m("Prof. Anil Singh", "Professor, NIT Allahabad", "/55646-Photo.jpeg"),
-      m("Dr. Sandeep Saini", "Associate Professor, LNMIIT Jaipur", "/Dr. Sandeep Saini.jpeg"),
-      m("Dr. M. Santosh Kumar", "Scientist-F, CEERI Pilani", "/1713627817-Santosh Kumar.jpg"),
-      m("Prof. Rahul Goyal", "Professor, Manipal University Jaipur", "/360.jpg"),
-      
-          m("Dr. Satyabrata Roy", "Manipal University Jaipur", "/164.jpg"),
-      
-
-    ],
-  },
-
-  {
-    title: "TPC Co-chairs",
-    members: [
-      m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur", "/696.jpg"),
-/*       m("Dr. Ravi Kumar Maddila", "Associate Professor, MNIT Jaipur", "/mnitjas193.png"), */
-      m("Dr. Hemant Kumar Meena", "Associate Professor, MNIT Jaipur", "/mnitjas184.png"),
-      m("Dr. Lintu Rajan", "Associate Professor, NIT Calicut", "/LintuRanjan.jpg"),
-      m("Dr. Niketa Sharma", "Associate Professor, SKIT Jaipur", "/Niketa.jpg"),
-      m("Dr. Anjan Kumar", "Associate Professor, GLA University, Mathura", "/AnjanKumar.webp"),
-      m("Dr. Sunanda Sinha", "Assistant Professor, MNIT Jaipur", "/SunandaSinha.jpg"),
-      m("Dr. Bharat Choudhary", "Assistant Professor, MNIT Jaipur", "/BharatChoudhary.jpg"),
-      m("Dr. Sushil Kumar Jain", "Assistant Professor, TIET Patiala", "/SushilKumarJain.webp"),
-      m("Dr. Ashvinee Deo Meshram", "Assistant Professor, Manipal University Jaipur", "/AshvineeDeoMeshram.jpg"),
-      m("Dr. Akshay Moudgil", "Assistant Professor, IIT Jodhpur", "/AkshayMoudgil.jpg"),
-      m("Dr. Rahul Kumar", "Assistant Professor, BITS Pilani", "/dummy.jpg"),
-      m("Dr. Shruti Jain", "Joint Secretary, IEEE Delhi Section", "/Dr. Shruti Jain.jpg"),
-      m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore", "/dummy.jpg"),
-      m("Dr. Nitesh Mudgal", "Associate Professor, Dept. of ECE, PCE Jaipur", "/dummy.jpg"),
-      m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu", "/dummy.jpg"),
-      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Dept. of ECE, NIT Arunachal Pradesh", "/dummy.jpg"),
-      
-      m("Dr. Nitin Chaturvedi", "BITS Pilani, Jaipur", "/dummy.jpg"),
-      m("Prof. Rashmi Aggarwal", "Associate Professor, Dept. of EEE, JC Bose University", "/dummy.jpg"),
-      m("Dr. Manpreet Kaur", "Professor, Dept. of CSE, MRU Faridabad", "/dummy.jpg"),
-      m("Dr. Amit Ved", "Associate Professor, Dept. of CSE, Marwadi University Rajkot", "/dummy.jpg"),
-      m("Dr. Mitul Kumar Ahirwal", "MANIT Bhopal", "/dummy.jpg"),
-      m("Dr. Indu Joshi", "IIT Mandi", "/dummy.jpg"),
-      m("Prof. Suwadesh Ray", "IIT Delhi", "/dummy.jpg"),
-      m("Prof. Parul Garg", "Professor, Dept. of ECE, NSUT Delhi", "/dummy.jpg"),
-      m("Dr. Mithilesh Kumar", "Professor, Dept. of ECE, RTU", "/dummy.jpg"),
-      m("Dr. Anurag Singh", "NIT Delhi", "/dummy.jpg"),
-      m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur", "/dummy.jpg"),
-      m("Prof. Sukumar Mishra", "IIT Delhi", "/dummy.jpg"),
-      m("Prof. Rachna Garg", "Electrical Engineering, DTU", "/dummy.jpg"),
-      m("Dr. Anuradha Tomar", "Associate Professor, Dept. of Electrical Engineering, DU", "/dummy.jpg"),
-    ],
-  },
-
+ 
   {
     title: "International Advisory Committee",
     members: [
@@ -340,9 +262,171 @@ export const otherCommittees: Committee[] = [
   },
 ]
 
+/* ---------------- ALL OTHER COMMITTEES ---------------- */
+
+
+export const otherCommittees: Committee[] = [
+ {
+    title: "TPC Chairs",
+    members: [
+      m("Prof. Jawar Singh", "IIT Patna"),
+      m("Prof. A. Q. Ansari", "Vice-Chair HTA, IEEE IC"),
+      m("Dr. Ajay Aggarwal", "Professor, ECE, IIT Jodhpur"),
+      m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi"),
+      m("Prof. D. K. Yadav", "MNNIT Allahabad"),
+      m("Prof. B. K. Panigrahi", "IIT Delhi"),
+      m("Prof. Vijay Janyani", "Professor, MNIT Jaipur"),
+      m("Dr. Sumit Srivastava", "Manipal University Jaipur"),
+      m("Prof. P. Shreehari", "Professor, NIT Warangal"),
+      m("Prof. Brahmjit Singh", "Professor, NIT Kurukshetra"),
+      m("Prof. Virendra Singh", "Professor, IIT Bombay"),
+      m("Prof. Manoj Saxena", "Chair, EDS IEEE Delhi Section"),
+      m("Dr. Anurag Singh", "Associate Professor, NIT Delhi"),
+      m("Dr. C. Periasamy", "Associate Professor, NIT Calicut"),
+      m("Prof. M. S. Bhat", "Professor, NIT Surathkal"),
+      m("Prof. Anand Darji", "Professor, SVNIT Surat"),
+      m("Prof. Shilpi Birla", "Professor, Manipal University Jaipur"),
+      m("Prof. Rajesh Kumar", "University of Johannesburg, SA & MNIT Jaipur"),
+      m("Prof. Deepti Saxena", "Professor, MNIT Jaipur"),
+      m("Prof. Anil Singh", "Professor, NIT Allahabad"),
+      m("Dr. Sandeep Saini", "Associate Professor, LNMIIT Jaipur"),
+      m("Dr. M. Santosh Kumar", "Scientist-F, CEERI Pilani"),
+      m("Prof. Rahul Goyal", "Professor, Manipal University Jaipur"),
+      m("Dr. Satyabrata Roy", "Manipal University Jaipur"),
+    ],
+  },
+
+  {
+    title: "TPC Co-chairs",
+    members: [
+      m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur"),
+      m("Dr. Hemant Kumar Meena", "Associate Professor, MNIT Jaipur"),
+      m("Dr. Lintu Rajan", "Associate Professor, NIT Calicut"),
+      m("Dr. Niketa Sharma", "Associate Professor, SKIT Jaipur"),
+      m("Dr. Anjan Kumar", "Associate Professor, GLA University, Mathura"),
+      m("Dr. Sunanda Sinha", "Assistant Professor, MNIT Jaipur"),
+      m("Dr. Bharat Choudhary", "Assistant Professor, MNIT Jaipur"),
+      m("Dr. Sushil Kumar Jain", "Assistant Professor, TIET Patiala"),
+      m("Dr. Ashvinee Deo Meshram", "Assistant Professor, Manipal University Jaipur"),
+      m("Dr. Akshay Moudgil", "Assistant Professor, IIT Jodhpur"),
+      m("Dr. Rahul Kumar", "Assistant Professor, BITS Pilani"),
+      m("Dr. Shruti Jain", "Joint Secretary, IEEE Delhi Section"),
+      m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore"),
+      m("Dr. Nitesh Mudgal", "Associate Professor, Dept. of ECE, PCE Jaipur"),
+      m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu"),
+      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Dept. of ECE, NIT Arunachal Pradesh"),
+      m("Dr. Nitin Chaturvedi", "BITS Pilani, Jaipur"),
+      m("Prof. Rashmi Aggarwal", "Associate Professor, Dept. of EEE, JC Bose University"),
+      m("Dr. Manpreet Kaur", "Professor, Dept. of CSE, MRU Faridabad"),
+      m("Dr. Amit Ved", "Associate Professor, Dept. of CSE, Marwadi University Rajkot"),
+      m("Dr. Mitul Kumar Ahirwal", "MANIT Bhopal"),
+      m("Dr. Indu Joshi", "IIT Mandi"),
+      m("Prof. Suwadesh Ray", "IIT Delhi"),
+      m("Prof. Parul Garg", "Professor, Dept. of ECE, NSUT Delhi"),
+      m("Dr. Mithilesh Kumar", "Professor, Dept. of ECE, RTU"),
+      m("Dr. Anurag Singh", "NIT Delhi"),
+      m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur"),
+      m("Prof. Sukumar Mishra", "IIT Delhi"),
+      m("Prof. Rachna Garg", "Electrical Engineering, DTU"),
+      m("Dr. Anuradha Tomar", "Associate Professor, Dept. of Electrical Engineering, DU"),
+    ],
+  },
+
+  {
+    title: "Track 1: Sustainable AI & Green Technologies",
+    members: [
+      m("Dr. Mohit P. Tahiliani", "NIT Surathkal"),
+      m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore"),
+      m("Dr. Sumit Srivastava", "Manipal University Jaipur"),
+      m("Dr. Durgesh Nandan", "Dean, SR University Hyderabad"),
+    ],
+  },
+
+  {
+    title: "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
+    members: [
+      m("Prof. Jawar Singh", "IIT Patna"),
+      m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu"),
+      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Department of ECE, NIT Andhra Pradesh"),
+      m("Dr. Balvinder Raj", "NIT Jalandhar"),
+    ],
+  },
+
+  {
+    title: "Track 3: Humanitarian Technology & AI for Social Goods",
+    members: [
+      m("Prof. A. Q. Ansari", "Vice-Chair HTA, IEEE IC"),
+      m("Dr. Sudeep Tanwar", "Nirma University"),
+      m("Dr. Manpreet Kaur", "Professor, Department of CSE, MRU Faridabad"),
+      m("Dr. Amit Ved", "Associate Professor, Department of CSE, Marwadi University Rajkot"),
+    ],
+  },
+
+  {
+    title: "Track 4: Intelligent Systems, IoT & Industrial Applications",
+    members: [
+      m("Dr. Ajay Aggarwal", "Professor, ECE, IIT Jodhpur"),
+      m("Dr. Mitul Kumar Ahirwal", "MANIT Bhopal"),
+      m("Dr. Indu Joshi", "IIT Mandi"),
+      m("Dr. Shakshi Dhanker", "IIT Jodhpur"),
+    ],
+  },
+
+  {
+    title: "Track 5: Communication Systems & Signal Processing",
+    members: [
+      m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi"),
+      m("Prof. Suwadesh Ray", "IIT Delhi"),
+      m("Prof. Parul Garg", "Professor, Department of ECE, NSUT Delhi"),
+      m("Dr. Mithilesh Kumar", "Professor, Department of ECE, RTU"),
+    ],
+  },
+
+  {
+    title: "Track 6: Cloud Computing, Generative AI & Data Science",
+    members: [
+      m("Prof. D. K. Yadav", "MNNIT Allahabad"),
+      m("Dr. Anurag Singh", "NIT Delhi"),
+      m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur"),
+      m("Dr. Deepak Gupta", "MNNIT Allahabad"),
+    ],
+  },
+
+  {
+    title: "Track 7: Power, Energy & Electrical System",
+    members: [
+      m("Prof. B. K. Panigrahi", "IIT Delhi"),
+      m("Prof. Sukumar Mishra", "IIT Delhi"),
+      m("Prof. Rachna Garg", "Department of Electrical Engineering, DTU"),
+      m("Dr. Anuradha Tomar", "Associate Professor, Department of Electrical Engineering, DU"),
+    ],
+  },
+
+  {
+    title: "Track 8: Drone and Robotics Technologies",
+    members: [
+      m("Prof. Anand Darji", "SVNIT Surat"),
+      m("Dr. Sumit Gautam", "IIT Indore"),
+    ],
+  },
+
+  {
+    title: "Track 9: Women In Engineering",
+    members: [
+      m("Dr. Rashmi Aggarwal", "Women In Engineering"),
+      m("Dr. Ashwini Appaji", "Women In Engineering"),
+      m("Dr. Renu Sharma", "Women In Engineering"),
+      m("Dr. Y. Padma Sai", "Women In Engineering"),
+    ],
+  },
+
+]
+
 
 const getByTitle = (titles: string[]) =>
-  otherCommittees.filter(c => titles.includes(c.title));
+  [...patronCommittees, ...otherCommittees].filter(c =>
+    titles.includes(c.title)
+  );
 
 // 2. Define the filtered groups
 const internationalAdvisory = getByTitle([
@@ -353,7 +437,17 @@ const internationalAdvisory = getByTitle([
 const tpcPersonnel = getByTitle([
   "TPC Chairs",
   "TPC Co-chairs",
-  "Publication Chairs"
+  
+  "Track 1: Sustainable AI & Green Technologies",
+  "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
+  "Track 3: Humanitarian Technology & AI for Social Goods",
+  "Track 4: Intelligent Systems, IoT & Industrial Applications",
+  "Track 5: Communication Systems & Signal Processing",
+  "Track 6: Cloud Computing, Generative AI & Data Science",
+  "Track 7: Power, Energy & Electrical System",
+  "Track 8: Drone and Robotics Technologies",
+  "Track 9: Women In Engineering",
+
 ]);
 
 const executiveSteering = getByTitle([
@@ -361,15 +455,21 @@ const executiveSteering = getByTitle([
 ]);
 
 // 2. Define the filtered groups
-const organizingBody = [
-  ...patronCommittees, // Explicitly add the separate Patrons array here
-  ...getByTitle(["Co-Patrons", "Honorary Chairs", "General Chairs"]),
-  ...otherCommittees.filter(c =>
-    !["International Advisory Committee", "National Advisory Committee (Selected Members)", "TPC Chairs", "TPC Co-chairs","Publication Chairs"].includes(c.title) &&
-    !["Co-Patrons", "Honorary Chairs", "General Chairs", "Executive Steering Committee"].includes(c.title)
-  )
-];
-
+const organizingBody = getByTitle([
+  "Patrons",
+  "Co-Patrons",
+  "Honorary Chairs",
+  "General Chairs",
+  "Organizing Secretaries",
+  "Co-Organizing Secretaries",
+  "Finance Chairs",
+  "Industry Liaison Chairs",
+  "Website and Design Chairs",
+  "Travel and Hospitality Committee",
+  "WIE Chairs",
+  "WIE Co-Chairs",
+  "Special Track / Tutorial Chairs"
+]);
 // 3. Export the final Mapping
 export const committeeGroups: Record<string, { title: string, committees: Committee[] }> = {
   all: {
