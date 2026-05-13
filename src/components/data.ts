@@ -126,6 +126,7 @@ export const patronCommittees: Committee[] = [
       m("Dr. Ankur Saharia", "Manipal University Jaipur", "/dr-ankur.jpeg"),
       m("Prof. Kusum Lata", "LNMIIT Jaipur", "/kusum-lata.jpeg"),
       m("Dr. Payal Bansal", "PIET Jaipur", "/Payal_Bansal.jpg"),
+       m("Dr. Ashish Sharma", "Manipal University Jaipur", "/Ashish_Sharma.jpg"),
       m("Sabri Naath", "IEEE India Council", "/sabarinath.jpeg"),
     ],
   },
@@ -160,7 +161,7 @@ export const patronCommittees: Committee[] = [
       m("Dr. Rashmi Aggarwal", "IEEE WIE IC", "/rashmi-agarwal.jpeg"),
       m("Dr. Pooja Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
    /*    m("Dr. Nilam Choudhary", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"), */
-      m("Dr. Jeetu Sharma", "Mody University", "/dr-jeetu.jpeg"),
+     /*  m("Dr. Jeetu Sharma", "Mody University", "/dr-jeetu.jpeg"), */
       m("Dr. Basudha Dewan", "Manipal University Jaipur", "/dr-basudha.jpeg"),
       m("Dr. Sharda Tripathi", "BITS Pilani", "/dr-sharda.jpeg"),
       m("Dr. Chetna Sharma", "IIIT Kota", "/chetna.jpeg"),
@@ -169,24 +170,14 @@ export const patronCommittees: Committee[] = [
       m("Dr.Y.padma sai", "VNRVJIET, Hyderabad", "/Dr.Y.padma sai.jpg"), 
     ],
   },
-  {
-    title: "WIE Co-Chairs",
-    members: [
-      // m("Dr.Chetna Sharma", "IEEE WIE IC", "/rashmi-agarwal.jpeg"),
-      // m("Dr.Richa Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
-      // m("Dr.Basudha dewan", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"),
-      m("Dr.Basudha dewan", "Manipal University Jaipur", "/Dr.Basudha dewan.jpg"),
-    ],
-  },
-
-
+  
   {
     title: "Website and Design Chairs",
     members: [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur", "/IMG_0256.jpg"),
       m("Dr. Ramesh Babu Battula", "MNIT Jaipur", "/ramesh.jpg"),
       m("Dr. Lavika Goel", "MNIT Jaipur", "/lavika.jpg"),
-      m("Mr. Digambar Singh Govind", "Research Scholar MNIT Jaipur", "/digambar.jpg"),
+      m("Dr. Juhi Singh", "Manipal University Jaipur", "/196.jpg"),
     ],
   },
 
@@ -448,6 +439,7 @@ const tpcPersonnel = getByTitle([
   "Track 8: Drone and Robotics Technologies",
   "Track 9: Women In Engineering",
 
+
 ]);
 
 const executiveSteering = getByTitle([
@@ -467,8 +459,8 @@ const organizingBody = getByTitle([
   "Website and Design Chairs",
   "Travel and Hospitality Committee",
   "WIE Chairs",
-  "WIE Co-Chairs",
-  "Special Track / Tutorial Chairs"
+  "Publication Chairs"
+ /*  "Special Track / Tutorial Chairs" */
 ]);
 // 3. Export the final Mapping
 export const committeeGroups: Record<string, { title: string, committees: Committee[] }> = {
