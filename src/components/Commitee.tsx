@@ -65,11 +65,13 @@ export default function Committee() {
                               }}
                             />
 
-                            {committee.title.includes("Patron") && (
+                           {/*  {committee.title.includes("Patron") && (
                               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                                Patron
+                                {committee.title === "Co-Patrons"
+                                  ? "Co-Patron"
+                                  : "Patron"}
                               </div>
-                            )}
+                            )} */}
                           </div>
                         )}
 
