@@ -25,32 +25,43 @@ const speakers: Speaker[] = [
 
 export default function Speakers() {
   return (
-    <section className="relative py-20  overflow-hidden">
-      <div className="container mx-auto px-4 lg:px-8 relative text-center">
+    <section className="relative py-20 overflow-hidden">
+
+      <div className="w-full max-w-[1600px] mx-auto px-4 relative">
+
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-gray-900">
           Our Previous Speakers
         </h2>
-        
-        {speakers.map((speaker, index) => (
-          <div 
-            key={speaker.id} 
-            className={`flex flex-col md:flex-row items-center mb-12 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}
-          >
-            <div className="w-full md:w-1/3 flex-shrink-0 overflow-hidden">
+
+        <div className="grid grid-cols-4 gap-6">
+
+          {speakers.map((speaker) => (
+            <div
+              key={speaker.id}
+              className="bg-white rounded-xl shadow-lg overflow-hidden text-center"
+            >
               <Image
                 src={speaker.imageUrl}
                 alt={speaker.name}
                 width={400}
                 height={250}
-                className="object-cover rounded-lg shadow-lg"
+                className="w-full h-64 object-cover"
               />
+
+              <div className="p-4">
+                <h4 className="text-xl font-bold text-gray-800">
+                  {speaker.name}
+                </h4>
+
+                <p className="text-sm text-slate-700 mt-3 leading-relaxed">
+                  {speaker.introduction}
+                </p>
+              </div>
             </div>
-            <div className="md:w-2/3 md:px-8 text-center md:text-left">
-              <h4 className="text-3xl font-bold text-gray-800">{speaker.name}</h4>
-              <p className="text-lg text-slate-900 mt-4 font-semibold leading-relaxed">{speaker.introduction}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+
+        </div>
+
       </div>
     </section>
   );

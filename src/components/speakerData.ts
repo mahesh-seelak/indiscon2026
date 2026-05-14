@@ -39,13 +39,14 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title:`Innovative Antenna Solutions for Next-Generation Technologies: Driving Smart and Sustainable Societal Advancements`
   }, */
  
+
   {
     id: "1",
     designation: "IEEE President Elect",
     university: "IEEE",
     name: "Dr. Jill Gostin",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/jill.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -55,7 +56,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "Collaborative Microelectronics Design Excellence Ecentre",
     name: "Dr. Asrulnizam Abd Manaf",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/asrul.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -65,7 +66,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "Lincoln University Malaysia",
     name: "Prof. Sandeep Poddar",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/sandeep_poddar.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -75,7 +76,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "Startups Accelerator, Silicon Valley",
     name: "Mr. Adithya Das",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/adithya.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -85,7 +86,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "University of North Texas",
     name: "Dr. Saraju Mohanty",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/saraju.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -95,7 +96,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "Duy Tan University, Vietnam",
     name: "Prof. Anand Nayar",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/anad_nayar.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -105,7 +106,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Delhi",
     name: "Prof. Bhim Singh",
     bio: "Application of Power Electronics in Solar and Wind Energy Systems",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/bhim_singh.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -115,7 +116,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Roorkee",
     name: "Prof. N. P. Padhy",
     bio: "Impact of high renewable penetration and grid forming capability",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/np_pady.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -125,7 +126,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Delhi",
     name: "Prof. B. K. Panigrahi",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/B. K. Panigrahi.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -135,7 +136,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Delhi",
     name: "Prof. Ranjan Kumar Mallik",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Ranjan Kumar Mallik.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -145,7 +146,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "DTU",
     name: "Prof. Rachna Garg",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Rachna_Garg.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -155,7 +156,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "DAU Gandhinagar",
     name: "Dr. H. S. Jattana",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Dr. H. S. Jattana.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -165,7 +166,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IISc Bangalore",
     name: "Prof. Mayank Srivastava",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Mayank Srivastava.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -175,7 +176,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Roorkee",
     name: "Prof. Sudeep Das Gupta",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Sudeep Das Gupta.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -185,7 +186,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Indore",
     name: "Prof. Santosh Vishwakarma",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Santosh Vishwakarma.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -195,7 +196,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Guwahati",
     name: "Dr. John Jose",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Dr. John Jose.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -205,7 +206,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Patna",
     name: "Prof. Mahesh H. Kolekar",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Mahesh H. Kolekar.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -215,7 +216,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Patna",
     name: "Prof. Ranjan Kumar Behera",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Ranjan Kumar Behera.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -225,7 +226,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Bombay",
     name: "Prof. Abhay Karandikar",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Abhay Karandikar.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -235,7 +236,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IEEE DataPort",
     name: "Dr. Anjali Dewan",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Dr. Anjali Dewan.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -245,7 +246,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Jodhpur",
     name: "Prof. Ajay Aggarwal",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Ajay Aggarwal.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -255,7 +256,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IEEE UP Section",
     name: "Prof. Yogesh Chauhan",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Yogesh Chauhan.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -265,7 +266,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "VLSI Society",
     name: "Dr. Satya Gupta",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Dr. Satya Gupta.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -275,7 +276,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "Synopsys",
     name: "Dr. Sankalp Singh",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Dr. Sankalp Singh.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -285,7 +286,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "ISM Dhanbad",
     name: "Prof. Rajeev Kumar Ranjan",
     bio: "Neuromorphic Computing",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Rajeev Kumar Ranjan.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -295,7 +296,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "IIT Jammu",
     name: "Dr. Ambika Prasad Shah",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Dr. Ambika Prasad Shah.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -305,7 +306,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "STMicroelectronics",
     name: "Mr. Manoj Kumar",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Mr. Manoj Kumar.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -325,10 +326,8 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "Vignan’s Institute of Technology",
     name: "Prof. Madhusudhan Rao Vallabhanchi",
     bio: "updated soon",
-    imageUrl: "/dummy.jpg",
+    imageUrl: "/Prof. Madhusudhan Rao Vallabhanchi.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   }
-
-
 ];
