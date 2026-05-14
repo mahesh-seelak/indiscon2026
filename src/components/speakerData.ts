@@ -39,17 +39,6 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title:`Innovative Antenna Solutions for Next-Generation Technologies: Driving Smart and Sustainable Societal Advancements`
   }, */
  
-
-  {
-    id: "1",
-    designation: "IEEE President Elect",
-    university: "IEEE",
-    name: "Dr. Jill Gostin",
-    bio: "updated soon",
-    imageUrl: "/jill.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
   {
     id: "2",
     designation: "Professor",
