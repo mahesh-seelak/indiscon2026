@@ -328,12 +328,12 @@ export default function Navbar() {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              {/*  <Link
+               <Link
                 href="/registration"
                 className="px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-blue-600 rounded-full hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 Register Now
-              </Link> */}
+              </Link> 
             </motion.div>
           </div>
 
@@ -376,13 +376,13 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 className="mt-4 px-2"
               >
-                {/* <Link
+                 <Link
                   href="/registration"
                   className="block w-full text-center px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-blue-600 rounded-full hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg"
                   onClick={handleNavigate}
                 >
                   Register Now
-                </Link> */}
+                </Link> 
               </motion.div>
             </div>
           </motion.div>

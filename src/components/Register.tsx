@@ -10,9 +10,9 @@ export default function FeesPage() {
       "IEEE Member",
       "Non-IEEE Member",
     ],
-    ["Industry/other person", "14,000", "15,000", "16,000", "17,000"],
-    ["Academia", "12,000", "13,000", "14,000", "15,000"],
-    ["Student", "7,500", "8,500", "8,500", "9,500"],
+    ["Industry/other person", "11,000", "13,000", "13,000", "15,000"],
+    ["Academia", "11,000", "13,000", "13,000", "15,000"],
+    ["Attendee", "7000", "8000", "8000", "9000"],
   ];
 
   const foreignTableData = [
@@ -23,9 +23,9 @@ export default function FeesPage() {
       "IEEE Member",
       "Non-IEEE Member",
     ],
-    ["Industry/other person", "220", "240", "250", "260"],
-    ["Academia", "200", "220", "230", "240"],
-    ["Student", "150", "170", "170", "190"],
+    ["Industry/other person", "350", "380", "380", "400"],
+    ["Academia", "350", "380", "380", "400"],
+    ["Attendee", "250", "300", "350", "380"],
   ];
 
   return (
@@ -55,10 +55,7 @@ export default function FeesPage() {
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
                     Early Bird (till{" "}
-                    <span className="text-red-500 line-through">
-                      15.06.2026
-                    </span>{" "}
-                    <span>30.06.2026</span>)
+                   <span>30.06.2026</span>)
                   </th>
                   <th
                     colSpan={2}
@@ -127,9 +124,7 @@ export default function FeesPage() {
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
                     Early Bird (till{" "}
-                    <span className="text-red-500 line-through">
-                      15.06.2026
-                    </span>{" "}
+                    
                     <span>30.06.2026</span>)
                   </th>
                   <th
@@ -199,9 +194,9 @@ export default function FeesPage() {
                 <h4 className="font-semibold text-blue-700 mb-1">
                   {" "}
                   Early Bird (till{" "}
-                  <span className="text-red-500 line-through">
+                  {/* <span className="text-red-500 line-through">
                     15.06.2026
-                  </span>{" "}
+                  </span>{" "} */}
                   <span>30.06.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
@@ -252,9 +247,9 @@ export default function FeesPage() {
                 <h4 className="font-semibold text-blue-700 mb-1">
                   {" "}
                   Early Bird (till{" "}
-                  <span className="text-red-500 line-through">
+                 {/*  <span className="text-red-500 line-through">
                     15.06.2026
-                  </span>{" "}
+                  </span>{" "} */}
                   <span>30.06.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
@@ -291,9 +286,9 @@ export default function FeesPage() {
           ))}
         </div>
       </div>
-      <div className="bg-white  rounded-xl shadow-lg overflow-hidden mb-8 p-6">
+     {/*  <div className="bg-white  rounded-xl shadow-lg overflow-hidden mb-8 p-6">
         <h2 className="text-xl text-center font-bold text-blue-800 mb-4">
-          {/* Registration Link:-https://forms.gle/JYEYiGLaeW2nwgF47 */}
+        
           <Link href="https://forms.gle/JYEYiGLaeW2nwgF47">
             Click here to Register or scan the QR code below
           </Link>
@@ -311,84 +306,186 @@ export default function FeesPage() {
             payment.
           </p>
         </div>
-      </div>
+      </div> */}
+      
       <div className="h-2 w-full"></div>
       <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-8 p-6">
-        <h2 className="text-xl font-semibold text-blue-800 mb-4">
-          Additional Information
-        </h2>
-        <ul className="space-y-3 text-gray-700">
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Charge per additional paper is 50% of the full registration fee
-              (not valid for student registration)
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Student registration is valid only for enrolled students in any
-              program at least till the duration of conference (Studentship
-              certificate duly signed by competent authority along with a valid
-              Institute ID card must be produced/submitted)
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2 text-red-600">•</span>
-            <span className="font-bold text-red-600 ">
-              All registration fees are inclusive of 18% GST
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Extra Page charges will be applicable beyond 6 pages (up to 2
-              additional pages). The extra page charge: ₹1200/page (for Indian
-              Authors) and $25/page (for Foreign Authors)
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2 text-red-600">•</span>
-            <span className="font-bold text-red-600 ">
-              Registration fees, once paid, is non-refundable.
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Attendees who wish to register but do not have a paper can
-              register at the non-author rate of Rs 3500/ USD 70 (including
-              GST).
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Author registration fee includes- Registration kit, conference
-              Lunch and Banquet Dinner.
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Attendees who wish to register but do not have a paper /co-author
-              of any registered article can register at the non-author rate of
-              Rs 3500/ USD 70 (including GST).
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>
-              Rs. 2500 (including GST) will be charged for other accompanying persons.
-            </span>
-          </li>
+       <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-8 p-6">
+   <div className="space-y-6 text-gray-700">
+    
+    {/* General Information */}
+    <div>
+      <h3 className="text-lg font-semibold text-red-700 mb-3">
+        General Information
+      </h3>
 
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span>Final Registration Deadline: 15.07.2026</span>
-          </li>
-        </ul>
+      <ul className="space-y-3">
+        <li className="flex items-start">
+          <span className="mr-2 text-red-600">•</span>
+          <span className="font-semibold text-red-600">
+            The registration fee does not include 18% GST or any other taxes as
+            applicable.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">•</span>
+          <span>
+            Note: Download the payment receipt. It will be required to fill the
+            Google Form and a hard copy must be deposited at the conference
+            venue.
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    {/* For Authors */}
+    <div>
+      <h3 className="text-lg font-semibold text-blue-700 mb-3">
+        FOR AUTHORS
+      </h3>
+
+      <ul className="space-y-3">
+        <li className="flex items-start">
+          <span className="mr-2">1.</span>
+          <span>
+            At least one author of every accepted paper must register for the
+            conference as an author and present the paper for inclusion in the
+            conference proceedings of INDISCON 2026 and subsequent submission
+            to IEEE Xplore Digital Library.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">2.</span>
+          <span>
+            If more than one author of an accepted paper wishes to attend the
+            conference, all such authors must register separately by paying the
+            applicable registration fee.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">3.</span>
+          <span>
+            Additional authors (other than those included in the manuscript
+            submitted for review) cannot be added to the camera-ready paper.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">4.</span>
+          <span>
+            Registration fees are non-refundable and must be paid prior to
+            uploading the final IEEE formatted camera-ready paper and
+            e-copyright form.
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    {/* For Attendees */}
+    <div>
+      <h3 className="text-lg font-semibold text-green-700 mb-3">
+        FOR ATTENDEES
+      </h3>
+
+      <ul className="space-y-3">
+        <li className="flex items-start">
+          <span className="mr-2">1.</span>
+          <span>
+            All participants must register to attend INDISCON 2026 by paying
+            the requisite registration fee.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">2.</span>
+          <span>
+            The registration fee includes conference kit,
+            access/admission to tutorials and technical sessions, lunch on all
+            conference days, and morning/evening refreshments.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">3.</span>
+          <span>
+            The registration fee shown above is exclusive of all taxes and
+            levies. Any payment gateway charges along with applicable taxes or
+            levies shall be borne by the registrant.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">4.</span>
+          <span>
+            IEEE members must upload valid IEEE membership details during the
+            online registration process if registering under the IEEE category.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">5.</span>
+          <span>
+            Students must upload a valid student ID card (front and back side)
+            during the online registration process if registering under the
+            student category.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">6.</span>
+          <span>
+            Please keep a copy of the transaction ID generated by the payment
+            gateway and your bank for future payment tracking purposes.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">7.</span>
+          <span>
+            All correspondence regarding registration for INDISCON 2026 should
+            contain the Paper ID and registration confirmation number.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-2">8.</span>
+          <span>
+            INDISCON 2026, the organizing institute, IEEE India Council, and
+            IEEE Rajasthan Sub-Section will not be responsible for any
+            financial or other losses caused by improper online transactions.
+            While all reasonable precautions have been taken to ensure secure
+            transactions, registrants are responsible for safeguarding their
+            user IDs, passwords, Paper IDs, and transaction details.
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    {/* No Show Policy */}
+    <div className="border-l-4 border-red-500 bg-red-50 p-4 rounded-lg">
+      <h3 className="text-lg font-bold text-red-700 mb-2">
+        NO SHOW POLICY
+      </h3>
+
+      <p className="text-red-700 font-medium">
+        Any accepted paper included in the final conference program must be
+        presented by at least one author at the conference. Non-presented
+        papers will not be submitted to the IEEE Xplore Digital Library as per
+        IEEE no-show policy.
+      </p>
+    </div>
+
+     {/* Deadline */}
+    {/*<div className="border-t pt-4">
+      <p className="font-semibold text-gray-800">
+        Final Registration Deadline: 15.07.2026
+      </p>
+    </div> */}
+  </div>
+</div>
       </div>
     </div>
   );
