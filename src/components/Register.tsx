@@ -10,7 +10,7 @@ export default function FeesPage() {
       "IEEE Member",
       "Non-IEEE Member",
     ],
-    ["Industry/other person", "11,000", "13,000", "13,000", "15,000"],
+    /* ["Industry/other person", "11,000", "13,000", "13,000", "15,000"], */
     ["Academia", "11,000", "13,000", "13,000", "15,000"],
     ["Attendee", "7000", "8000", "8000", "9000"],
   ];
@@ -23,7 +23,7 @@ export default function FeesPage() {
       "IEEE Member",
       "Non-IEEE Member",
     ],
-    ["Industry/other person", "350", "380", "380", "400"],
+   
     ["Academia", "350", "380", "380", "400"],
     ["Attendee", "250", "300", "350", "380"],
   ];
@@ -197,7 +197,7 @@ export default function FeesPage() {
                   {/* <span className="text-red-500 line-through">
                     15.06.2026
                   </span>{" "} */}
-                  <span>30.06.2026</span>)
+                  <span>05.07.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -214,7 +214,7 @@ export default function FeesPage() {
               </div>
               <div>
                 <h4 className="font-semibold text-blue-700 mb-1">
-                  Regular (till 15.07.2026):
+                  Regular (till 30.07.2026):
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -250,7 +250,7 @@ export default function FeesPage() {
                  {/*  <span className="text-red-500 line-through">
                     15.06.2026
                   </span>{" "} */}
-                  <span>30.06.2026</span>)
+                  <span>05.07.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -267,7 +267,7 @@ export default function FeesPage() {
               </div>
               <div>
                 <h4 className="font-semibold text-blue-700 mb-1">
-                  Regular (till 15.07.2026):
+                  Regular (till 30.07.2026):
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
