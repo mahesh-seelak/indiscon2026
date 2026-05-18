@@ -55,13 +55,13 @@ export default function FeesPage() {
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
                     Early Bird (till{" "}
-                   <span>30.06.2026</span>)
+                   <span>05.07.2026</span>)
                   </th>
                   <th
                     colSpan={2}
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
-                    Regular (till 15.07.2026)
+                    Regular (till 30.07.2026)
                   </th>
                 </tr>
                 <tr>
@@ -125,13 +125,13 @@ export default function FeesPage() {
                   >
                     Early Bird (till{" "}
                     
-                    <span>30.06.2026</span>)
+                    <span>05.07.2026</span>)
                   </th>
                   <th
                     colSpan={2}
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
-                    Regular (till 15.07.2026)
+                    Regular (till 30.07.2026)
                   </th>
                 </tr>
                 <tr>
