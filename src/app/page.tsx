@@ -106,7 +106,7 @@ export default function page() {
         {/* Footer Text */}
         <p className="text-gray-300 mt-8 text-sm md:text-base">
           We look forward to your valuable support and contribution to 
-          <span className="font-semibold text-white"> IEEE INDISCON 2026</span>.
+          <span className="font-semibold text-white"> INDISCON 2026</span>.
         </p>
       </div>
     </div>
