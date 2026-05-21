@@ -112,13 +112,6 @@ export default function page() {
         </div>
       </div>
     </div>
-
-    {/* Footer Note */}
-    <div className="mt-12 text-center">
-      <p className="text-lg text-gray-700">
-        We look forward to your valuable support and contribution.
-      </p>
-    </div>
   </div>
 </section>
 
