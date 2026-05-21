@@ -58,6 +58,32 @@ const navigationItems: NavItem[] = [
        }, */
     ],
   },
+{
+    title: "Information",
+    href: "/",
+    items: [
+      {
+        title: "Call for Reviewers",
+        href: "/#call-for-reviewers",
+      },
+      {
+        title: "Call for Tutorial/Workshop Proposals",
+        href: "/#tutorial-workshop-proposals",
+      },
+        {
+        title: "Student Travel Grants and Awards",
+        href: "/guidelines#travel-grants-awards",
+      },
+      {
+        title: "Sponsorship & Exhibition Opportunities",
+        href: "/partners",
+      },
+
+      
+    ]
+  },
+
+
   /*  {
      title: "WIE Special Session",
      href: "/wiespecialsession",
@@ -76,6 +102,8 @@ const navigationItems: NavItem[] = [
     title: "Speakers",
     href: "/speakers",
   },
+
+  
   /*
  {
    title: "Partners",

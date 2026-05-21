@@ -121,6 +121,131 @@ export default function page() {
       {/* <DatesSlider/> */}
       <AnimatedGridBackground/>
       <Announcements/>
+
+
+      <section
+  id="tutorial-workshop-proposals"
+  className="py-16 bg-white scroll-mt-24"
+>
+  <div className="max-w-7xl mx-auto px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-blue-900 mb-4">
+        Call for Tutorial/Workshop Proposals
+      </h2>
+
+      <p className="text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
+        INDISCON 2026 solicits proposals for Tutorials/Workshops of
+        <span className="font-semibold"> 90 minutes (one session)</span> that
+        complement the regular program with clear and focused coverage of
+        thrust technologies within the scope and theme of the conference.
+        Tutorials/Workshops provide an excellent opportunity for researchers,
+        academicians, and industry professionals to learn about
+        state-of-the-art research and emerging technologies.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      {/* Proposal Format */}
+      <div className="bg-blue-50 rounded-2xl shadow-md p-8">
+        <h3 className="text-2xl font-semibold text-blue-800 mb-6">
+          Tutorial/Workshop Proposal Format
+        </h3>
+
+        <p className="text-gray-700 mb-4">
+          Proposals should have a maximum of{" "}
+          <span className="font-semibold">4 pages</span> and must address the
+          following:
+        </p>
+
+        <ol className="list-decimal list-inside space-y-3 text-gray-700 leading-relaxed">
+          <li>Title of the Tutorial/Workshop</li>
+
+          <li>
+            Abstract (maximum 200 words) for publicity on the conference
+            website
+          </li>
+
+          <li>
+            Duration of the Tutorial/Workshop (maximum 90 minutes)
+          </li>
+
+          <li>
+            Names, affiliations, contact addresses, and short biographies
+            (maximum 200 words each) of the instructor(s)
+          </li>
+
+          <li>
+            Novelty and significance of the proposed Tutorial/Workshop,
+            emphasizing timeliness and relevance
+          </li>
+
+          <li>Detailed outline of the Tutorial/Workshop content</li>
+
+          <li>Intended audience</li>
+        </ol>
+      </div>
+
+      {/* Topics */}
+      <div className="bg-white border border-blue-100 rounded-2xl shadow-md p-8">
+        <h3 className="text-2xl font-semibold text-blue-800 mb-6">
+          Preferable Topics
+        </h3>
+
+        <p className="text-gray-700 mb-4">
+          Topics of interest include, but are not limited to:
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {[
+            "Neuromorphic Computing",
+            "Quantum Computing",
+            "High-Speed Computing",
+            "GPU Vega Processor",
+            "Cryogenic Electronics",
+            "Drone and Automation Technologies",
+            "Hands-on Tutorials using MATLAB",
+            "Biomedical Signal and Image Processing",
+            "Renewable Energy Integration",
+            "Energy Harvesting & Low-Power Electronics",
+            "AI & IoT for Smart Cities",
+          ].map((topic, index) => (
+            <div
+              key={index}
+              className="bg-blue-100 text-blue-900 px-4 py-3 rounded-xl text-sm font-medium shadow-sm"
+            >
+              {topic}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    {/* Submission Details */}
+    <div className="mt-12 bg-gradient-to-r from-blue-700 to-blue-900 rounded-2xl shadow-lg p-8 text-white text-center">
+  <h3 className="text-3xl font-bold mb-4">
+    Tutorial/Workshop Proposal Submission
+  </h3>
+
+  <p className="text-lg mb-4">
+    Submit your Tutorial/Workshop proposals via email to:
+  </p>
+
+  <div className="flex flex-col items-center gap-5">
+    <a
+      href="mailto:ieeeindiscon2026@gmail.com"
+      className="text-yellow-300 text-lg md:text-xl font-semibold hover:underline break-all"
+    >
+      ieeeindiscon2026@gmail.com
+    </a>
+
+    <div className="bg-white text-blue-900 px-6 py-3 rounded-full font-bold shadow-md">
+      Submission Deadline: May 31, 2026
+    </div>
+  </div>
+</div>
+  </div>
+</section>
     </>
   )
 }

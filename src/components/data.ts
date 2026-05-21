@@ -82,6 +82,8 @@ export const patronCommittees: Committee[] = [
       m("Prof. Ashutosh Dutta", "IEEE Fellow, Johns Hopkins University, USA",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx_-K-vlJRAOVfL4j7zHUURjEmbF3JoeofPw&s"),
       m("Prof. Shiban K Koul", "Chair, IEEE MTS", "/koul_photo_0-250x330.jpg"),
+       m("Prof. Vinay Kumar Chandna", "Principal, JECRC Foundation", "/vinay.jpg"),
+
     ],
   },
  
