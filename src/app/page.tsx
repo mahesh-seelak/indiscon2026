@@ -22,11 +22,11 @@ export default function page() {
     {/* Heading */}
     <div id="call-for-reviewers" className="text-center mb-12">
       <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-5">
-        Call for Reviewers – INDISCON 2026
+        Call for Reviewers – INDISCON IEEE 2026
       </h2>
 
       <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-        The 7th IEEE INDISCON 2026 invites nominations from
+        The 7th IEEE INDISCON IEEE 2026 invites nominations from
         academicians, researchers, industry professionals, and domain
         experts to join the Reviewer Panel for the conference.
       </p>
@@ -123,6 +123,38 @@ export default function page() {
 
 
       <Countdown/>
+
+      <section
+  id="publication-opportunity"
+  className="relative py-20 overflow-hidden"
+>
+  {/* Background */}
+  <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-blue-900 to-slate-900"></div>
+
+  {/* Glow Effects */}
+  <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
+  <div className="absolute bottom-10 right-10 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl"></div>
+
+  <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+
+    <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-10 md:p-14 shadow-2xl text-center">
+
+     <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+        Publication Opportunity
+      </h2>
+
+      <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
+        All accepted and presented papers will be submitted for possible
+        publication in the
+        <span className="text-cyan-300 font-semibold">
+          {" "}IEEE Xplore® Digital Library
+        </span>
+        {" "}(Conference Record # 72742), through the IEEE Conference
+        Publications Program (CPP).
+      </p>
+    </div>
+  </div>
+</section>
       {/* <DatesSlider/> */}
       <AnimatedGridBackground/>
       <Announcements/>
@@ -139,7 +171,7 @@ export default function page() {
       </h2>
 
       <p className="text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
-        INDISCON 2026 solicits proposals for Tutorials/Workshops of
+        INDISCON IEEE 2026 solicits proposals for Tutorials/Workshops of
         <span className="font-semibold"> 90 minutes (one session)</span> that
         complement the regular program with clear and focused coverage of
         thrust technologies within the scope and theme of the conference.

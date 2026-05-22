@@ -18,7 +18,7 @@ export default function page() {
       </h2>
 
       <p className="text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
-        INDISCON 2026 provides an excellent platform for industries,
+        INDISCON IEEE 2026 provides an excellent platform for industries,
         organizations, research laboratories, startups, and technology
         partners to showcase their innovations, products, services, and
         research contributions before a diverse audience of academicians,
@@ -29,7 +29,7 @@ export default function page() {
     {/* Why Sponsor */}
     <div className="bg-white rounded-3xl shadow-lg p-8 md:p-10 mb-12 border border-blue-100">
       <h3 className="text-3xl font-bold text-blue-800 mb-8 text-center">
-        Why Sponsor INDISCON 2026?
+        Why Sponsor INDISCON IEEE 2026?
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -66,7 +66,7 @@ export default function page() {
       <p className="text-lg leading-relaxed text-center max-w-5xl mx-auto">
         We invite industries, startups, research organizations, and
         technology leaders to participate as sponsors and exhibitors at
-        INDISCON 2026 hosted at MNIT Jaipur, India. Sponsorship and
+        INDISCON IEEE 2026 hosted at MNIT Jaipur, India. Sponsorship and
         exhibition spaces are limited and will be allocated on a
         first-come, first-served basis.
       </p>
@@ -113,7 +113,7 @@ export default function page() {
 
         <p className="text-gray-700 text-lg">
           Explore the sponsorship opportunities available at
-          INDISCON 2026
+          INDISCON IEEE 2026
         </p>
       </div>
 
@@ -239,7 +239,7 @@ export default function page() {
     <div className="bg-white rounded-3xl shadow-lg p-8 md:p-10 border border-blue-100">
       <div className="text-center">
         <h3 className="text-3xl font-bold text-blue-900 mb-5">
-          Partner With INDISCON 2026
+          Partner With INDISCON IEEE 2026
         </h3>
 
         <p className="text-gray-700 text-lg leading-relaxed max-w-5xl mx-auto mb-8">

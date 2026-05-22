@@ -12,7 +12,7 @@ export default function Loading() {
         />
       </div>
       <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200 animate-fade-in">
-        Loading Indiscon 2026
+        Loading INDISCON IEEE 2026
       </h2>
       <div className="w-64 h-2 bg-gray-200 rounded-full mb-4 overflow-hidden">
         <div className="h-full bg-blue-500 rounded-full animate-loading-bar"></div>
