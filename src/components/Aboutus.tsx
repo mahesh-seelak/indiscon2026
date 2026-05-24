@@ -15,7 +15,7 @@ const AboutUs: FC = () => {
     {
       title: "About INDISCON",
       content:
-        `INDISCON-2026 is the 7th edition of INDISCON(Conference ID #) and the flagship conference of the IEEE India Council. It will be organized by IEEE Rajasthan Subsection at MNIT Jaipur. The conference aims to foster the theme through keynotes, invited talks, and industry exhibits and oral presentation of research articles in the most relevant areas allied to the theme. The conference will also exhibit Graduate Research Forum to encourage budding young researchers to showcase their innovative research in aforementioned domains.`,
+        `INDISCON-2026 is the 7th edition of INDISCON (Conference ID # 72742) and the flagship conference of the IEEE India Council. It will be organized by IEEE Rajasthan Subsection at MNIT Jaipur. The conference aims to foster the theme through keynotes, invited talks, and industry exhibits and oral presentation of research articles in the most relevant areas allied to the theme. The conference will also exhibit Graduate Research Forum to encourage budding young researchers to showcase their innovative research in aforementioned domains.`,
       image:
         "/logo.svg",
     },

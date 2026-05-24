@@ -102,7 +102,9 @@ const VantaGlobe: React.FC = () => {
               <br /><br />
               INDISCON IEEE 2026 will be hosted by the<strong> IEEE Rajasthan Subsection</strong> at Malaviya National Institute of Technology, Jaipur, India. The conference will focus on keynote lectures, panel discussion on thrust technology, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
              </p>
-
+        <p>
+          Conferene Record #: <span className="font-bold">72742</span>
+        </p>
           <motion.div
   className="flex flex-row gap-6 items-center justify-center flex-wrap"
 >

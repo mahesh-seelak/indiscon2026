@@ -130,6 +130,7 @@ export const patronCommittees: Committee[] = [
       m("Dr. Payal Bansal", "PIET Jaipur", "/Payal_Bansal.jpg"),
        m("Dr. Ashish Sharma", "Manipal University Jaipur", "/Ashish_Sharma.jpg"),
       m("Sabri Naath", "IEEE India Council", "/sabarinath.jpeg"),
+      m("Dr. Vijay Singh Rathore", "Dean (International) Apex University", "/vijay-singh-rathore.jpg"),
     ],
   },
 
