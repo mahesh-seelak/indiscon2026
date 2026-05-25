@@ -367,8 +367,7 @@ export const otherCommittees: Committee[] = [
   },
 
   {
-    title: "Track 5: Communication Systems & Signal Processing",
-    members: [
+    title: "Track 5: Communication Systems & Network Technologies",   members: [
       m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi"),
       m("Prof. Suwadesh Ray", "IIT Delhi"),
       m("Prof. Parul Garg", "Professor, Department of ECE, NSUT Delhi"),
@@ -377,7 +376,7 @@ export const otherCommittees: Committee[] = [
   },
 
   {
-    title: "Track 6: Cloud Computing, Generative AI & Data Science",
+    title: "Track 6: Signal Processing, Computing & Data Science",
     members: [
       m("Prof. D. K. Yadav", "MNNIT Allahabad"),
       m("Dr. Anurag Singh", "NIT Delhi"),
@@ -397,7 +396,7 @@ export const otherCommittees: Committee[] = [
   },
 
   {
-    title: "Track 8: Drone and Robotics Technologies",
+    title: "Track 8: Special Session on Drone Technology",
     members: [
       m("Prof. Anand Darji", "SVNIT Surat"),
       m("Dr. Sumit Gautam", "IIT Indore"),
@@ -436,10 +435,10 @@ const tpcPersonnel = getByTitle([
   "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
   "Track 3: Humanitarian Technology & AI for Social Goods",
   "Track 4: Intelligent Systems, IoT & Industrial Applications",
-  "Track 5: Communication Systems & Signal Processing",
-  "Track 6: Cloud Computing, Generative AI & Data Science",
+  "Track 5: Communication Systems & Network Technologies",
+  "Track 6: Signal Processing, Computing & Data Science",
   "Track 7: Power, Energy & Electrical System",
-  "Track 8: Drone and Robotics Technologies",
+  "Track 8: Special Session on Drone Technology",
   "Track 9: Women In Engineering",
 
 
