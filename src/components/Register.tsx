@@ -351,7 +351,7 @@ export default function FeesPage() {
           <span>
             At least one author of every accepted paper must register for the
             conference as an author and present the paper for inclusion in the
-            conference proceedings of IEEE INDISCON2026 and subsequent submission
+            conference proceedings of IEEE INDISCON 2026 and subsequent submission
             to IEEE Xplore Digital Library.
           </span>
         </li>
@@ -445,7 +445,7 @@ export default function FeesPage() {
         <li className="flex items-start">
           <span className="mr-2">7.</span>
           <span>
-            All correspondence regarding registration for IEEE INDISCON2026 should
+            All correspondence regarding registration for IEEE INDISCON 2026 should
             contain the Paper ID and registration confirmation number.
           </span>
         </li>
@@ -453,7 +453,7 @@ export default function FeesPage() {
         <li className="flex items-start">
           <span className="mr-2">8.</span>
           <span>
-            IEEE INDISCON2026, the organizing institute, IEEE India Council, and
+            IEEE INDISCON 2026, the organizing institute, IEEE India Council, and
             IEEE Rajasthan Sub-Section will not be responsible for any
             financial or other losses caused by improper online transactions.
             While all reasonable precautions have been taken to ensure secure

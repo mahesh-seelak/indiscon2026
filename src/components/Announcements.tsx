@@ -534,7 +534,7 @@ export default function Announcements() {
                 Conference Tracks
               </h2>
               <p className="text-gray-600">
-                Topics covered by IEEE INDISCON2026 include, but are not limited to:
+                Topics covered by IEEE INDISCON 2026 include, but are not limited to:
               </p>
               <ul className="space-y-4">
                 {[

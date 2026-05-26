@@ -239,7 +239,7 @@ export default function page() {
     <div className="bg-white rounded-3xl shadow-lg p-8 md:p-10 border border-blue-100">
       <div className="text-center">
         <h3 className="text-3xl font-bold text-blue-900 mb-5">
-          Partner With IEEE INDISCON2026
+          Partner With IEEE INDISCON 2026
         </h3>
 
         <p className="text-gray-700 text-lg leading-relaxed max-w-5xl mx-auto mb-8">
