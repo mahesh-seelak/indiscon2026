@@ -206,6 +206,7 @@ export const patronCommittees: Committee[] = [
       m("Prof. B. Deshmukh", "VNIT Nagpur", "/1516330188309.jpg"),
       m("Prof. Miridula Thakur", "DTU", "/dummy.jpg"),
       m("Prof. Mini Shaji Thomas", "Ex-Director, NIT Trichy", "/mini.jpg"),
+      m("Prof. Amit Soni", "Registrar, Manipal University Jaipur", "/amit-soni.webp"),
       m("Prof. Preetam Kumar", "IIT Patna", "/preetam.jpg"),
       m("Prof. Jawar Singh", "IIT Patna", "/jawar.jpg"),
       m("Prof. M. M. Sharma", "MNIT Jaipur", "/mm.jpg"),
@@ -218,6 +219,7 @@ export const patronCommittees: Committee[] = [
       m("Dr. Chandrakanta Kumar", "Chair, IEEE Bangalore Section", "/Chandrakant.jpg"),
       m("Dr. Sadhna Attawar", "Chair, IEEE MOVE India", "/sadhana.jpg"),
       m("Dr. Ranjan Kumar Bahera", "IIT Patna", "/ranjan.jpg"),
+
 
     ],
   },
