@@ -9,7 +9,7 @@ export default function SpecialSessionProposal() {
       {/* <div className="mb-6 sm:mb-8 w-[80%] mx-auto">
         <Image
           src="/CallforSpecialPapers.png"
-          alt="INDISCON IEEE 2026 Special Session Proposal"
+          alt="IEEE INDISCON2026 Special Session Proposal"
           width={1000}
           height={300}
           className="w-full h-auto rounded-lg shadow-md"
@@ -23,7 +23,7 @@ export default function SpecialSessionProposal() {
             Call for Special Session Proposal
           </h2>
           <p className="mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed">
-            INDISCON IEEE 2026 will consider proposals for special sessions, Industry Sessions, panels, and pre-conference
+            IEEE INDISCON2026 will consider proposals for special sessions, Industry Sessions, panels, and pre-conference
             workshops/tutorials.
           </p>
         </div>

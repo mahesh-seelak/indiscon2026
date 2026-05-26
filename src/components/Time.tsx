@@ -64,7 +64,7 @@ const Countdown = () => {
       <div className="relative z-10 container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-6xl font-bold text-white mb-4 tracking-tight">
-            INDISCON IEEE 2026
+            IEEE INDISCON2026
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-12 md:mb-16 font-semibold">
             September 11-13, 2026 <br />

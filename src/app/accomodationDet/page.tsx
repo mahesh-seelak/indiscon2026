@@ -103,7 +103,7 @@ const AccommodationInfo = () => {
         </div>
 
         <p className="mb-4">
-          While booking, please mention the NIT (NIT Rourkela) INDISCON IEEE 2026
+          While booking, please mention the NIT (NIT Rourkela) IEEE INDISCON2026
           conference for availing these rates. Some hotels may not have twin
           (separate) beds for double occupancy. Please check while booking.
         </p>

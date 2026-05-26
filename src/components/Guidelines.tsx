@@ -9,7 +9,7 @@ export default function PaperSubmissionGuidelines() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 ">
       <h1 className="text-3xl font-bold text-center text-indigo-800 mb-6">
-        Paper Submission Guidelines - INDISCON IEEE 2026
+        Paper Submission Guidelines - IEEE INDISCON2026
       </h1>
 
       {/* Tab navigation - moved to upper section */}
@@ -37,7 +37,7 @@ export default function PaperSubmissionGuidelines() {
         {activeTab === "paper" ? (
           <Image
             src="/Callforpapers.png"
-            alt="INDISCON IEEE 2026 Conference Call for Papers"
+            alt="IEEE INDISCON2026 Conference Call for Papers"
             width={1000}
             height={1200}
             className="w-full h-auto rounded-lg shadow-md"
@@ -45,7 +45,7 @@ export default function PaperSubmissionGuidelines() {
         ) : (
           <Image
             src="/CallforSpecialPapers.png"
-            alt="INDISCON IEEE 2026 Special Session Proposal"
+            alt="IEEE INDISCON2026 Special Session Proposal"
             width={1000}
             height={300}
             className="w-full h-auto rounded-lg shadow-md"
@@ -58,12 +58,12 @@ export default function PaperSubmissionGuidelines() {
             <h2 className="text-xl font-semibold text-indigo-800 mb-4">Conference Overview</h2>
             <p className="mb-4">
               INDISCON is the flagship annual international conference of the IEEE India Council, organized by an IEEE
-              Subsection in India. The 6th IEEE India Council International Subsection Conference (INDISCON IEEE 2026) is
+              Subsection in India. The 6th IEEE India Council International Subsection Conference (IEEE INDISCON2026) is
               proudly hosted by the IEEE Rourkela Subsection in collaboration with the IEEE India Council from 21-23,
               August 2026, at the prestigious National Institute of Technology Rourkela.
             </p>
             <p>
-              With a focus on &quot;Smart and Sustainable Technologies for Society,&quot; INDISCON IEEE 2026 aims to bring together
+              With a focus on &quot;Smart and Sustainable Technologies for Society,&quot; IEEE INDISCON2026 aims to bring together
               leading academicians, researchers, industry experts, and scholars to exchange insights, share
               breakthroughs, and foster collaborations in pioneering technological advancements.
             </p>
@@ -172,7 +172,7 @@ export default function PaperSubmissionGuidelines() {
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
             <h2 className="text-xl font-semibold text-indigo-800 mb-4">Call for Special Session Proposal</h2>
             <p className="mb-4">
-              INDISCON IEEE 2026 will consider proposals for special sessions, Industry Sessions, panels, and pre-conference
+              IEEE INDISCON2026 will consider proposals for special sessions, Industry Sessions, panels, and pre-conference
               workshops/tutorials.
             </p>
           </div>

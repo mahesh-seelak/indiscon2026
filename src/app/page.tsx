@@ -22,11 +22,11 @@ export default function page() {
     {/* Heading */}
     <div id="call-for-reviewers" className="text-center mb-12">
       <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-5">
-        Call for Reviewers – INDISCON IEEE 2026
+        Call for Reviewers – IEEE INDISCON 2026
       </h2>
 
       <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-        The 7th IEEE INDISCON IEEE 2026 invites nominations from
+        The 7th IEEE INDISCON 2026 invites nominations from
         academicians, researchers, industry professionals, and domain
         experts to join the Reviewer Panel for the conference.
       </p>
@@ -171,7 +171,7 @@ export default function page() {
       </h2>
 
       <p className="text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
-        INDISCON IEEE 2026 solicits proposals for Tutorials/Workshops of
+        IEEE INDISCON 2026 solicits proposals for Tutorials/Workshops of
         <span className="font-semibold"> 90 minutes (one session)</span> that
         complement the regular program with clear and focused coverage of
         thrust technologies within the scope and theme of the conference.
