@@ -66,7 +66,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     university: "MSUT Delhi",
     name: "Prof. Prerna Gaur",
     bio: "Impact of high renewable penetration and grid forming capability",
-    imageUrl: "/prerna_gaur.jpg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRub3_UMM7LMjkMpiAGe88Lhi6SQiPRaVv9vA&s",
     title: `updated soon.`,
     about: `updated soon.`
   },
