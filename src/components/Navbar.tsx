@@ -67,10 +67,7 @@ const navigationItems: NavItem[] = [
         title: "Call for Reviewers",
         href: "/#call-for-reviewers",
       },
-      {
-        title: "Call for Tutorial/Workshop Proposals",
-        href: "/#tutorial-workshop-proposals",
-      },
+     
         {
         title: "Student Travel Grants and Awards",
         href: "/guidelines#travel-grants-awards",
@@ -103,6 +100,10 @@ const navigationItems: NavItem[] = [
     title: "Speakers",
     href: "/speakers",
   },
+   {
+        title: "Call for Tutorial/Workshop Proposals",
+        href: "https://ieeeindiscon.org/#tutorial-workshop-proposals",
+      },
 
   
   /*

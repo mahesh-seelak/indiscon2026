@@ -442,7 +442,7 @@ const tpcPersonnel = getByTitle([
   "Track 6: Signal Processing, Computing & Data Science",
   "Track 7: Power, Energy & Electrical System",
   "Track 8: Special Session on Drone Technology",
-  "Track 9: Women In Engineering",
+  "Track 9: Special Session on Women in Engineering",
 
 
 ]);

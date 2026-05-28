@@ -30,7 +30,7 @@ export default function Speakers() {
       <div className="w-full max-w-[1600px] mx-auto px-4 relative">
 
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-gray-900">
-          Our Previous Speakers
+          Our Speakers
         </h2>
 
         <div className="grid grid-cols-4 gap-6">

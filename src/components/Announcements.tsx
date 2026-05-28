@@ -546,6 +546,7 @@ export default function Announcements() {
                   "Track 6: Signal Processing, Computing & Data Science",
                   "Track 7: Power, Energy & Electrical Systems",
                   "Track 8: Special Session on Drone Technology ",
+                  "Track 9: Special Session on Women in Engineering (WIE)",
                   
 
                   
@@ -575,7 +576,7 @@ export default function Announcements() {
                   <tbody className="divide-y divide-gray-200">
                     {[
                       ["Paper Submission Starts:", "01-03-2026"],
-                      ["Paper Submission Ends:", "31-05-2026"],
+                      ["Paper Submission Ends:", "15-06-2026"],
                       ["Notification of Acceptance:", "15-07-2026"],
                       ["Camera-ready Submission:", "15-08-2026"],
                       /* ["Proposal Submission Deadline:", "20-03-2026"],
