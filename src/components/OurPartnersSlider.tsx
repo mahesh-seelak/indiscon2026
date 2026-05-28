@@ -11,12 +11,12 @@ const IMAGES = [
       }, 
   {
     id: 2,
-    src: "/ieeedelh.png",
+    src: "/delhisection.png",
     alt: "IEEE Delhi Section",
   },
     {
     id:3,
-    src: "/ieeerajlogo.jpg",
+    src: "/ieeerajlogo.png",
     alt: "IEEE Rajasthan Subsection",
   },
   {
@@ -54,7 +54,7 @@ export default function ImageSlider() {
       onMouseLeave={() => setIsPaused(false)}
     >
       <div className="bg-blue-600 py-3 px-4 flex justify-center items-center">
-        <h2 className="text-white text-xl font-bold text-center">Our Previous Partners</h2>
+        <h2 className="text-white text-xl font-bold text-center">Our Partners</h2>
       </div>
 
       <div className="relative overflow-hidden py-4">
