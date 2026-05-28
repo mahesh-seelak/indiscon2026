@@ -6,45 +6,27 @@ import Image from "next/image"
 const IMAGES = [
   {
     id: 1,
-    src: "/ieeekolk.png",
-    alt: "IEEE Kolkata Section",
-  },
-  {
-    id: 2,
     src: "/india_councilup.png",
     alt: "IEEE India Council",
-  },
+      }, 
   {
-    id: 3,
-    src: "/nitrlogo.png",
-    alt: "NIT Rourkela",
+    id: 2,
+    src: "/ieeedelh.png",
+    alt: "IEEE Delhi Section",
+  },
+    {
+    id:3,
+    src: "/ieeerajlogo.jpg",
+    alt: "IEEE Rajasthan Subsection",
   },
   {
     id:4,
-    src: "/ieeerklsub.jpg",
-    alt: "IEEE Rourkela",
-  },
-  {
-    id:5,
     src: "/WIE-logo.jpg",
     alt: "IEEE WIE",
   },
  
-  {
-    id:7,
-    src: "/IEEEPES.jpg",
-    alt: "IEEE Pes",
-  },
-  {
-    id:8,
-    src: "/JointSociety.jpg",
-    alt: "IEEE Rourkela x IEEE Kolkata",
-  },
-  {
-    id:8,
-    src: "/ISRO.jpg",
-    alt: "ISRO",
-  },
+
+
   
 ]
 
