@@ -147,7 +147,7 @@ export const patronCommittees: Committee[] = [
     title: "Conference Co-conveners/Co-Secretaries",
     members: [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur", "/IMG_0256.jpg"),
-      m("Dr. Dinesh Seti", "JECRC UNIVERSITY", "/Dr. Dinesh Seti.jpg"),
+      m("Dr. Dinesh Seti", "JECRC University", "/Dr. Dinesh Seti.jpg"),
       m("Dr. Deepak Bharti", "MNIT Jaipur", "/deepak-bharti.jpeg"),
       m("Dr. Shraddha Tripathi", "IIT Jodhpur", "/Shraddha Tripathi.jpg"),
       m("Dr Jeetu Sharma", "Mody University", "/Dr Jeetu Sharma.jpg"),
@@ -169,7 +169,7 @@ export const patronCommittees: Committee[] = [
       m("Dr. Chetna Sharma", "IIIT Kota", "/chetna.jpeg"),
       m("Dr. Richa Gupta", "IEEE Delhi Section", "/dr-richa.jpeg"),
       m("Dr.Awshin Appaji", "Execom Member", "/Dr.Awshin Appaji.jpg"), 
-          m("Dr. Pooja Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
+      m("Dr. Pooja Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
  
      ],
   },
