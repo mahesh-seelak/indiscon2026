@@ -38,14 +38,35 @@ He is highly involved in capacity building, delivering impactful lectures, works
     about:`Antenna technology is a key enabler for a wide range of next-generation technologies, including 5G evolution, 6G, IoT, and beyond.  This talk will explore the latest advancements in antenna technologies that are critical to realizing the full potential of 6G. Key topics include novel antenna designs for millimetre-wave and terahertz frequencies, massive MIMO architectures, reconfigurable intelligent surfaces (RIS), and energy-efficient antenna solutions.   The presentation will cover wideband antennas, reconfigurable antennas, massive MIMO, and innovative antenna systems. Furthermore, the talk will highlight the importance of developing sustainable antenna solutions to minimise energy consumption and promote environmentally friendly technologies, paving the way for smarter and more sustainable societal advancements.`,
     title:`Innovative Antenna Solutions for Next-Generation Technologies: Driving Smart and Sustainable Societal Advancements`
   }, */
- 
-  {
-    id: "2",
+   {
+    id: "7",
     designation: "Professor",
-    university: "Collaborative Microelectronics Design Excellence Ecentre",
-    name: "Dr. Asrulnizam Abd Manaf",
-    bio: "updated soon",
-    imageUrl: "/asrul.jpg",
+    university: "IIT Delhi",
+    name: "Prof. Bhim Singh",
+    bio: "Application of Power Electronics in Solar and Wind Energy Systems",
+    imageUrl: "/bhim_singh.jpg",
+    title: `updated soon.`,
+    about: `updated soon.`
+  },
+
+    {
+    id: "8",
+    designation: "Director",
+    university: "MNIT Jaipur",
+    name: "Prof. N. P. Padhy",
+    bio: "Impact of high renewable penetration and grid forming capability",
+    imageUrl: "/np_pady.jpg",
+    title: `updated soon.`,
+    about: `updated soon.`
+  },
+
+    {
+    id: "1",
+    designation: "Director",
+    university: "MSUT Delhi",
+    name: "Prof. Prerna Gaur",
+    bio: "Impact of high renewable penetration and grid forming capability",
+    imageUrl: "/prerna_gaur.jpg",
     title: `updated soon.`,
     about: `updated soon.`
   },
@@ -59,26 +80,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title: `updated soon.`,
     about: `updated soon.`
   },
-  {
-    id: "4",
-    designation: "Co-Founder",
-    university: "Startups Accelerator, Silicon Valley",
-    name: "Mr. Adithya Das",
-    bio: "updated soon",
-    imageUrl: "/adithya.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
-  {
-    id: "5",
-    designation: "Professor, CSE",
-    university: "University of North Texas",
-    name: "Dr. Saraju Mohanty",
-    bio: "updated soon",
-    imageUrl: "/saraju.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
+ 
   {
     id: "6",
     designation: "Professor",
@@ -89,26 +91,8 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title: `updated soon.`,
     about: `updated soon.`
   },
-  {
-    id: "7",
-    designation: "Professor",
-    university: "IIT Delhi",
-    name: "Prof. Bhim Singh",
-    bio: "Application of Power Electronics in Solar and Wind Energy Systems",
-    imageUrl: "/bhim_singh.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
-  {
-    id: "8",
-    designation: "Professor",
-    university: "IIT Roorkee",
-    name: "Prof. N. P. Padhy",
-    bio: "Impact of high renewable penetration and grid forming capability",
-    imageUrl: "/np_pady.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
+
+
   {
     id: "9",
     designation: "Professor",
@@ -149,16 +133,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title: `updated soon.`,
     about: `updated soon.`
   },
-  {
-    id: "13",
-    designation: "Professor",
-    university: "IISc Bangalore",
-    name: "Prof. Mayank Srivastava",
-    bio: "updated soon",
-    imageUrl: "/Prof. Mayank Srivastava.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
+ 
   {
     id: "14",
     designation: "Professor",
@@ -209,26 +184,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title: `updated soon.`,
     about: `updated soon.`
   },
-  {
-    id: "19",
-    designation: "Professor",
-    university: "IIT Bombay",
-    name: "Prof. Abhay Karandikar",
-    bio: "updated soon",
-    imageUrl: "/Prof. Abhay Karandikar.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
-  {
-    id: "20",
-    designation: "Chair",
-    university: "IEEE DataPort",
-    name: "Dr. Anjali Dewan",
-    bio: "updated soon",
-    imageUrl: "/Dr. Anjali Dewan.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
+  
   {
     id: "21",
     designation: "Professor",
@@ -259,16 +215,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title: `updated soon.`,
     about: `updated soon.`
   },
-  {
-    id: "24",
-    designation: "University Program Manager",
-    university: "Synopsys",
-    name: "Dr. Sankalp Singh",
-    bio: "updated soon",
-    imageUrl: "/Dr. Sankalp Singh.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
+
   {
     id: "25",
     designation: "Associate Professor",
@@ -299,24 +246,5 @@ He is highly involved in capacity building, delivering impactful lectures, works
     title: `updated soon.`,
     about: `updated soon.`
   },
-  {
-    id: "28",
-    designation: "Professor",
-    university: "IIT Delhi",
-    name: "Dr. Mahesh Verma",
-    bio: "updated soon",
-    imageUrl: "/dummy.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  },
-  {
-    id: "29",
-    designation: "Rector",
-    university: "Vignan’s Institute of Technology",
-    name: "Prof. Madhusudhan Rao Vallabhanchi",
-    bio: "updated soon",
-    imageUrl: "/Prof. Madhusudhan Rao Vallabhanchi.jpg",
-    title: `updated soon.`,
-    about: `updated soon.`
-  }
+  
 ];

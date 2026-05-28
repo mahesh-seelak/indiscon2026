@@ -23,7 +23,7 @@ export default function PaperSubmission() {
             INDISCON is the flagship annual international conference of the IEEE India Council, aimed at bringing together researchers, academicians, industry professionals, and students from across the country and abroad. The conference serves as a premier platform for sharing cutting-edge research, emerging trends, and technological advancements in various domains of engineering and technology.
           </p>
           <p className="text-sm sm:text-base leading-relaxed text-justify">
-           IEEE INDISCON 2026 will be hosted by the IEEE Rajasthan Subsection at Malaviya National Institute of Technology, Jaipur, India. The conference will focus on keynote lectures, panel discussion on thrust technology, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
+           2026 IEEE INDISCON will be hosted by the IEEE Rajasthan Subsection at Malaviya National Institute of Technology, Jaipur, India. The conference will focus on keynote lectures, panel discussion on thrust technology, invited talks, technical paper presentations, tutorials, and industry sessions aligned with the conference theme. It will also include a Graduate Research Forum to encourage young researchers and students to present their innovative work and engage with experts, fostering collaboration and professional growth.
           </p>
         </div>
         <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">

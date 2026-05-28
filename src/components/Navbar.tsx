@@ -44,10 +44,11 @@ const navigationItems: NavItem[] = [
         title: "Call for Papers",
         href: "/guidelines",
       },
-      /*  {
-         title: "Special Sessions",
-         href: "/callforpapers",
+       {
+         title: "Registration",
+         href: "/registration",
        },
+       /* 
        {
          title: "Camera Ready Instructions",
          href: "/camReady",

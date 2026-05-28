@@ -23,7 +23,7 @@ export default function page() {
       </h2>
 
       <p className="text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
-        IEEE INDISCON 2026 is pleased to offer financial support to selected
+        2026 IEEE INDISCON is pleased to offer financial support to selected
         IEEE student members (first author only) for presenting their
         research work during the conference. The grants and awards are
         intended to encourage high-quality research contributions and

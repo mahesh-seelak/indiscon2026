@@ -49,15 +49,13 @@ export const patronCommittees: Committee[] = [
     members: [
       m("Prof. V. Ramgopal Rao", "IEEE Fellow & Group VC, BITS Pilani", "/Pic-4.jpg.webp"),
       m("Prof. Bhim Singh", "IEEE Fellow & Emeritus Professor, IIT Delhi", "/faculty_90rdtVACWb.jpg"),
-      m("Prof. M. S. Gaur", "Director, IIT Jammu", "/1652333276987.png"),
-      m("Prof. M. C. Govil", "Director, NIT Sikkim", "/mahesh.png"),
+      //m("Prof. M. C. Govil", "Director, NIT Sikkim", "/mahesh.png"),
       // m("Prof. Subrata Mukhopadhyay", "Adjunct Professor, NSUT", "/Subrata-Mukhopadhyay.webp"),
-      m("Dr. Satya Gupta", "President, VLSI Society", "/1688613993566.jpg"),
+      //m("Dr. Satya Gupta", "President, VLSI Society", "/1688613993566.jpg"),
       m("Prof. B. K. Panigrahi", "Professor, IIT Delhi",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRKjITwO55dKDIHUrEulkhFbpuvuKp0inHA&s"),
       m("Prof. Vineet Sahula", "Professor, MNIT Jaipur", "/mnitjas063.png"),
-      m("Prof. Jasdeep Kaur Dhanoa", "Vice Chair, IEEE Delhi Section", "/2110099372.jpg"),
-    ],
+   ],
   },
 
   {
@@ -125,17 +123,17 @@ export const patronCommittees: Committee[] = [
       m("Dr. Amit M. Joshi", "MNIT Jaipur", "/amit-joshi.jpeg"),
       m("Dr. Ravi Kumar Maddila", "MNIT Jaipur", "/ravi-kumar.jpg"),
       m("Dr. Nitin Chaturvedi", "BITS Pilani", "/dr-nitin.jpeg"),
+      m("Dr. Vijay Singh Rathore", "Dean (International) Apex University", "/vijay-singh-rathore.jpg"),
       m("Dr. Ankur Saharia", "Manipal University Jaipur", "/dr-ankur.jpeg"),
       m("Prof. Kusum Lata", "LNMIIT Jaipur", "/kusum-lata.jpeg"),
       m("Dr. Payal Bansal", "PIET Jaipur", "/Payal_Bansal.jpg"),
        m("Dr. Ashish Sharma", "Manipal University Jaipur", "/Ashish_Sharma.jpg"),
-      m("Sabri Naath", "IEEE India Council", "/sabarinath.jpeg"),
-      m("Dr. Vijay Singh Rathore", "Dean (International) Apex University", "/vijay-singh-rathore.jpg"),
+ 
     ],
   },
 
   {
-    title: "Organizing Secretaries",
+    title: "Conference Conveners/Secretaries",
     members: [
       m("Prof. Namita Mittal", "MNIT Jaipur", "/namita-mittal.jpeg"),
       m("Dr. Arun Kishor Johar", "Secretary, IEEE Rajasthan Subsection & Assistant Professor, Manipal University Jaipur", "/arun-johar.jpg"),
@@ -146,7 +144,7 @@ export const patronCommittees: Committee[] = [
   },
 
   {
-    title: "Co-Organizing Secretaries",
+    title: "Conference Co-conveners/Co-Secretaries",
     members: [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur", "/IMG_0256.jpg"),
       m("Dr. Dinesh Seti", "JECRC UNIVERSITY", "/Dr. Dinesh Seti.jpg"),
@@ -162,16 +160,18 @@ export const patronCommittees: Committee[] = [
     title: "WIE Chairs",
     members: [
       m("Dr. Rashmi Aggarwal", "IEEE WIE IC", "/rashmi-agarwal.jpeg"),
-      m("Dr. Pooja Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
-   /*    m("Dr. Nilam Choudhary", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"), */
+           m("Dr.Y.padma sai", "VNRVJIET, Hyderabad", "/Dr.Y.padma sai.jpg"), 
+
+    /*    m("Dr. Nilam Choudhary", "IEEE Rajasthan Subsection", "/dr-nilam.jpeg"), */
      /*  m("Dr. Jeetu Sharma", "Mody University", "/dr-jeetu.jpeg"), */
       m("Dr. Basudha Dewan", "Manipal University Jaipur", "/dr-basudha.jpeg"),
       m("Dr. Sharda Tripathi", "BITS Pilani", "/dr-sharda.jpeg"),
       m("Dr. Chetna Sharma", "IIIT Kota", "/chetna.jpeg"),
       m("Dr. Richa Gupta", "IEEE Delhi Section", "/dr-richa.jpeg"),
       m("Dr.Awshin Appaji", "Execom Member", "/Dr.Awshin Appaji.jpg"), 
-      m("Dr.Y.padma sai", "VNRVJIET, Hyderabad", "/Dr.Y.padma sai.jpg"), 
-    ],
+          m("Dr. Pooja Gupta", "IEEE Rajasthan Subsection", "/dr-pooja.jpeg"),
+ 
+     ],
   },
   
   {
@@ -219,7 +219,8 @@ export const patronCommittees: Committee[] = [
       m("Dr. Chandrakanta Kumar", "Chair, IEEE Bangalore Section", "/Chandrakant.jpg"),
       m("Dr. Sadhna Attawar", "Chair, IEEE MOVE India", "/sadhana.jpg"),
       m("Dr. Ranjan Kumar Bahera", "IIT Patna", "/ranjan.jpg"),
-
+     m("Prof. Jasdeep Kaur Dhanoa", "Vice Chair, IEEE Delhi Section", "/2110099372.jpg"),
+  
 
     ],
   },

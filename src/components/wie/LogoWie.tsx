@@ -40,7 +40,7 @@ export default function LogoWie() {
               </h2>
 
               <p className="text-base text-gray-800 leading-relaxed drop-shadow-sm">
-                IEEE WIE Special session in IEEE INDISCON 2026 arranged by WIE AG Rourkela Subsection
+                IEEE WIE Special session in 2026 IEEE INDISCON arranged by WIE AG Rourkela Subsection
               </p>
 
               {/* Date and Time Card */}
