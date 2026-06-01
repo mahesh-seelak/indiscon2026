@@ -323,7 +323,6 @@ export const otherCommittees: Committee[] = [
       m("Dr. Mithilesh Kumar", "Professor, Dept. of ECE, RTU"),
       m("Dr. Anurag Singh", "NIT Delhi"),
       m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur"),
-      m("Prof. Sukumar Mishra", "IIT Delhi"),
       m("Prof. Rachna Garg", "Electrical Engineering, DTU"),
       m("Dr. Anuradha Tomar", "Associate Professor, Dept. of Electrical Engineering, DU"),
     ],
@@ -395,6 +394,7 @@ export const otherCommittees: Committee[] = [
       m("Prof. Sukumar Mishra", "IIT Delhi"),
       m("Prof. Rachna Garg", "Department of Electrical Engineering, DTU"),
       m("Dr. Anuradha Tomar", "Associate Professor, Department of Electrical Engineering, DU"),
+      m("Dr. Neelu Nagpal", "Associate Professor, Department of Electronics and Communication Engineering,Maharaja Agrasen Institute of Technology, Delhi"),
     ],
   },
 

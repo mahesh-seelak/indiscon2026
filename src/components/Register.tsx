@@ -55,13 +55,13 @@ export default function FeesPage() {
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
                     Early Bird (till{" "}
-                   <span>05.07.2026</span>)
+                   <span>20.08.2026</span>)
                   </th>
                   <th
                     colSpan={2}
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
-                    Regular (till 30.07.2026)
+                    Regular (till 30.08.2026)
                   </th>
                 </tr>
                 <tr>
@@ -125,13 +125,13 @@ export default function FeesPage() {
                   >
                     Early Bird (till{" "}
                     
-                    <span>05.07.2026</span>)
+                    <span>20.08.2026</span>)
                   </th>
                   <th
                     colSpan={2}
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
-                    Regular (till 30.07.2026)
+                    Regular (till 30.08.2026)
                   </th>
                 </tr>
                 <tr>
@@ -197,7 +197,7 @@ export default function FeesPage() {
                   {/* <span className="text-red-500 line-through">
                     15.06.2026
                   </span>{" "} */}
-                  <span>05.07.2026</span>)
+                  <span>20.08.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -214,7 +214,7 @@ export default function FeesPage() {
               </div>
               <div>
                 <h4 className="font-semibold text-blue-700 mb-1">
-                  Regular (till 30.07.2026):
+                  Regular (till 30.08.2026):
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -250,7 +250,7 @@ export default function FeesPage() {
                  {/*  <span className="text-red-500 line-through">
                     15.06.2026
                   </span>{" "} */}
-                  <span>05.07.2026</span>)
+                  <span>20.08.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -267,7 +267,7 @@ export default function FeesPage() {
               </div>
               <div>
                 <h4 className="font-semibold text-blue-700 mb-1">
-                  Regular (till 30.07.2026):
+                  Regular (till 30.08.2026):
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">

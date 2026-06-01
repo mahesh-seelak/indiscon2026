@@ -63,7 +63,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     {
     id: "1",
     designation: "Director",
-    university: "MSUT Delhi",
+    university: "NSUT Delhi",
     name: "Prof. Prerna Gaur",
     bio: "Impact of high renewable penetration and grid forming capability",
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRub3_UMM7LMjkMpiAGe88Lhi6SQiPRaVv9vA&s",
