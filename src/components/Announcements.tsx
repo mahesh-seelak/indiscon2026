@@ -547,6 +547,7 @@ export default function Announcements() {
                   "Track 7: Power, Energy & Electrical Systems",
                   "Track 8: Special Session on Drone Technology ",
                   "Track 9: Special Session on Women in Engineering (WIE)",
+                  "Track 10: Special Session: Explainable Models in Engineering Systems"
                   
 
                   

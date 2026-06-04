@@ -419,6 +419,15 @@ export const otherCommittees: Committee[] = [
     ],
   },
 
+  {
+    title: "Track 10: Special Session: Explainable Models in Engineering Systems",
+    members: [
+      m("Dr. Sachin Gupta", "MAIT"),
+      m("Dr. Neelu Nagpal", "MAIT"),
+   
+    ],
+  },
+
 ]
 
 

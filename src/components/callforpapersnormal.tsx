@@ -83,6 +83,12 @@ export default function PaperSubmission() {
                <li>
                   <strong>Track 8:</strong> Special Session on Drone Technology
                 </li>
+                <li>
+                  <strong>Track 9:</strong> Special Session on Women in Engineering (WIE)
+                </li>
+                <li>
+                  <strong>Track 10:</strong> Special Session: Explainable Models in Engineering Systems
+                </li>
               
               </ul>
             </div>
