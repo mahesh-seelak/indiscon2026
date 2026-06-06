@@ -233,6 +233,15 @@ export const patronCommittees: Committee[] = [
       m("Dr. Abhishek Dixit", "JECRC Foundation", "/abhishek.jpeg"),
     ],
   },
+ {
+    title: "Registration Chair",
+    members: [
+      m("Prof. Ghanshyam Singh", "Malaviya National Institute of Technology Jaipur", "/mnitjas109.png"),
+   
+    ],
+  },
+
+
   {
     title: "Industry Liaison Chairs",
     members: [
