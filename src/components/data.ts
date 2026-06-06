@@ -234,7 +234,7 @@ export const patronCommittees: Committee[] = [
     ],
   },
  {
-    title: "Registration Chair",
+    title: "Registration Chairs",
     members: [
       m("Prof. Ghanshyam Singh", "Malaviya National Institute of Technology Jaipur", "/mnitjas109.png"),
    
@@ -483,6 +483,7 @@ const organizingBody = getByTitle([
   "Conference Co-conveners/Co-Secretaries",
   //"Organizing Secretaries",
   //"Co-Organizing Secretaries",
+  "Registration Chairs",
   "Finance Chairs",
   "Industry Liaison Chairs",
   "Website and Design Chairs",
