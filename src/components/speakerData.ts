@@ -107,7 +107,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     id: "10",
     designation: "Professor",
     university: "IIT Delhi",
-    name: "Prof. Ranjan Kumar Mallik",
+    name: "Prof. Ranjan K. Mallik",
     bio: "updated soon",
     imageUrl: "/Ranjan Kumar Mallik.jpg",
     title: `updated soon.`,

@@ -272,173 +272,148 @@ export const patronCommittees: Committee[] = [
 
 
 export const otherCommittees: Committee[] = [
- {
+  {
     title: "TPC Chairs",
     members: [
-      m("Prof. Jawar Singh", "IIT Patna"),
-      m("Prof. A. Q. Ansari", "Vice-Chair HTA, IEEE IC"),
-      m("Dr. Ajay Aggarwal", "Professor, ECE, IIT Jodhpur"),
-      m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi"),
-      m("Prof. D. K. Yadav", "MNNIT Allahabad"),
-      m("Dr. Shruti Jain", "IEEE Delhi Section"),
-      m("Dr. Sneha Kabra", "IEEE Delhi Section"),
-      m("Dr. Rajnesh Sharma", "IEEE Delhi Section"),
-      m("Prof. B. K. Panigrahi", "IIT Delhi"),
-      m("Prof. Vijay Janyani", "Professor, MNIT Jaipur"),
-      m("Dr. Sumit Srivastava", "Manipal University Jaipur"),
-      m("Prof. P. Shreehari", "Professor, NIT Warangal"),
-      m("Prof. Brahmjit Singh", "Professor, NIT Kurukshetra"),
-      m("Prof. Virendra Singh", "Professor, IIT Bombay"),
-      m("Prof. Manoj Saxena", "Chair, EDS IEEE Delhi Section"),
-      m("Dr. Anurag Singh", "Associate Professor, NIT Delhi"),
-      m("Dr. C. Periasamy", "Associate Professor, NIT Calicut"),
-      m("Prof. M. S. Bhat", "Professor, NIT Surathkal"),
-      m("Prof. Anand Darji", "Professor, SVNIT Surat"),
-      m("Prof. Shilpi Birla", "Professor, Manipal University Jaipur"),
-      m("Prof. Rajesh Kumar", "University of Johannesburg, SA & MNIT Jaipur"),
-      m("Prof. Deepti Saxena", "Professor, MNIT Jaipur"),
-      m("Prof. Anil Singh", "Professor, NIT Allahabad"),
-      m("Dr. Sandeep Saini", "Associate Professor, LNMIIT Jaipur"),
-      m("Dr. M. Santosh Kumar", "Scientist-F, CEERI Pilani"),
-      m("Prof. Rahul Goyal", "Professor, Manipal University Jaipur"),
-      m("Dr. Satyabrata Roy", "Manipal University Jaipur"),
+      m("Shruti Jain", "IEEE Delhi Section"),
+      m("Sneha Kabra", "IEEE Delhi Section"),
+      m("Rajnesh Sharma", "IEEE Delhi Section"),
+      m("Vijay Janyani", "MNIT Jaipur"),
+      m("P. Shreehari", "NIT Warangal"),
+      m("Brahmjit Singh", "NIT Kurukshetra"),
+      m("Virendra Singh", "IIT Bombay"),
+      m("Manoj Saxena", "IEEE Delhi Section"),
+      m("C. Periasamy", "NIT Calicut"),
+      m("M. S. Bhat", "NIT Surathkal"),
+      m("Shilpi Birla", "Manipal University Jaipur"),
+      m("Rajesh Kumar", "University of Johannesburg, SA & MNIT Jaipur"),
+      m("Deepti Saxena", " MNIT Jaipur"),
+      m("Anil Singh", "NIT Allahabad"),
+      m("Sandeep Saini", "LNMIIT Jaipur"),
+      m("M. Santosh Kumar", "CEERI Pilani"),
+      m("Rahul Goyal", "Manipal University Jaipur"),
+      m("Satyabrata Roy", "Manipal University Jaipur"),
     ],
   },
 
   {
     title: "TPC Co-chairs",
     members: [
-      m("Prof. Renu Kumawat", "Professor, Manipal University Jaipur"),
-      m("Dr. Hemant Kumar Meena", "Associate Professor, MNIT Jaipur"),
-      m("Dr. Lintu Rajan", "Associate Professor, NIT Calicut"),
-      m("Dr. Niketa Sharma", "Associate Professor, SKIT Jaipur"),
-      m("Dr. Anjan Kumar", "Associate Professor, GLA University, Mathura"),
-      m("Dr. Sunanda Sinha", "Assistant Professor, MNIT Jaipur"),
-      m("Dr. Bharat Choudhary", "Assistant Professor, MNIT Jaipur"),
-      m("Dr. Sushil Kumar Jain", "Assistant Professor, TIET Patiala"),
-      m("Dr. Ashvinee Deo Meshram", "Assistant Professor, Manipal University Jaipur"),
-      m("Dr. Akshay Moudgil", "Assistant Professor, IIT Jodhpur"),
-      m("Dr. Rahul Kumar", "Assistant Professor, BITS Pilani"),
-      m("Dr. Shruti Jain", "Joint Secretary, IEEE Delhi Section"),
-      m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore"),
-      m("Dr. Nitesh Mudgal", "Associate Professor, Dept. of ECE, PCE Jaipur"),
-      m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu"),
-      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Dept. of ECE, NIT Arunachal Pradesh"),
-      m("Dr. Nitin Chaturvedi", "BITS Pilani, Jaipur"),
-      m("Prof. Rashmi Aggarwal", "Associate Professor, Dept. of EEE, JC Bose University"),
-      m("Dr. Manpreet Kaur", "Professor, Dept. of CSE, MRU Faridabad"),
-      m("Dr. Amit Ved", "Associate Professor, Dept. of CSE, Marwadi University Rajkot"),
-      m("Dr. Mitul Kumar Ahirwal", "MANIT Bhopal"),
-      m("Dr. Indu Joshi", "IIT Mandi"),
-      m("Prof. Suwadesh Ray", "IIT Delhi"),
-      m("Prof. Parul Garg", "Professor, Dept. of ECE, NSUT Delhi"),
-      m("Dr. Mithilesh Kumar", "Professor, Dept. of ECE, RTU"),
-      m("Dr. Anurag Singh", "NIT Delhi"),
-      m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur"),
-      m("Prof. Rachna Garg", "Electrical Engineering, DTU"),
-      m("Dr. Anuradha Tomar", "Associate Professor, Dept. of Electrical Engineering, DU"),
+      m("Renu Kumawat", "Manipal University Jaipur"),
+      m("Hemant Kumar Meena", " MNIT Jaipur"),
+      m("Lintu Rajan", "NIT Calicut"),
+      m("Niketa Sharma", "SKIT Jaipur"),
+      m("Anjan Kumar", "GLA University, Mathura"),
+      m("Sunanda Sinha", "MNIT Jaipur"),
+      m("Bharat Choudhary", "MNIT Jaipur"),
+      m("Sushil Kumar Jain", "TIET Patiala"),
+      m("Ashvinee Deo Meshram", "Manipal University Jaipur"),
+      m("Akshay Moudgil", "IIT Jodhpur"),
+      m("Rahul Kumar", "BITS Pilani"),
+      m("Shruti Jain", "IEEE Delhi Section"),
+      m("Nitesh Mudgal", "PCE Jaipur"),
+      m("Nitin Chaturvedi", "BITS Pilani, Jaipur"),
+      m("Rashmi Aggarwal", "JC Bose University"),
     ],
   },
 
-  {
-    title: "Track 1: Sustainable AI & Green Technologies",
-    members: [
-      m("Dr. Mohit P. Tahiliani", "NIT Surathkal"),
-      m("Dr. Kavita Verma", "Research Scientist, IISc Bangalore"),
-      m("Dr. Sumit Srivastava", "Manipal University Jaipur"),
-      m("Dr. Durgesh Nandan", "Dean, SR University Hyderabad"),
-    ],
-  },
+ {
+  title: "Track 1: Sustainable AI & Green Technologies",
+  members: [
+    m("Mohit P. Tahiliani", "NIT Surathkal"),
+    m("Kavita Verma", "IISc Bangalore"),
+    m("Sumit Srivastava", "Manipal University Jaipur"),
+    m("Durgesh Nandan", "SR University Hyderabad"),
+  ],
+},
 
-  {
-    title: "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
-    members: [
-      m("Prof. Jawar Singh", "IIT Patna"),
-      m("Dr. Ambika Prasad Shah", "Associate Professor, IIT Jammu"),
-      m("Dr. Abir Jyoti Mondal", "Assistant Professor, Department of ECE, NIT Andhra Pradesh"),
-      m("Dr. Balvinder Raj", "NIT Jalandhar"),
-    ],
-  },
+{
+  title: "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
+  members: [
+    m("Jawar Singh", "IIT Patna"),
+    m("Ambika Prasad Shah", "IIT Jammu"),
+    m("Abir Jyoti Mondal", "NIT Andhra Pradesh"),
+    m("Balvinder Raj", "NIT Jalandhar"),
+  ],
+},
 
-  {
-    title: "Track 3: Humanitarian Technology & AI for Social Goods",
-    members: [
-      m("Prof. A. Q. Ansari", "Vice-Chair HTA, IEEE IC"),
-      m("Dr. Sudeep Tanwar", "Nirma University"),
-      m("Dr. Manpreet Kaur", "Professor, Department of CSE, MRU Faridabad"),
-      m("Dr. Amit Ved", "Associate Professor, Department of CSE, Marwadi University Rajkot"),
-    ],
-  },
+{
+  title: "Track 3: Humanitarian Technology & AI for Social Goods",
+  members: [
+    m("A. Q. Ansari", "IEEE IC"),
+    m("Sudeep Tanwar", "Nirma University"),
+    m("Manpreet Kaur", "MRU Faridabad"),
+    m("Amit Ved", "Marwadi University Rajkot"),
+  ],
+},
 
-  {
-    title: "Track 4: Intelligent Systems, IoT & Industrial Applications",
-    members: [
-      m("Dr. Ajay Aggarwal", "Professor, ECE, IIT Jodhpur"),
-      m("Dr. Mitul Kumar Ahirwal", "MANIT Bhopal"),
-      m("Dr. Indu Joshi", "IIT Mandi"),
-      m("Dr. Shakshi Dhanker", "IIT Jodhpur"),
-    ],
-  },
+{
+  title: "Track 4: Intelligent Systems, IoT & Industrial Applications",
+  members: [
+    m("Ajay Aggarwal", "IIT Jodhpur"),
+    m("Mitul Kumar Ahirwal", "MANIT Bhopal"),
+    m("Indu Joshi", "IIT Mandi"),
+    m("Shakshi Dhanker", "IIT Jodhpur"),
+  ],
+},
 
-  {
-    title: "Track 5: Communication Systems & Network Technologies",   members: [
-      m("Prof. Ranjan Kumar Mallik", "Professor, IIT Delhi"),
-      m("Prof. Suwadesh Ray", "IIT Delhi"),
-      m("Prof. Parul Garg", "Professor, Department of ECE, NSUT Delhi"),
-      m("Dr. Mithilesh Kumar", "Professor, Department of ECE, RTU"),
-    ],
-  },
+{
+  title: "Track 5: Communication Systems & Network Technologies",
+  members: [
+    m("Ranjan K. Mallik", "IIT Delhi"),
+    m("Swades De", "IIT Delhi"),
+    m("Parul Garg", "NSUT Delhi"),
+    m("Mithilesh Kumar", "RTU"),
+  ],
+},
 
-  {
-    title: "Track 6: Signal Processing, Computing & Data Science",
-    members: [
-      m("Prof. D. K. Yadav", "MNNIT Allahabad"),
-      m("Dr. Anurag Singh", "NIT Delhi"),
-      m("Dr. Satyendra Singh Chouhan", "MNIT Jaipur"),
-      m("Dr. Deepak Gupta", "MNNIT Allahabad"),
-    ],
-  },
+{
+  title: "Track 6: Signal Processing, Computing & Data Science",
+  members: [
+    m("D. K. Yadav", "MNNIT Allahabad"),
+    m("Anurag Singh", "NIT Delhi"),
+    m("Satyendra Singh Chouhan", "MNIT Jaipur"),
+    m("Deepak Gupta", "MNNIT Allahabad"),
+  ],
+},
 
-  {
-    title: "Track 7: Power, Energy & Electrical System",
-    members: [
-      m("Prof. B. K. Panigrahi", "IIT Delhi"),
-      m("Prof. Sukumar Mishra", "IIT Delhi"),
-      m("Prof. Rachna Garg", "Department of Electrical Engineering, DTU"),
-      m("Dr. Anuradha Tomar", "Associate Professor, Department of Electrical Engineering, DU"),
-      m("Dr. Neelu Nagpal", "Associate Professor, Department of Electronics and Communication Engineering,Maharaja Agrasen Institute of Technology, Delhi"),
-    ],
-  },
+{
+  title: "Track 7: Power, Energy & Electrical System",
+  members: [
+    m("B. K. Panigrahi", "IIT Delhi"),
+    m("Sukumar Mishra", "IIT Delhi"),
+    m("Rachna Garg", "DTU"),
+    m("Anuradha Tomar", "University of Delhi"),
+    m("Neelu Nagpal", "Maharaja Agrasen Institute of Technology"),
+  ],
+},
 
-  {
-    title: "Track 8: Special Session on Drone Technology",
-    members: [
-      m("Prof. Anand Darji", "SVNIT Surat"),
-      m("Dr. Sumit Gautam", "IIT Indore"),
-    ],
-  },
+{
+  title: "Track 8: Special Session on Drone Technology",
+  members: [
+    m("Anand Darji", "SVNIT Surat"),
+    m("Sumit Gautam", "IIT Indore"),
+  ],
+},
 
-  {
-    title: "Track 9: Special Session on Women in Engineering",
-    members: [
-      m("Dr. Rashmi Aggarwal", "Women In Engineering"),
-      m("Dr. Ashwini Appaji", "Women In Engineering"),
-      m("Dr. Renu Sharma", "Women In Engineering"),
-      m("Dr. Y. Padma Sai", "Women In Engineering"),
-    ],
-  },
+{
+  title: "Track 9: Special Session on Women in Engineering",
+  members: [
+    m("Rashmi Aggarwal", "Women In Engineering"),
+    m("Ashwini Appaji", "Women In Engineering"),
+    m("Renu Sharma", "Women In Engineering"),
+    m("Y. Padma Sai", "Women In Engineering"),
+  ],
+},
 
-  {
-    title: "Track 10: Special Session: Explainable Models in Engineering Systems",
-    members: [
-      m("Dr. Sachin Gupta", "MAIT"),
-      m("Dr. Neelu Nagpal", "MAIT"),
-   
-    ],
-  },
-
-]
-
+{
+  title: "Track 10: Special Session: Explainable Models in Engineering Systems",
+  members: [
+    m("Sachin Gupta", "MAIT"),
+    m("Neelu Nagpal", "MAIT"),
+  ],
+},
+];
 
 const getByTitle = (titles: string[]) =>
   [...patronCommittees, ...otherCommittees].filter(c =>
