@@ -332,7 +332,7 @@ export const otherCommittees: Committee[] = [
   members: [
     m("Jawar Singh", "IIT Patna"),
     m("Ambika Prasad Shah", "IIT Jammu"),
-    m("Abir Jyoti Mondal", "NIT Andhra Pradesh"),
+    m("Abir Jyoti Mondal", "NIT Arunachal Pradesh"),
     m("Balvinder Raj", "NIT Jalandhar"),
   ],
 },
