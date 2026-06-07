@@ -320,97 +320,97 @@ export const otherCommittees: Committee[] = [
  {
   title: "Track 1: Sustainable AI & Green Technologies",
   members: [
-    m("Mohit P. Tahiliani", "NIT Surathkal"),
-    m("Kavita Verma", "IISc Bangalore"),
-    m("Sumit Srivastava", "Manipal University Jaipur"),
-    m("Durgesh Nandan", "SR University Hyderabad"),
+    m("Mohit P. Tahiliani", "(Track Chair) NIT Surathkal"),
+    m("Kavita Verma", "(Track Co-chair) IISc Bangalore"),
+    m("Sumit Srivastava", "(Track Co-chair) Manipal University Jaipur"),
+    m("Durgesh Nandan", "(Track Co-chair) SR University Hyderabad"),
   ],
 },
 
 {
   title: "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
   members: [
-    m("Jawar Singh", "IIT Patna"),
-    m("Ambika Prasad Shah", "IIT Jammu"),
-    m("Abir Jyoti Mondal", "NIT Arunachal Pradesh"),
-    m("Balvinder Raj", "NIT Jalandhar"),
+    m("Jawar Singh", "(Track Chair) IIT Patna"),
+    m("Ambika Prasad Shah", "(Track Co-chair) IIT Jammu"),
+    m("Abir Jyoti Mondal", "(Track Co-chair) NIT Arunachal Pradesh"),
+    m("Balvinder Raj", "(Track Co-chair) NIT Jalandhar"),
   ],
 },
 
 {
   title: "Track 3: Humanitarian Technology & AI for Social Goods",
   members: [
-    m("A. Q. Ansari", "IEEE IC"),
-    m("Sudeep Tanwar", "Nirma University"),
-    m("Manpreet Kaur", "MRU Faridabad"),
-    m("Amit Ved", "Marwadi University Rajkot"),
+    m("A. Q. Ansari", "(Track Chair) IEEE IC"),
+    m("Sudeep Tanwar", "(Track Co-chair) Nirma University"),
+    m("Manpreet Kaur", "(Track Co-chair) MRU Faridabad"),
+    m("Amit Ved", "(Track Co-chair) Marwadi University Rajkot"),
   ],
 },
 
 {
   title: "Track 4: Intelligent Systems, IoT & Industrial Applications",
   members: [
-    m("Ajay Aggarwal", "IIT Jodhpur"),
-    m("Mitul Kumar Ahirwal", "MANIT Bhopal"),
-    m("Indu Joshi", "IIT Mandi"),
-    m("Shakshi Dhanker", "IIT Jodhpur"),
+    m("Ajay Aggarwal", "(Track Chair) IIT Jodhpur"),
+    m("Mitul Kumar Ahirwal", "(Track Co-chair) MANIT Bhopal"),
+    m("Indu Joshi", "(Track Co-chair) IIT Mandi"),
+    m("Shakshi Dhanker", "(Track Co-chair) IIT Jodhpur"),
   ],
 },
 
 {
   title: "Track 5: Communication Systems & Network Technologies",
   members: [
-    m("Ranjan K. Mallik", "IIT Delhi"),
-    m("Swades De", "IIT Delhi"),
-    m("Parul Garg", "NSUT Delhi"),
-    m("Mithilesh Kumar", "RTU"),
+    m("Ranjan K. Mallik", "(Track Chair) IIT Delhi"),
+    m("Swades De", "(Track Co-chair) IIT Delhi"),
+    m("Parul Garg", "(Track Co-chair) NSUT Delhi"),
+    m("Mithilesh Kumar", "(Track Co-chair) RTU"),
   ],
 },
 
 {
   title: "Track 6: Signal Processing, Computing & Data Science",
   members: [
-    m("D. K. Yadav", "MNNIT Allahabad"),
-    m("Anurag Singh", "NIT Delhi"),
-    m("Satyendra Singh Chouhan", "MNIT Jaipur"),
-    m("Deepak Gupta", "MNNIT Allahabad"),
+    m("D. K. Yadav", "(Track Chair) MNNIT Allahabad"),
+    m("Anurag Singh", "(Track Co-chair) NIT Delhi"),
+    m("Satyendra Singh Chouhan", "(Track Co-chair) MNIT Jaipur"),
+    m("Deepak Gupta", "(Track Co-chair) MNNIT Allahabad"),
   ],
 },
 
 {
   title: "Track 7: Power, Energy & Electrical System",
   members: [
-    m("B. K. Panigrahi", "IIT Delhi"),
-    m("Sukumar Mishra", "IIT Delhi"),
-    m("Rachna Garg", "DTU"),
-    m("Anuradha Tomar", "University of Delhi"),
-    m("Neelu Nagpal", "Maharaja Agrasen Institute of Technology"),
+    m("B. K. Panigrahi", "(Track Chair) IIT Delhi"),
+    m("Sukumar Mishra", "(Track Co-chair) IIT Delhi"),
+    m("Rachna Garg", "(Track Co-chair) DTU"),
+    m("Anuradha Tomar", "(Track Co-chair) University of Delhi"),
+    m("Neelu Nagpal", "(Track Co-chair) Maharaja Agrasen Institute of Technology"),
   ],
 },
 
 {
   title: "Track 8: Special Session on Drone Technology",
   members: [
-    m("Anand Darji", "SVNIT Surat"),
-    m("Sumit Gautam", "IIT Indore"),
+    m("Anand Darji", "(Track Chair) SVNIT Surat"),
+    m("Sumit Gautam", "(Track Co-chair) IIT Indore"),
   ],
 },
 
 {
   title: "Track 9: Special Session on Women in Engineering",
   members: [
-    m("Rashmi Aggarwal", "Women In Engineering"),
-    m("Ashwini Appaji", "Women In Engineering"),
-    m("Renu Sharma", "Women In Engineering"),
-    m("Y. Padma Sai", "Women In Engineering"),
+    m("Rashmi Aggarwal", "(Track Chair) Women In Engineering"),
+    m("Ashwini Appaji", "(Track Co-chair) Women In Engineering"),
+    m("Renu Sharma", "(Track Co-chair) Women In Engineering"),
+    m("Y. Padma Sai", "(Track Co-chair) Women In Engineering"),
   ],
 },
 
 {
   title: "Track 10: Special Session: Explainable Models in Engineering Systems",
   members: [
-    m("Sachin Gupta", "MAIT"),
-    m("Neelu Nagpal", "MAIT"),
+    m("Sachin Gupta", "(Track Chair) MAIT"),
+    m("Neelu Nagpal", "(Track Co-chair) MAIT"),
   ],
 },
 ];
