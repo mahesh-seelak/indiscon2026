@@ -237,6 +237,7 @@ export const patronCommittees: Committee[] = [
     title: "Registration Chairs",
     members: [
       m("Prof. Ghanshyam Singh", "Malaviya National Institute of Technology Jaipur", "/mnitjas109.png"),
+    m("Dr. Rajendra Mithrwal", "Malaviya National Institute of Technology Jaipur", "/mnitjas266.png"),
    
     ],
   },
@@ -261,8 +262,13 @@ export const patronCommittees: Committee[] = [
     ],
   },
   {
-    title: "Special Track / Tutorial Chairs",
+    title: "Local Organizing Committee",
     members: [
+
+        m("Dr. Hemant Sharma", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
+         m("Dr. Ankit Kumar", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
+        m("Dr. Arun Kumar", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
+
       // To be announced by organizers
     ],
   },
@@ -464,7 +470,8 @@ const organizingBody = getByTitle([
   "Website and Design Chairs",
   "Travel and Hospitality Committee",
   "WIE Chairs",
-  "Publication Chairs"
+  "Publication Chairs",
+  "Local Organizing Committee"
  /*  "Special Track / Tutorial Chairs" */
 ]);
 // 3. Export the final Mapping
