@@ -374,7 +374,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 6: Signal Processing, Computing & Data Science",
+  title: "Track 6: Cloud Computing, Generative AI & Data Science",
   members: [
     m("D. K. Yadav", "(Track Chair) MNNIT Allahabad"),
     m("Anurag Singh", "(Track Co-chair) NIT Delhi"),
@@ -441,7 +441,7 @@ const tpcPersonnel = getByTitle([
   "Track 3: Humanitarian Technology & AI for Social Goods",
   "Track 4: Intelligent Systems, IoT & Industrial Applications",
   "Track 5: Communication Systems & Network Technologies",
-  "Track 6: Signal Processing, Computing & Data Science",
+  "Track 6: Cloud Computing, Generative AI & Data Science",
   "Track 7: Power, Energy & Electrical System",
   "Track 8: Special Session on Drone Technology",
   "Track 9: Special Session on Women in Engineering",
