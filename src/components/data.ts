@@ -390,7 +390,6 @@ export const otherCommittees: Committee[] = [
     m("Sukumar Mishra", "(Track Co-chair) IIT Delhi"),
     m("Rachna Garg", "(Track Co-chair) DTU"),
     m("Anuradha Tomar", "(Track Co-chair) University of Delhi"),
-    m("Neelu Nagpal", "(Track Co-chair) Maharaja Agrasen Institute of Technology"),
   ],
 },
 
