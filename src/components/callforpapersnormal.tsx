@@ -38,7 +38,7 @@ export default function PaperSubmission() {
             <li>
               The paper should be in the IEEE conference format and must be in English.
             </li>
-            <li>All submitted papers will be reviewed following a double-blind peer review policy.</li>
+            <li>Every submitted paper will be reviewed under a double-blind peer review policy.</li>
             <li>
               Authors are encouraged to submit high-quality research work that contributes to the advancement of knowledge in the respective technical tracks.
             </li>
