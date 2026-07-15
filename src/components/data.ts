@@ -149,7 +149,6 @@ export const patronCommittees: Committee[] = [
       m("Dr. Mahesh Jangid", "Manipal University Jaipur", "/IMG_0256.jpg"),
       m("Dr. Dinesh Seti", "JECRC University", "/Dr. Dinesh Seti.jpg"),
       m("Dr. Deepak Bharti", "MNIT Jaipur", "/deepak-bharti.jpeg"),
-      m("Dr. Shraddha Tripathi", "IIT Jodhpur", "/Shraddha Tripathi.jpg"),
       m("Dr Jeetu Sharma", "Mody University", "/Dr Jeetu Sharma.jpg"),
     ],
   },
@@ -238,7 +237,7 @@ export const patronCommittees: Committee[] = [
     members: [
       m("Prof. Ghanshyam Singh", "Malaviya National Institute of Technology Jaipur", "/mnitjas109.png"),
     m("Dr. Rajendra Mithrwal", "Malaviya National Institute of Technology Jaipur", "/mnitjas266.png"),
-   
+   m("Dr. Hemant Sharma", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
     ],
   },
 
@@ -265,7 +264,7 @@ export const patronCommittees: Committee[] = [
     title: "Local Organizing Committee",
     members: [
 
-        m("Dr. Hemant Sharma", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
+        
          m("Dr. Ankit Kumar", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
         m("Dr. Arun Kumar", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
 
