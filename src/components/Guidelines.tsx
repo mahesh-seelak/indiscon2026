@@ -147,8 +147,7 @@ export default function PaperSubmissionGuidelines() {
               </li>
               <li>All papers must be submitted via Microsoft CMT.</li>
               <li>All submitted papers will be reviewed following a double-blind peer review policy.</li>
-              <li>
-               All accepted and presented papers will be submitted for possible publication in IEEE Xplore®️ Digital Library (Conference Record #72742), through the IEEE Conference Publications Program (CPP).     </li>
+              <li>All accepted and presented papers will be submitted for possible publication in IEEE Xplore®️ Digital Library (Conference Record #72742), through the IEEE Conference Publications Program (CPP).     </li>
               <li>Paper should be written in IEEE double column conference format and restricted to a maximum of 6 pages only.</li>
               <li>
                 The paper should present original work not previously published or currently under review elsewhere.
