@@ -73,22 +73,22 @@ export default function PaperSubmission() {
                   <strong>Track 4:</strong> Intelligent Systems, IoT & Industrial Applications
                 </li>
                 <li>
-                  <strong>Track 5:</strong> Communication Systems & Network Technologies
+                  <strong>Track 5:</strong> Communication Systems & Signal Processing
                 </li>
                 <li>
                   <strong>Track 6:</strong> Cloud Computing, Generative AI & Data Science
                 </li>
                  <li>
-                  <strong>Track 7:</strong> Power, Energy & Electrical Systems
+                  <strong>Track 7:</strong> Power, Energy & Electrical System
                 </li>
                <li>
-                  <strong>Track 8:</strong> Special Session on Drone Technology
+                  <strong>Track 8:</strong> Drone and Robotics Technologies
                 </li>
                 <li>
-                  <strong>Track 9:</strong> Special Session on Women in Engineering (WIE)
+                  <strong>Track 9:</strong> Women in Engineering (WIE)
                 </li>
                 <li>
-                  <strong>Track 10:</strong> Special Session: Explainable Models in Engineering Systems
+                  <strong>Track 10:</strong> Explainable Models in Engineering Systems
                 </li>
               
               </ul>

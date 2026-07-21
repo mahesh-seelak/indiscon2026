@@ -332,7 +332,7 @@ export const otherCommittees: Committee[] = [
  {
   title: "Track 1: Sustainable AI & Green Technologies",
   members: [
-    m("Dr. Brojo Kishore Mishra", "(Track Chair) GIET University,Odisha"),
+    m("Brojo Kishore Mishra", "(Track Chair) GIET University,Odisha"),
     m("Kavita Verma", "(Track Co-chair) IISc Bangalore"),
     m("Sumit Srivastava", "(Track Co-chair) Manipal University Jaipur"),
     m("Durgesh Nandan", "(Track Co-chair) SR University Hyderabad"),
@@ -370,7 +370,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 5: Communication Systems & Network Technologies",
+  title: "Track 5: Communication Systems & Sinal Processing",
   members: [
     m("Ranjan K. Mallik", "(Track Chair) IIT Delhi"),
     m("Swades De", "(Track Co-chair) IIT Delhi"),
@@ -400,7 +400,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 8: Special Session on Drone Technology",
+  title: "Track 8: Drone and Robotics Technologies",
   members: [
     m("Anand Darji", "(Track Chair) SVNIT Surat"),
     m("Sumit Gautam", "(Track Co-chair) IIT Indore"),
@@ -408,7 +408,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 9: Special Session on Women in Engineering",
+  title: "Track 9: Women in Engineering",
   members: [
     m("Rashmi Aggarwal", "(Track Chair) Women In Engineering"),
     m("Ashwini Appaji", "(Track Co-chair) Women In Engineering"),
@@ -418,7 +418,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 10: Special Session: Explainable Models in Engineering Systems",
+  title: "Track 10: Explainable Models in Engineering Systems",
   members: [
     m("Sachin Gupta", "(Track Chair) MAIT"),
     m("Neelu Nagpal", "(Track Co-chair) MAIT"),
@@ -445,12 +445,12 @@ const tpcPersonnel = getByTitle([
   "Track 2: Semiconductors, Nanoelectronics and Next Generation Computing",
   "Track 3: Humanitarian Technology & AI for Social Goods",
   "Track 4: Intelligent Systems, IoT & Industrial Applications",
-  "Track 5: Communication Systems & Network Technologies",
+  "Track 5: Communication Systems & Signal Processing",
   "Track 6: Cloud Computing, Generative AI & Data Science",
   "Track 7: Power, Energy & Electrical System",
-  "Track 8: Special Session on Drone Technology",
-  "Track 9: Special Session on Women in Engineering",
-  "Track 10: Special Session: Explainable Models in Engineering Systems",
+  "Track 8: Drone and Robotics Technologies",
+  "Track 9: Women in Engineering",
+  "Track 10: Explainable Models in Engineering Systems",
 
 
 ]);
