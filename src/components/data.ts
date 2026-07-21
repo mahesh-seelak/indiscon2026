@@ -370,7 +370,9 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 5: Communication Systems & Sinal Processing",
+  title: "Track 5: Communication Systems 
+  
+  Sinal Processing",
   members: [
     m("Ranjan K. Mallik", "(Track Chair) IIT Delhi"),
     m("Swades De", "(Track Co-chair) IIT Delhi"),
