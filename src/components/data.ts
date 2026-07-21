@@ -263,11 +263,18 @@ export const patronCommittees: Committee[] = [
   {
     title: "Local Organizing Committee",
     members: [
-
-        
          m("Dr. Ankit Kumar", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
         m("Dr. Arun Kumar", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
 
+      // To be announced by organizers
+    ],
+  },
+
+  {
+    title: "Tutorial Chairs",
+    members: [
+         m("Ruchika Gupta", "Chandigarh University", "/dummy.jpg"),
+        
       // To be announced by organizers
     ],
   },
@@ -325,7 +332,7 @@ export const otherCommittees: Committee[] = [
  {
   title: "Track 1: Sustainable AI & Green Technologies",
   members: [
-    m("Mohit P. Tahiliani", "(Track Chair) NIT Surathkal"),
+    m("Dr. Brojo Kishore Mishra", "(Track Chair) GIET University,Odisha"),
     m("Kavita Verma", "(Track Co-chair) IISc Bangalore"),
     m("Sumit Srivastava", "(Track Co-chair) Manipal University Jaipur"),
     m("Durgesh Nandan", "(Track Co-chair) SR University Hyderabad"),
@@ -469,8 +476,8 @@ const organizingBody = getByTitle([
   "Travel and Hospitality Committee",
   "WIE Chairs",
   "Publication Chairs",
-  "Local Organizing Committee"
- /*  "Special Track / Tutorial Chairs" */
+  "Local Organizing Committee",
+   "Tutorial Chairs"
 ]);
 // 3. Export the final Mapping
 export const committeeGroups: Record<string, { title: string, committees: Committee[] }> = {
