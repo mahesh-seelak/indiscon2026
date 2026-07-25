@@ -414,7 +414,7 @@ export const otherCommittees: Committee[] = [
   members: [
     m("Rashmi Aggarwal", "(Track Chair) Women In Engineering"),
     m("Ashwini Appaji", "(Track Co-chair) Women In Engineering"),
-    m("Renu Sharma", "(Track Co-chair) Women In Engineering"),
+    m("Shruti Jain", "(Track Co-chair) Women In Engineering"),
     m("Y. Padma Sai", "(Track Co-chair) Women In Engineering"),
   ],
 },
