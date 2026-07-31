@@ -363,8 +363,8 @@ export const otherCommittees: Committee[] = [
   title: "Track 4: Intelligent Systems, IoT & Industrial Applications",
   members: [
     m("Ajay Aggarwal", "(Track Chair) IIT Jodhpur"),
-    m("Mitul Kumar Ahirwal", "(Track Co-chair) MANIT Bhopal"),
-    m("Indu Joshi", "(Track Co-chair) IIT Mandi"),
+    m("Sanket Goel ", "(Track Co-chair) BITS Hydrabad"),
+    m("ISuman lata Tripathi ", "(Track Co-chair) Symbiosis international University"),
     m("Shakshi Dhanker", "(Track Co-chair) IIT Jodhpur"),
   ],
 },
@@ -397,7 +397,9 @@ export const otherCommittees: Committee[] = [
     m("B. K. Panigrahi", "(Track Chair) IIT Delhi"),
     m("Sukumar Mishra", "(Track Co-chair) IIT Delhi"),
     m("Rachna Garg", "(Track Co-chair) DTU"),
+    m("Bishwajit Dey", "(Track Co-chair) Manipal University Jaipur"),
     m("Anuradha Tomar", "(Track Co-chair) University of Delhi"),
+    m("Satyendra Pratap Singh", "(Track Co-chair)  Poornima University")
   ],
 },
 
