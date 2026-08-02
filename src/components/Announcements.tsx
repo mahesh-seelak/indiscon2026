@@ -543,8 +543,8 @@ export default function Announcements() {
                   "Track 3: Humanitarian Technology & AI for Social Goods",
                   "Track 4: Intelligent Systems, IoT & Industrial Applications",
                   "Track 5: Communication Systems & Network Technologies",
-                  "Track 6: Signal Processing Computing and Data science",
-                  "Track 7: Power, Energy & Electrical System",
+                  "Track 6: Signal Processing, Computing and Data science",
+                  "Track 7: Power, Energy & Electrical Systems",
                   "Track 8: Drone and Robotics Technologies", 
                   "Track 9: Women in Engineering (WIE)",
                   "Track 10: Explainable Models in Engineering Systems"

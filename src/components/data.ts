@@ -380,7 +380,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 6: Signal Processing Computing and Data science",
+  title: "Track 6: Signal Processing, Computing and Data Science",
   members: [
     m("D. K. Yadav", "(Track Chair) MNNIT Allahabad"),
     m("Anurag Singh", "(Track Co-chair) NIT Delhi"),
@@ -390,7 +390,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 7: Power, Energy & Electrical System",
+  title: "Track 7: Power, Energy & Electrical Systems",
   members: [
     m("B. K. Panigrahi", "(Track Chair) IIT Delhi"),
     m("Sukumar Mishra", "(Track Co-chair) IIT Delhi"),
