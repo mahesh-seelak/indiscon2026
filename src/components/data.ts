@@ -370,9 +370,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 5: Communication Systems 
-  
-  Sinal Processing",
+  title: "Track 5: Communication Systems & Network Technologies",
   members: [
     m("Ranjan K. Mallik", "(Track Chair) IIT Delhi"),
     m("Swades De", "(Track Co-chair) IIT Delhi"),
@@ -382,7 +380,7 @@ export const otherCommittees: Committee[] = [
 },
 
 {
-  title: "Track 6: Cloud Computing, Generative AI & Data Science",
+  title: "Track 6: Signal Processing Computing and Data science",
   members: [
     m("D. K. Yadav", "(Track Chair) MNNIT Allahabad"),
     m("Anurag Singh", "(Track Co-chair) NIT Delhi"),
