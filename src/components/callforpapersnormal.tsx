@@ -73,13 +73,13 @@ export default function PaperSubmission() {
                   <strong>Track 4:</strong> Intelligent Systems, IoT & Industrial Applications
                 </li>
                 <li>
-                  <strong>Track 5:</strong> Communication Systems & Signal Processing
+                  <strong>Track 5:</strong> Communication Systems & Network Technologies
                 </li>
                 <li>
-                  <strong>Track 6:</strong> Signal Processing Computing and Data science
+                  <strong>Track 6:</strong> Signal Processing, Computing and Data science
                 </li>
                  <li>
-                  <strong>Track 7:</strong> Power, Energy & Electrical System
+                  <strong>Track 7:</strong> Power, Energy & Electrical Systems
                 </li>
                <li>
                   <strong>Track 8:</strong> Drone and Robotics Technologies
