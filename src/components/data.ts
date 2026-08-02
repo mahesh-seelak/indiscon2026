@@ -235,8 +235,8 @@ export const patronCommittees: Committee[] = [
  {
     title: "Registration Chairs",
     members: [
-      m("Prof. Ghanshyam Singh", "Malaviya National Institute of Technology Jaipur", "/mnitjas109.png"),
-    m("Dr. Rajendra Mithrwal", "Malaviya National Institute of Technology Jaipur", "/mnitjas266.png"),
+    //  m("Prof. Ghanshyam Singh", "Malaviya National Institute of Technology Jaipur", "/mnitjas109.png"),
+    m("Dr. Rajendra Mitharwal", "Malaviya National Institute of Technology Jaipur", "/mnitjas266.png"),
    m("Dr. Hemant Sharma", "Malaviya National Institute of Technology Jaipur", "/dummy.jpg"),
     ],
   },
