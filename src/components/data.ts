@@ -289,7 +289,7 @@ export const otherCommittees: Committee[] = [
     members: [
       m("Shruti Jain", "IEEE Delhi Section"),
       m("Sneha Kabra", "IEEE Delhi Section"),
-      m("Rajnesh Sharma", "IEEE Delhi Section"),
+      m("Rajnish Sharma", "IEEE Delhi Section"),
       m("Vijay Janyani", "MNIT Jaipur"),
       m("P. Shreehari", "NIT Warangal"),
       m("Brahmjit Singh", "NIT Kurukshetra"),
