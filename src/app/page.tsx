@@ -45,7 +45,7 @@ export default function page() {
           </p>
 
           <p className="text-cyan-300 text-sm md:text-base font-medium">
-            Early bird registration dates will be announced soon, and sufficient
+            Early bird registration date will be announced soon, and sufficient
             time will be provided for authors to complete their early bird registration.
           </p>
 
