@@ -140,7 +140,12 @@ const VantaGlobe: React.FC = () => {
                   </motion.div>
                 </motion.div> 
       </motion.div>
+
+      
+
+
     </div>
+    
   );
 };
 

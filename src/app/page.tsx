@@ -12,6 +12,51 @@ export default function page() {
   return (
     <>
       <VantaGlobe/>
+<section
+  id="important-announcements"
+  className="relative py-8 overflow-hidden"
+>
+  <div className="absolute inset-0 bg-gradient-to-r from-indigo-950 via-blue-900 to-slate-900"></div>
+
+  <div className="absolute top-0 left-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
+  <div className="absolute bottom-0 right-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
+
+  <div className="relative max-w-6xl mx-auto px-6">
+    <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl px-6 py-6">
+
+      <div className="flex flex-col md:flex-row items-center gap-5">
+
+        {/* Title */}
+        <div className="flex-shrink-0 flex items-center gap-3">
+          <span className="text-2xl">📢</span>
+          <h3 className="text-lg font-bold text-cyan-300">
+            Important Updates
+          </h3>
+        </div>
+
+        {/* Divider */}
+        <div className="hidden md:block h-10 w-px bg-white/20"></div>
+
+        {/* Announcements */}
+        <div className="flex-1 text-center md:text-left space-y-2">
+
+          <p className="text-gray-200 text-sm md:text-base">
+            We sincerely apologize for the delay in the review process.
+          </p>
+
+          <p className="text-cyan-300 text-sm md:text-base font-medium">
+            Early bird registration dates will be announced soon, and sufficient
+            time will be provided for authors to complete their early bird registration.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
 {/* ========================= CALL FOR REVIEWERS SECTION ========================= */}
       <section
   id="call-for-reviewers"

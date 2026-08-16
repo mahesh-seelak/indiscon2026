@@ -580,8 +580,6 @@ export default function Announcements() {
                       ["Paper Submission Ends:", "15-06-2026"],
                       ["Notification of Acceptance:", "18-08-2026"],
                       ["Camera-ready Submission:", "25-08-2026"],
-                      ["We sincerely apologize for the delay in the review process."],
-                      ["Early bird registration dates will be announced soon, and sufficient time will be provided for authors to complete their early bird registration."]
                       /* ["Proposal Submission Deadline:", "20-03-2026"],
                       [
                         "Special Proposal extended submission date:",
