@@ -578,7 +578,7 @@ export default function Announcements() {
                     {[
                       ["Paper Submission Starts:", "01-03-2026"],
                       ["Paper Submission Ends:", "15-06-2026"],
-                      ["Notification of Acceptance:", "18-08-2026"],
+                      ["Notification of Acceptance:", "20-08-2026"],
                       ["Camera-ready Submission:", "25-08-2026"],
                       /* ["Proposal Submission Deadline:", "20-03-2026"],
                       [
