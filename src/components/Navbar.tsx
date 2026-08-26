@@ -48,11 +48,12 @@ const navigationItems: NavItem[] = [
          title: "Registration",
          href: "/registration",
        },
-       /* 
+       
        {
          title: "Camera Ready Instructions",
          href: "/camReady",
-       },
+       }
+       /* 
        {
          title: "Final Schedule",
          href: "/tentativeSchedule",
