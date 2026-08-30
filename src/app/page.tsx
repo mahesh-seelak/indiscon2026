@@ -40,10 +40,6 @@ export default function page() {
         {/* Announcements */}
         <div className="flex-1 text-center md:text-left space-y-2">
 
-          <p className="text-gray-200 text-sm md:text-base">
-            We sincerely apologize for the delay in the review process.
-          </p>
-
           <p className="text-cyan-300 text-sm md:text-base font-medium">
             Early bird registration date will be announced soon, and sufficient
             time will be provided for authors to complete their early bird registration.

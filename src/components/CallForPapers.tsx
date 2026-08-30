@@ -25,7 +25,7 @@ const CallForPapers: React.FC = () => {
     { event: "Paper Submission Starts:", date: "01-12-2024" },
     { event: "Paper Submission Ends:", date: "15-06-2026" },
     { event: "Notification of Acceptance:", date: "20-08-2026" },
-    { event: "Camera-ready Submission:", date: "25-08-2026" },
+    { event: "Camera-ready Submission:", date: "10-09-2026" },
     { event: "Proposal Submission Deadline:", date: "20-03-25" },
     { event: "Notification of Acceptance/Rejection(special paper):", date: "25-03-25" },
   ]
