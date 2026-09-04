@@ -105,7 +105,7 @@ export const patronCommittees: Committee[] = [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXEaZS4xXyIVtFvHm2FhcmcjUV99f2_KPYg&s"),
       m("Dr. Nawab Singh", "Institute of Microelectronics Singapore", "/NavabSingh.jpg"),
       m("Prof. Shriniwas Katkoori", "University of South Florida", "/Prof. Shriniwas Katkoori.jpg"),
-      m("Dr. Kriti Bhargava", "University of Connecticut", "/k_bhargava.jpg"),
+      m("Dr. Kriti Bhargava", "University of California, Santa Cruz", "/k_bhargava.jpg"),
       m("Dr. Andrea Baloo", "University of Catania, Italy", "/173.jpg"),
       // m("Dr. Furnando Guarin", "IEEE Life Fellow", "/guarin.jpg"),
       m("Dr. Daniel Tomaszewski", "Lords University Poland", "/daniel.jpg"),
