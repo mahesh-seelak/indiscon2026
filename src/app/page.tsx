@@ -56,6 +56,23 @@ export default function page() {
 
   </div>
 
+   {/* Announcements */}
+  <div className="flex-1 text-center md:text-left space-y-2">
+
+    <p className="text-cyan-300 text-sm md:text-base font-medium">
+      <span className="font-bold">Paper Presentation Format:</span>
+    </p>
+    <a
+      href="/INDISCON 2026 template Presentations.pptx"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
+    >
+      Download 
+    </a>
+
+  </div>
+
 </div>
     </div>
   </div>

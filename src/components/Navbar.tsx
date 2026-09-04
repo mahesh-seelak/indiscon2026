@@ -53,6 +53,10 @@ const navigationItems: NavItem[] = [
          title: "Camera Ready Instructions",
          href: "/camReady",
        }
+       {
+         title: "Paper Presentation Format",
+         href: "/INDISCON 2026 template Presentations.pptx",
+       }
        /* 
        {
          title: "Final Schedule",
