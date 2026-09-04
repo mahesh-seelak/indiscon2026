@@ -26,32 +26,37 @@ export default function page() {
 
       <div className="flex flex-col md:flex-row items-center gap-5">
 
-        {/* Title */}
-        <div className="flex-shrink-0 flex items-center gap-3">
-          <span className="text-2xl">📢</span>
-          <h3 className="text-lg font-bold text-cyan-300">
-            Important Updates
-          </h3>
-        </div>
+  {/* Title */}
+  <div className="flex-shrink-0 flex items-center gap-3">
+    <span className="text-2xl">📢</span>
+    <h3 className="text-lg font-bold text-cyan-300">
+      Important Updates
+    </h3>
+  </div>
 
-        {/* Divider */}
-        <div className="hidden md:block h-10 w-px bg-white/20"></div>
+  {/* Divider */}
+  <div className="hidden md:block h-10 w-px bg-white/20"></div>
 
-        {/* Announcements */}
-        <div className="flex-1 text-center md:text-left space-y-2">
+  {/* Announcements */}
+  <div className="flex-1 text-center md:text-left space-y-2">
 
-          <p className="text-gray-200 text-sm md:text-base">
-            We sincerely apologize for the delay in the review process.
-          </p>
+    <p className="text-cyan-300 text-sm md:text-base font-medium">
+      <span className="font-bold">Early Bird Registration:</span>{" "}
+      Last date is <span className="font-bold">4 September 2026</span>.
+    </p>
 
-          <p className="text-cyan-300 text-sm md:text-base font-medium">
-            Early bird registration date will be announced soon, and sufficient
-            time will be provided for authors to complete their early bird registration.
-          </p>
+    <a
+      href="https://konfhub.com/ieee-indiscon-2026"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
+    >
+      Register Now
+    </a>
 
-        </div>
+  </div>
 
-      </div>
+</div>
     </div>
   </div>
 </section>
