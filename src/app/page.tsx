@@ -16,17 +16,34 @@ export default function page() {
   id="important-announcements"
   className="relative py-8 overflow-hidden"
 >
+
+  
   <div className="absolute inset-0 bg-gradient-to-r from-indigo-950 via-blue-900 to-slate-900"></div>
 
   <div className="absolute top-0 left-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
   <div className="absolute bottom-0 right-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
 
+
+
   <div className="relative max-w-6xl mx-auto px-6">
+
+<div className="overflow-hidden whitespace-nowrap text-center">
+  <div className="animate-marquee inline-block text-center text-base font-semibold text-white">
+    A detailed schedule of the program will be shared once early bird registrations are completed.
+  </div>
+</div>
+    
     <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl px-6 py-6">
 
       <div className="flex flex-col md:flex-row items-center gap-5">
 
+  
+  
+  
   {/* Title */}
+
+
+
   <div className="flex-shrink-0 flex items-center gap-3">
     <span className="text-2xl">📢</span>
     <h3 className="text-lg font-bold text-cyan-300">
@@ -42,7 +59,7 @@ export default function page() {
 
     <p className="text-cyan-300 text-sm md:text-base font-medium">
       <span className="font-bold">Early Bird Registration:</span>{" "}
-      Last date is <span className="font-bold">4 September 2026</span>.
+      Last date is <span className="font-bold">5 September 2026</span>.
     </p>
 
     <a

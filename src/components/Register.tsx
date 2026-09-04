@@ -55,7 +55,7 @@ export default function FeesPage() {
                     className="bg-gradient-to-r from-blue-800 to-blue-700 text-white p-4 text-center border-l border-blue-400"
                   >
                     Early Bird (till{" "}
-                    <span>04.09.2026</span>)
+                    <span>05.09.2026</span>)
                   </th>
                   <th
                     colSpan={2}
@@ -124,7 +124,7 @@ export default function FeesPage() {
                   >
                     Early Bird (till{" "}
 
-                    <span>04.09.2026</span>)
+                    <span>05.09.2026</span>)
                   </th>
                   <th
                     colSpan={2}
@@ -194,7 +194,7 @@ export default function FeesPage() {
                   {/* <span className="text-red-500 line-through">
                     15.06.2026
                   </span>{" "} */}
-                  <span>04.09.2026</span>)
+                  <span>05.09.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
@@ -246,7 +246,7 @@ export default function FeesPage() {
                   {/*  <span className="text-red-500 line-through">
                     15.06.2026
                   </span>{" "} */}
-                  <span>04.09.2026</span>)
+                  <span>05.09.2026</span>)
                 </h4>
                 <div className="grid grid-cols-2 gap-2 pl-2">
                   <div className="flex justify-between">
