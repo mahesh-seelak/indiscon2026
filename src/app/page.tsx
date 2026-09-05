@@ -96,6 +96,26 @@ export default function page() {
 </section>
 
 
+<section className="mb-8">
+          <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
+
+            <p className="text-xl md:text-2xl lg:text-3xl uppercase tracking-widest text-gray-800 font-bold mb-4">
+  Our Sponsor
+</p>
+           
+
+            <div className="flex justify-center items-center min-h-[80px]">
+              <img
+                src="/images/Genus_Logo.jpg"
+                alt="Genus"
+                className="max-h-20 max-w-[220px] w-auto object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
+
+
 {/* ========================= CALL FOR REVIEWERS SECTION ========================= */}
       <section
   id="call-for-reviewers"
@@ -367,6 +387,7 @@ export default function page() {
 </div>
   </div>
 </section>
+
     </>
   )
 }

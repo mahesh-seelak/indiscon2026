@@ -490,26 +490,6 @@ const AccommodationInfo = () => {
         </section>
 
         {/* ========================================================= */}
-        {/* SPONSOR                                                   */}
-        {/* ========================================================= */}
-
-        <section className="mb-8">
-          <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
-            <p className="text-sm uppercase tracking-widest text-gray-500 font-semibold mb-4">
-              Our Sponsor
-            </p>
-
-            <div className="flex justify-center items-center min-h-[80px]">
-              <img
-                src="/images/genus-logo.png"
-                alt="Genus"
-                className="max-h-20 max-w-[220px] w-auto object-contain"
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* ========================================================= */}
         {/* FOOTER NOTE                                               */}
         {/* ========================================================= */}
 
