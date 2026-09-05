@@ -81,6 +81,11 @@ const navigationItems: NavItem[] = [
         title: "Sponsorship & Exhibition Opportunities",
         href: "/partners",
       },
+      {
+         title: "Accommodation Details",
+         href: "/accomodationDet",
+       }
+
 
       
     ]
