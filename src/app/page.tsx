@@ -80,7 +80,7 @@ export default function page() {
       <span className="font-bold">Paper Presentation Format:</span>
     </p>
     <a
-      href="/INDISCON 2026 template Presentations.pptx"
+      href="/IEEE_INDISCON_2026_template.pptx"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"

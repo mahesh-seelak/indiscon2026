@@ -55,7 +55,7 @@ const navigationItems: NavItem[] = [
        },
        {
          title: "Paper Presentation Format",
-         href: "/INDISCON 2026 template Presentations.pptx",
+         href: "/IEEE_INDISCON_2026_template.pptx",
        }
        /* 
        {
