@@ -94,15 +94,14 @@ export default function page() {
     </div>
   </div>
 </section>
-
+  <Countdown/>
 
 <section className="mb-8">
           <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
-
-            <p className="text-xl md:text-2xl lg:text-3xl uppercase tracking-widest text-gray-800 font-bold mb-4">
-  Our Sponsor
-</p>
-           
+            
+            <p className="text-sm uppercase tracking-widest text-gray-500 font-semibold mb-4">
+              Our Sponsor
+            </p>
 
             <div className="flex justify-center items-center min-h-[80px]">
               <img
@@ -226,7 +225,7 @@ export default function page() {
 
 
 
-      <Countdown/>
+    
 
       <section
   id="publication-opportunity"
