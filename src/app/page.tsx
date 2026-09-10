@@ -1,5 +1,5 @@
 'use client'
-import  AnimatedGridBackground  from '@/components/animatingBackground'
+import AnimatedGridBackground from '@/components/animatingBackground'
 import Announcements from '@/components/Announcements'
 import Countdown from '@/components/Time'
 import React from 'react'
@@ -11,381 +11,379 @@ import DatesSlider from '../components/dateSlider'
 export default function page() {
   return (
     <>
-      <VantaGlobe/>
-<section
-  id="important-announcements"
-  className="relative py-8 overflow-hidden"
->
-
-  
-  <div className="absolute inset-0 bg-gradient-to-r from-indigo-950 via-blue-900 to-slate-900"></div>
-
-  <div className="absolute top-0 left-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
-  <div className="absolute bottom-0 right-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
-
-
-
-  <div className="relative max-w-6xl mx-auto px-6">
-
-<div className="overflow-hidden whitespace-nowrap text-center">
-  <div className="animate-marquee inline-block text-center text-base font-semibold text-white">
-    A detailed schedule of the program will be shared once early bird registrations are completed.
-  </div>
-</div>
-    
-    <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl px-6 py-6">
-
-      <div className="flex flex-col md:flex-row items-center gap-5">
-
-  
-  
-  
-  {/* Title */}
-
-
-
-  <div className="flex-shrink-0 flex items-center gap-3">
-    <span className="text-2xl">📢</span>
-    <h3 className="text-lg font-bold text-cyan-300">
-      Important Updates
-    </h3>
-  </div>
-
-  {/* Divider */}
-  <div className="hidden md:block h-10 w-px bg-white/20"></div>
-
-  {/* Announcements */}
-  <div className="flex-1 text-center md:text-left space-y-2">
-
-    <p className="text-cyan-300 text-sm md:text-base font-medium">
-      <span className="font-bold">Early Bird Registration:</span>{" "}
-      Last date is <span className="font-bold">5 September 2026</span>.
-    </p>
-
-    <a
-      href="https://konfhub.com/ieee-indiscon-2026"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
-    >
-      Register Now
-    </a>
-
-  </div>
-
-   {/* Announcements */}
-  <div className="flex-1 text-center md:text-left space-y-2">
-
-    <p className="text-cyan-300 text-sm md:text-base font-medium">
-      <span className="font-bold">Paper Presentation Format:</span>
-    </p>
-    <a
-      href="/IEEE_INDISCON_2026_template.pptx"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
-    >
-      Download 
-    </a>
-
-  </div>
-
-</div>
-    </div>
-  </div>
-</section>
-  <Countdown/>
-
-<section className="mb-8">
-          <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
-            
-            <p className="text-sm uppercase tracking-widest text-gray-500 font-semibold mb-4">
-              Our Sponsor
-            </p>
-
-            <div className="flex justify-center items-center min-h-[80px]">
-              <img
-                src="/images/Genus_Logo.jpg"
-                alt="Genus"
-                className="max-h-20 max-w-[220px] w-auto object-contain"
-              />
-            </div>
-          </div>
-        </section>
-
-
-
-{/* ========================= CALL FOR REVIEWERS SECTION ========================= */}
+      <VantaGlobe />
       <section
-  id="call-for-reviewers"
-  className="py-16 bg-white scroll-mt-24"
->
-  <div className="max-w-6xl mx-auto px-6 lg:px-8">
+        id="important-announcements"
+        className="relative py-8 overflow-hidden"
+      >
 
-    {/* Heading */}
-    <div id="call-for-reviewers" className="text-center mb-12">
-      <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-5">
-        Call for Reviewers – 2026 IEEE INDISCON
-      </h2>
 
-      <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-        The 7th 2026 IEEE INDISCON invites nominations from
-        academicians, researchers, industry professionals, and domain
-        experts to join the Reviewer Panel for the conference.
-      </p>
-    </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-950 via-blue-900 to-slate-900"></div>
 
-    {/* Main Content */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="absolute top-0 left-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
 
-      {/* Left Section */}
-      <div className="bg-blue-50 rounded-3xl shadow-lg p-8 border border-blue-100">
-        <h3 className="text-2xl font-bold text-blue-800 mb-5">
-          Why Join as a Reviewer?
-        </h3>
 
-        <div className="space-y-4">
-          {[
-            "Contribute to maintaining the quality of conference publications",
-            "Review innovative research from global researchers",
-            "Network with academicians and industry experts",
-            "Enhance your professional and research profile",
-            "Be part of a prestigious IEEE Region 10 conference",
-          ].map((item, index) => (
-            <div
-              key={index}
-              className="flex items-start bg-white rounded-2xl p-4 shadow-sm"
-            >
-              <span className="text-blue-700 font-bold text-lg mr-3">
-                ✓
-              </span>
 
-              <p className="text-gray-700 text-sm leading-relaxed">
-                {item}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
+        <div className="relative max-w-6xl mx-auto px-6">
 
-      {/* Right Section */}
-      <div className="bg-white rounded-3xl shadow-lg p-8 border border-blue-100">
-        <h3 className="text-2xl font-bold text-blue-800 mb-5">
-          Conference Information
-        </h3>
-
-        <div className="space-y-5">
-
-          <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
-            <h4 className="text-lg font-semibold text-blue-900 mb-2">
-              Conference Dates
-            </h4>
-
-            <p className="text-gray-700 font-medium">
-              11 – 13 September 2026
-            </p>
-          </div>
-
-          <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
-            <h4 className="text-lg font-semibold text-blue-900 mb-2">
-              Reviewer Registration
-            </h4>
-
-            <p className="text-gray-700 mb-4">
-              Interested experts can register by filling out the Google
-              Form below:
-            </p>
-
+          {/* Schedule Link */}
+          {/* <div className="mb-3 text-left">
             <a
-              href="https://forms.gle/9q4rBNRxEwhuDJcd8"
+              href="https://docs.google.com/spreadsheets/d/13qn4pfvFmUBkka-IQunnBSrOdcyE6NqDfqznqUMVKsQ/htmlview#gid=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-blue-900 hover:bg-blue-800 transition-all duration-300 text-white px-6 py-3 rounded-full font-semibold shadow-md"
+              className="inline-block rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
             >
-              Apply as Reviewer
+              Conference Schedule
             </a>
+          </div> */}
+
+          {/* Important Updates */}
+          <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl px-6 py-6">
+
+            <div className="flex flex-col md:flex-row items-center gap-7">
+
+              {/* Title */}
+              <div className="flex-shrink-0 flex items-center gap-3">
+                <span className="text-2xl">📢</span>
+                <h3 className="text-lg font-bold text-cyan-300">
+                  Important Updates
+                </h3>
+              </div>
+
+              {/* Divider */}
+              <div className="hidden md:block h-10 w-px bg-white/20"></div>
+
+              {/* Conference Schedule */}
+              <div className="text-center md:text-left space-y-2">
+                <p className="text-cyan-300 text-sm md:text-base font-medium">
+                  Conference Schedule
+                </p>
+
+                <a
+                  href="https://docs.google.com/spreadsheets/d/13qn4pfvFmUBkka-IQunnBSrOdcyE6NqDfqznqUMVKsQ/htmlview#gid=0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
+                >
+                  View Schedule
+                </a>
+              </div>
+
+              {/* Paper Presentation Format */}
+              <div className="text-center md:text-left space-y-2">
+                <p className="text-cyan-300 text-sm md:text-base font-medium">
+                  <span className="font-bold">Paper Presentation Format:</span>
+                </p>
+
+                <a
+                  href="/IEEE_INDISCON_2026_template.pptx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-1 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-red-700"
+                >
+                  Download
+                </a>
+              </div>
+
+            </div>
           </div>
 
-          <div className="bg-blue-900 rounded-2xl p-5 text-white">
-            <p className="leading-relaxed text-sm">
-              Your expertise will play a vital role in ensuring the
-              quality and impact of the conference publications.
+        </div>
+      </section>
+      <Countdown />
+
+      <section className="mb-8">
+        <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
+
+          <p className="text-sm uppercase tracking-widest text-gray-500 font-semibold mb-4">
+            Our Sponsor
+          </p>
+
+          <div className="flex justify-center items-center min-h-[80px]">
+            <img
+              src="/images/Genus_Logo.jpg"
+              alt="Genus"
+              className="max-h-20 max-w-[220px] w-auto object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
+
+
+      {/* ========================= CALL FOR REVIEWERS SECTION ========================= */}
+      <section
+        id="call-for-reviewers"
+        className="py-16 bg-white scroll-mt-24"
+      >
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+
+          {/* Heading */}
+          <div id="call-for-reviewers" className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-5">
+              Call for Reviewers – 2026 IEEE INDISCON
+            </h2>
+
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              The 7th 2026 IEEE INDISCON invites nominations from
+              academicians, researchers, industry professionals, and domain
+              experts to join the Reviewer Panel for the conference.
+            </p>
+          </div>
+
+          {/* Main Content */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+            {/* Left Section */}
+            <div className="bg-blue-50 rounded-3xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-2xl font-bold text-blue-800 mb-5">
+                Why Join as a Reviewer?
+              </h3>
+
+              <div className="space-y-4">
+                {[
+                  "Contribute to maintaining the quality of conference publications",
+                  "Review innovative research from global researchers",
+                  "Network with academicians and industry experts",
+                  "Enhance your professional and research profile",
+                  "Be part of a prestigious IEEE Region 10 conference",
+                ].map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start bg-white rounded-2xl p-4 shadow-sm"
+                  >
+                    <span className="text-blue-700 font-bold text-lg mr-3">
+                      ✓
+                    </span>
+
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      {item}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Section */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-2xl font-bold text-blue-800 mb-5">
+                Conference Information
+              </h3>
+
+              <div className="space-y-5">
+
+                <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
+                  <h4 className="text-lg font-semibold text-blue-900 mb-2">
+                    Conference Dates
+                  </h4>
+
+                  <p className="text-gray-700 font-medium">
+                    11 – 13 September 2026
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
+                  <h4 className="text-lg font-semibold text-blue-900 mb-2">
+                    Reviewer Registration
+                  </h4>
+
+                  <p className="text-gray-700 mb-4">
+                    Interested experts can register by filling out the Google
+                    Form below:
+                  </p>
+
+                  <a
+                    href="https://forms.gle/9q4rBNRxEwhuDJcd8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-blue-900 hover:bg-blue-800 transition-all duration-300 text-white px-6 py-3 rounded-full font-semibold shadow-md"
+                  >
+                    Apply as Reviewer
+                  </a>
+                </div>
+
+                <div className="bg-blue-900 rounded-2xl p-5 text-white">
+                  <p className="leading-relaxed text-sm">
+                    Your expertise will play a vital role in ensuring the
+                    quality and impact of the conference publications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <section
+        id="publication-opportunity"
+        className="relative py-20 overflow-hidden"
+      >
+        {/* Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-blue-900 to-slate-900"></div>
+
+        {/* Glow Effects */}
+        <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 right-10 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl"></div>
+
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+
+          <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-10 md:p-14 shadow-2xl text-center">
+
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+              Publication Opportunity
+            </h2>
+
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
+              All accepted and presented papers will be submitted for possible
+              publication in the
+              <span className="text-cyan-300 font-semibold">
+                {" "}IEEE Xplore® Digital Library
+              </span>
+              {" "}(Conference Record # 72742), through the IEEE Conference
+              Publications Program (CPP).
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-    
-
-      <section
-  id="publication-opportunity"
-  className="relative py-20 overflow-hidden"
->
-  {/* Background */}
-  <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-blue-900 to-slate-900"></div>
-
-  {/* Glow Effects */}
-  <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
-  <div className="absolute bottom-10 right-10 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl"></div>
-
-  <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
-
-    <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-10 md:p-14 shadow-2xl text-center">
-
-     <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-        Publication Opportunity
-      </h2>
-
-      <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-        All accepted and presented papers will be submitted for possible
-        publication in the
-        <span className="text-cyan-300 font-semibold">
-          {" "}IEEE Xplore® Digital Library
-        </span>
-        {" "}(Conference Record # 72742), through the IEEE Conference
-        Publications Program (CPP).
-      </p>
-    </div>
-  </div>
-</section>
+      </section>
       {/* <DatesSlider/> */}
-      <AnimatedGridBackground/>
-      <Announcements/>
+      <AnimatedGridBackground />
+      <Announcements />
 
 
       <section
-  id="tutorial-workshop-proposals"
-  className="py-16 bg-white scroll-mt-24"
->
-  <div className="max-w-7xl mx-auto px-6 lg:px-8">
-    <div className="text-center mb-12">
-      <h2 className="text-4xl font-bold text-blue-900 mb-4">
-        Call for Tutorial/Workshop Proposals
-      </h2>
+        id="tutorial-workshop-proposals"
+        className="py-16 bg-white scroll-mt-24"
+      >
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-blue-900 mb-4">
+              Call for Tutorial/Workshop Proposals
+            </h2>
 
-      <p className="text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
-        2026 IEEE INDISCON solicits proposals for Tutorials/Workshops of
-        <span className="font-semibold"> 90 minutes (one session)</span> that
-        complement the regular program with clear and focused coverage of
-        thrust technologies within the scope and theme of the conference.
-        Tutorials/Workshops provide an excellent opportunity for researchers,
-        academicians, and industry professionals to learn about
-        state-of-the-art research and emerging technologies.
-      </p>
-    </div>
+            <p className="text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
+              2026 IEEE INDISCON solicits proposals for Tutorials/Workshops of
+              <span className="font-semibold"> 90 minutes (one session)</span> that
+              complement the regular program with clear and focused coverage of
+              thrust technologies within the scope and theme of the conference.
+              Tutorials/Workshops provide an excellent opportunity for researchers,
+              academicians, and industry professionals to learn about
+              state-of-the-art research and emerging technologies.
+            </p>
+          </div>
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      
-      {/* Proposal Format */}
-      <div className="bg-blue-50 rounded-2xl shadow-md p-8">
-        <h3 className="text-2xl font-semibold text-blue-800 mb-6">
-          Tutorial/Workshop Proposal Format
-        </h3>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
-        <p className="text-gray-700 mb-4">
-          Proposals should have a maximum of{" "}
-          <span className="font-semibold">4 pages</span> and must address the
-          following:
-        </p>
+            {/* Proposal Format */}
+            <div className="bg-blue-50 rounded-2xl shadow-md p-8">
+              <h3 className="text-2xl font-semibold text-blue-800 mb-6">
+                Tutorial/Workshop Proposal Format
+              </h3>
 
-        <ol className="list-decimal list-inside space-y-3 text-gray-700 leading-relaxed">
-          <li>Title of the Tutorial/Workshop</li>
+              <p className="text-gray-700 mb-4">
+                Proposals should have a maximum of{" "}
+                <span className="font-semibold">4 pages</span> and must address the
+                following:
+              </p>
 
-          <li>
-            Abstract (maximum 200 words) for publicity on the conference
-            website
-          </li>
+              <ol className="list-decimal list-inside space-y-3 text-gray-700 leading-relaxed">
+                <li>Title of the Tutorial/Workshop</li>
 
-          <li>
-            Duration of the Tutorial/Workshop (maximum 90 minutes)
-          </li>
+                <li>
+                  Abstract (maximum 200 words) for publicity on the conference
+                  website
+                </li>
 
-          <li>
-            Names, affiliations, contact addresses, and short biographies
-            (maximum 200 words each) of the instructor(s)
-          </li>
+                <li>
+                  Duration of the Tutorial/Workshop (maximum 90 minutes)
+                </li>
 
-          <li>
-            Novelty and significance of the proposed Tutorial/Workshop,
-            emphasizing timeliness and relevance
-          </li>
+                <li>
+                  Names, affiliations, contact addresses, and short biographies
+                  (maximum 200 words each) of the instructor(s)
+                </li>
 
-          <li>Detailed outline of the Tutorial/Workshop content</li>
+                <li>
+                  Novelty and significance of the proposed Tutorial/Workshop,
+                  emphasizing timeliness and relevance
+                </li>
 
-          <li>Intended audience</li>
-        </ol>
-      </div>
+                <li>Detailed outline of the Tutorial/Workshop content</li>
 
-      {/* Topics */}
-      <div className="bg-white border border-blue-100 rounded-2xl shadow-md p-8">
-        <h3 className="text-2xl font-semibold text-blue-800 mb-6">
-          Preferable Topics
-        </h3>
-
-        <p className="text-gray-700 mb-4">
-          Topics of interest include, but are not limited to:
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {[
-            "Neuromorphic Computing",
-            "Quantum Computing",
-            "High-Speed Computing",
-            "GPU Vega Processor",
-            "Cryogenic Electronics",
-            "Drone and Automation Technologies",
-            "Hands-on Tutorials using MATLAB",
-            "Biomedical Signal and Image Processing",
-            "Renewable Energy Integration",
-            "Energy Harvesting & Low-Power Electronics",
-            "AI & IoT for Smart Cities",
-          ].map((topic, index) => (
-            <div
-              key={index}
-              className="bg-blue-100 text-blue-900 px-4 py-3 rounded-xl text-sm font-medium shadow-sm"
-            >
-              {topic}
+                <li>Intended audience</li>
+              </ol>
             </div>
-          ))}
+
+            {/* Topics */}
+            <div className="bg-white border border-blue-100 rounded-2xl shadow-md p-8">
+              <h3 className="text-2xl font-semibold text-blue-800 mb-6">
+                Preferable Topics
+              </h3>
+
+              <p className="text-gray-700 mb-4">
+                Topics of interest include, but are not limited to:
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {[
+                  "Neuromorphic Computing",
+                  "Quantum Computing",
+                  "High-Speed Computing",
+                  "GPU Vega Processor",
+                  "Cryogenic Electronics",
+                  "Drone and Automation Technologies",
+                  "Hands-on Tutorials using MATLAB",
+                  "Biomedical Signal and Image Processing",
+                  "Renewable Energy Integration",
+                  "Energy Harvesting & Low-Power Electronics",
+                  "AI & IoT for Smart Cities",
+                ].map((topic, index) => (
+                  <div
+                    key={index}
+                    className="bg-blue-100 text-blue-900 px-4 py-3 rounded-xl text-sm font-medium shadow-sm"
+                  >
+                    {topic}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Submission Details */}
+          <div className="mt-12 bg-gradient-to-r from-blue-700 to-blue-900 rounded-2xl shadow-lg p-8 text-white text-center">
+            <h3 className="text-3xl font-bold mb-4">
+              Tutorial/Workshop Proposal Submission
+            </h3>
+
+            <p className="text-lg mb-4">
+              Submit your Tutorial/Workshop proposals via email to:
+            </p>
+
+            <div className="flex flex-col items-center gap-5">
+              <a
+                href="mailto:ieeeindiscon2026@gmail.com"
+                className="text-yellow-300 text-lg md:text-xl font-semibold hover:underline break-all"
+              >
+                ieeeindiscon2026@gmail.com
+              </a>
+
+              <div className="bg-white text-blue-900 px-6 py-3 rounded-full font-bold shadow-md">
+                Submission Deadline: May 31, 2026
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    {/* Submission Details */}
-    <div className="mt-12 bg-gradient-to-r from-blue-700 to-blue-900 rounded-2xl shadow-lg p-8 text-white text-center">
-  <h3 className="text-3xl font-bold mb-4">
-    Tutorial/Workshop Proposal Submission
-  </h3>
-
-  <p className="text-lg mb-4">
-    Submit your Tutorial/Workshop proposals via email to:
-  </p>
-
-  <div className="flex flex-col items-center gap-5">
-    <a
-      href="mailto:ieeeindiscon2026@gmail.com"
-      className="text-yellow-300 text-lg md:text-xl font-semibold hover:underline break-all"
-    >
-      ieeeindiscon2026@gmail.com
-    </a>
-
-    <div className="bg-white text-blue-900 px-6 py-3 rounded-full font-bold shadow-md">
-      Submission Deadline: May 31, 2026
-    </div>
-  </div>
-</div>
-  </div>
-</section>
+      </section>
 
     </>
   )

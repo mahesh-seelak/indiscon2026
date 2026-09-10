@@ -335,10 +335,7 @@ const AccommodationInfo = () => {
                   Important Notice
                 </h2>
 
-                <p className="text-amber-800 leading-relaxed">
-                  A detailed schedule of the program will be shared once early
-                  bird registrations are completed.
-                </p>
+                
               </div>
             </div>
           </div>
