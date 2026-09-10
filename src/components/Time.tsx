@@ -9,7 +9,7 @@ const CountdownBox = ({ value, label }: { value: number; label: string }) => (
     <span className="text-xs md:text-sm text-white/80 font-medium uppercase tracking-widest">
       {label}
     </span>
-    
+
     <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
       <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-xl" />
       <div className="absolute -inset-[2px] bg-gradient-to-br from-blue-300/30 to-transparent rounded-xl blur-[12px]" />
@@ -19,12 +19,11 @@ const CountdownBox = ({ value, label }: { value: number; label: string }) => (
 
 const Countdown = () => {
   const parseEventDate = () => {
-    const dateString = "2026-9-10 23:59:59";
+    const dateString = "2026-09-11 09:00:00";
     const [datePart, timePart] = dateString.split(' ');
     const [year, month, day] = datePart.split('-').map(Number);
     const [hours, minutes, seconds] = timePart.split(':').map(Number);
-    
-    // Months are 0-indexed in JavaScript Date (August is 7)
+
     return new Date(year, month - 1, day, hours, minutes, seconds);
   };
 
@@ -56,7 +55,7 @@ const Countdown = () => {
 
   return (
     <div className="relative w-screen bg-gradient-to-br from-blue-600 to-blue-700 py-16 md:py-20 overflow-hidden isolate">
-      
+
       <div className="absolute inset-0 opacity-20 animate-gradient-rotate">
         <div className="absolute -inset-24 bg-[conic-gradient(from_90deg_at_50%_50%,#2563eb_0%,#3b82f6_50%,#2563eb_100%)] animate-spin [animation-duration:20s]" />
       </div>
@@ -68,7 +67,7 @@ const Countdown = () => {
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-12 md:mb-16 font-semibold">
             September 11-13, 2026 <br />
-          Conference Venue:- Malaviya National Institute of Technology Jaipur, India
+            Conference Venue:- Malaviya National Institute of Technology Jaipur, India
           </p>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <CountdownBox value={timeLeft.months} label="Months" />
@@ -78,13 +77,13 @@ const Countdown = () => {
         </div>
       </div>
 
- 
+
 
 
 
       <div className="absolute inset-0 opacity-30 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjZmZmIi8+PC9zdmc+')]" />
     </div>
-    
+
   );
 };
 
