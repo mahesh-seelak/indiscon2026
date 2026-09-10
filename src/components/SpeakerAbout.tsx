@@ -58,20 +58,20 @@ const SpeakerAbout = ({ speaker }: { speaker: SpeakerType }) => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
                     Professional Background
                   </h3>
-                  <div className="space-y-4">
+                  {/* <div className="space-y-4">
                     {speaker.bio.split('.').filter(sentence => sentence.trim()).map((sentence, index) => (
                       <p key={index} className="text-justify leading-relaxed">
                         {sentence.trim()}.
                       </p>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
 
           {/* Abstract/About Section */}
-          {speaker.about && (
+          {/* {speaker.about && (
             <div className="bg-white rounded-xl shadow-lg p-8 mb-8 transition-all duration-300 hover:shadow-xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">
                 Abstract
@@ -84,7 +84,7 @@ const SpeakerAbout = ({ speaker }: { speaker: SpeakerType }) => {
                 ))}
               </div>
             </div>
-          )}
+          )} */}
 
           {/* Navigation Back */}
           <div className="mt-8 text-center">
