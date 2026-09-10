@@ -90,7 +90,7 @@ He is highly involved in capacity building, delivering impactful lectures, works
     name: "Dr. Virendra Singh",
    //bio: "updated soon",
     imageUrl: "/VirendraSingh.jpg",
-    title: `A New Paradigm for Intelligent Edge AI System`,
+    title: `Architecture of Next Generation AI`,
     //about: `updated soon.`
   },
   {
