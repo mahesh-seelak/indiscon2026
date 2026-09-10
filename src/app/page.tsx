@@ -98,17 +98,17 @@ export default function page() {
         <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
 
           {/* Gold Sponsor */}
-          <p className="text-sm uppercase tracking-widest text-yellow-600 font-semibold mb-4">
-            Gold Sponsor
-          </p>
+         <p className="text-xl uppercase tracking-widest text-yellow-600 font-semibold mb-4">
+  Gold Sponsor
+</p>
 
-          <div className="flex justify-center items-center min-h-[80px] mb-8">
-            <img
-              src="/images/Genus_Logo.jpg"
-              alt="Genus"
-              className="max-h-20 max-w-[220px] w-auto object-contain"
-            />
-          </div>
+          <div className="flex justify-center items-center min-h-[120px] mb-8">
+  <img
+    src="/images/Genus_Logo.jpg"
+    alt="Genus"
+    className="max-h-32 max-w-[550px] w-auto object-contain"
+  />
+</div>
 
           {/* Bronze Sponsor */}
           <p className="text-sm uppercase tracking-widest text-orange-700 font-semibold mb-4">
