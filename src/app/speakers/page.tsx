@@ -83,7 +83,7 @@ export default function SpeakersPage() {
                     </div>
                   )}
                   
-                   <div className="text-gray-700">
+                  {/*  <div className="text-gray-700">
                     <h3 className="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
                       Professional Background
                     </h3>
@@ -91,11 +91,12 @@ export default function SpeakersPage() {
                       {selectedSpeaker.bio}
                     </p>
                   </div>
+                  */}
                 </div>
               </div>
             </div>
 
-            {/* Abstract/About Section */}
+            {/* Abstract/About Section 
             {selectedSpeaker.about && (
               <div className="bg-white rounded-xl shadow-lg p-8 mb-8 transition-all duration-300 hover:shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">
@@ -109,7 +110,7 @@ export default function SpeakersPage() {
                   ))}
                 </div>
               </div>
-            )}
+            )}*/}
           </div>
         </div>
       </>
@@ -122,7 +123,7 @@ export default function SpeakersPage() {
       <AnimatedGridBackground/>
       <div className="flex flex-col items-center justify-center min-h-screen py-12 px-4">
         <div className="w-full max-w-6xl bg-white p-8 rounded-xl shadow-lg">
-          <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">Our Previous Speakers</h1>
+          <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">Our Speakers</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
             {speakers.map((speaker: SpeakerType) => (
               <div 
