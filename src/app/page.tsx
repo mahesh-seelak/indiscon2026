@@ -58,7 +58,7 @@ export default function page() {
               {/* Conference Schedule */}
               <div className="text-center md:text-left space-y-2">
                 <p className="text-cyan-300 text-sm md:text-base font-medium">
-                  Technical Programme & Session Timetable
+                  <span className="font-bold">Technical Programme & Session Timetable</span>
                 </p>
 
                 <a
