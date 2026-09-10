@@ -117,7 +117,7 @@ export default function page() {
 
           <div className="flex justify-center items-center min-h-[80px]">
             <img
-              src="/images/Trelllsign_Logo.jpeg"
+              src="/images/Trelllsign_logo.jpeg"
               alt="Bronze Sponsor"
               className="max-h-20 max-w-[220px] w-auto object-contain"
             />
