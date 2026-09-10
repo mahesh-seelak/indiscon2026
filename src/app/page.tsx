@@ -97,17 +97,32 @@ export default function page() {
       <section className="mb-8">
         <div className="rounded-xl border border-gray-200 bg-gray-50 py-8 px-6 text-center">
 
-          <p className="text-sm uppercase tracking-widest text-gray-500 font-semibold mb-4">
-            Our Sponsor
+          {/* Gold Sponsor */}
+          <p className="text-sm uppercase tracking-widest text-yellow-600 font-semibold mb-4">
+            Gold Sponsor
           </p>
 
-          <div className="flex justify-center items-center min-h-[80px]">
+          <div className="flex justify-center items-center min-h-[80px] mb-8">
             <img
               src="/images/Genus_Logo.jpg"
               alt="Genus"
               className="max-h-20 max-w-[220px] w-auto object-contain"
             />
           </div>
+
+          {/* Bronze Sponsor */}
+          <p className="text-sm uppercase tracking-widest text-orange-700 font-semibold mb-4">
+            Bronze Sponsor
+          </p>
+
+          <div className="flex justify-center items-center min-h-[80px]">
+            <img
+              src="/images/Trelllsign_Logo.jpeg"
+              alt="Bronze Sponsor"
+              className="max-h-20 max-w-[220px] w-auto object-contain"
+            />
+          </div>
+
         </div>
       </section>
 
