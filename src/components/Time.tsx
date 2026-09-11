@@ -60,24 +60,97 @@ const Countdown = () => {
         <div className="absolute -inset-24 bg-[conic-gradient(from_90deg_at_50%_50%,#2563eb_0%,#3b82f6_50%,#2563eb_100%)] animate-spin [animation-duration:20s]" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-6xl font-bold text-white mb-4 tracking-tight">
-            IEEE INDISCON2026
-          </h2>
-          <p className="text-lg md:text-xl text-white/90 mb-12 md:mb-16 font-semibold">
-            September 11-13, 2026 <br />
-            Conference Venue:- Malaviya National Institute of Technology Jaipur, India
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-            <CountdownBox value={timeLeft.months} label="Months" />
-            <CountdownBox value={timeLeft.days} label="Days" />
-            <CountdownBox value={timeLeft.hours} label="Hours" />
-          </div>
-        </div>
+      
+<div className="relative z-10 container mx-auto px-4">
+  <div className="max-w-5xl mx-auto text-center">
+
+    {/* Conference Title */}
+    <h2 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-tight">
+      IEEE INDISCON 2026
+    </h2>
+
+    {/* Conference Dates */}
+    <p className="text-xl md:text-2xl text-white font-semibold mb-8">
+      September 11–13, 2026
+    </p>
+
+    {/* Venue Card */}
+    <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl 
+                    px-6 py-6 md:px-10 md:py-8 mb-8 shadow-lg">
+
+      <p className="text-sm md:text-base uppercase tracking-widest 
+                    text-yellow-300 font-bold mb-3">
+        Conference Venue
+      </p>
+
+      <p className="text-lg md:text-xl text-white font-semibold leading-relaxed">
+        Vivekanand Lecture Hall Complex (VLTC)
+        <br />
+        Malaviya National Institute of Technology Jaipur, India
+      </p>
+
+      {/* Google Maps */}
+      <div className="mt-5">
+        <a
+          href="https://maps.app.goo.gl/hUNQe6rXvfAFH1oe7"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-5 py-2.5 
+                     rounded-full bg-white text-gray-900 font-semibold
+                     hover:bg-white/90 transition-all duration-200 shadow-md"
+        >
+          📍 Get Directions on Google Maps
+        </a>
       </div>
+    </div>
 
+    {/* Directions */}
+    <div className="bg-black/20 backdrop-blur-sm rounded-2xl 
+                    px-6 py-6 md:px-10 md:py-8 mb-12 text-left">
 
+      <h3 className="text-xl md:text-2xl font-bold text-white text-center mb-6">
+        🧭 Direction to VLTC
+      </h3>
+
+      <div className="space-y-5 text-white/90 text-base md:text-lg leading-relaxed">
+
+        <div>
+          <span className="font-bold text-yellow-300">
+            1. From Dean Gate:
+          </span>{" "}
+          Head straight down the main road from Dean Gate.
+        </div>
+
+        <div>
+          <span className="font-bold text-yellow-300">
+            2. Midway:
+          </span>{" "}
+          Continue straight past the Helicopter (OAT). Go straight up the
+          steep incline and then take a right at the circle.
+        </div>
+
+        <div>
+          <span className="font-bold text-yellow-300">
+            3. At the Circle (PMC):
+          </span>{" "}
+          Take a right turn and continue straight for a few hundred meters.
+          The VLTC building will be prominently visible as you approach the
+          main lecture theatre zone.
+        </div>
+
+        <div className="text-center pt-2">
+          <span className="font-semibold text-white">
+            Landmark: Statue of Swami Vivekananda
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+    
+
+  </div>
+</div>
 
 
 
